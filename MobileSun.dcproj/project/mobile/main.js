@@ -31,22 +31,21 @@ function itemClicked(event)
             browser.goForward(document.getElementById('cImageSelectSource'), selectedObjects[0].valueForKey("name"));
         }
         else {
-            browser.goForward(document.getElementById('detailLevel'), selectedObjects[0].valueForKey("name"));
+            browser.goForward(document.getElementById('detailLevel'), "Detail");
         }
     }    
 }
 
-//
-// Function: itemDescription()
-// This method is a value transformer that returns the appropriate description of the selected item in the list
-//
-itemDescription = Class.create(DC.ValueTransformer,{
-	transformedValue: function(value){
-        return "Dummy page for " + value;        
-	}
-});
+
+function testGotoDetail(event) {
+    var browser = document.getElementById('browser').object;
+    browser.goForward(document.getElementById('detailLevel'), "Detail");
+}
 
 function testGotoImage(event) {
     window.location = "http://solarmonitor.org/data/20100518/pngs/seit/seit_00171_fd_20100518_010014.png";
-    //window.location = "http://sohowww.nascom.nasa.gov/data/LATEST/current_eit_171.mpg";
+    
+}
+function testGotoMovie(event) {
+    window.location = "http://10.0.2.1/seit.m4v";
 }

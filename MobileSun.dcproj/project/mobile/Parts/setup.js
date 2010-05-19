@@ -8,9 +8,8 @@ var dashcodePartSpecs = {
     "back_button": { "initialHeight": 30, "initialWidth": 60, "leftImageWidth": 16, "rightImageWidth": 5, "text": "Back", "view": "DC.PushButton" },
     "browser": { "clearSelectionOnBack": true, "view": "DC.Browser" },
     "button": { "initialHeight": 30, "initialWidth": 300, "leftImageWidth": 5, "rightImageWidth": 5, "text": "Click Here to change Default Display", "view": "DC.PushButton" },
-    "detailDescription": { "propertyValues": { "textBinding": { "keypath": "list.selection.name", "transformer": "itemDescription" } }, "text": "Description", "view": "DC.Text" },
-    "detailSubtitle": { "propertyValues": { "textBinding": { "keypath": "list.selection.location" } }, "text": "Location", "view": "DC.Text" },
-    "detailTitle": { "propertyValues": { "textBinding": { "keypath": "list.selection.name" } }, "text": "Title", "view": "DC.Text" },
+    "button1": { "initialHeight": 30, "initialWidth": 301, "leftImageWidth": 5, "onclick": "testGotoImage", "rightImageWidth": 5, "text": "VIew Hi-Res", "view": "DC.PushButton" },
+    "button2": { "initialHeight": 30, "initialWidth": 301, "leftImageWidth": 5, "onclick": "testGotoMovie", "rightImageWidth": 5, "text": "VIew Movie", "view": "DC.PushButton" },
     "header": { "rootTitle": "Menu", "view": "DC.Header" },
     "image": { "propertyValues": { "srcBinding": { "keypath": "*.image" } }, "view": "DC.ImageLayout" },
     "image1": { "propertyValues": { "srcBinding": { "keypath": "*.image" } }, "view": "DC.ImageLayout" },
@@ -23,6 +22,9 @@ var dashcodePartSpecs = {
     "text": { "text": "Mobile", "view": "DC.Text" },
     "text1": { "text": "Sun", "view": "DC.Text" },
     "text2": { "text": "EIT 171Å 20100518 01:00", "view": "DC.Text" },
-    "text3": { "text": "Click image for details", "view": "DC.Text" }
+    "text3": { "text": "Click image for hi-res and details", "view": "DC.Text" },
+    "text4": { "text": "Click image for hi-res", "view": "DC.Text" },
+    "text5": { "text": "EIT 171Å 20100518 01:00", "view": "DC.Text" }
 };
+
 

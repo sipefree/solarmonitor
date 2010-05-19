@@ -51,7 +51,7 @@ body {
     font-weight: bold;
     font-size: 12px;
     color: rgb(255, 255, 255);
-    text-shadow: rgba(0, 0, 0, 0.390625) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.382812) 0px -1px 0px;
     text-align: center;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -107,7 +107,7 @@ body {
     -webkit-border-bottom-left-radius: 8px 8px;
     -webkit-border-bottom-right-radius: 8px 8px;
     opacity: 1;
-    background-color: rgba(231, 231, 231, 0.753906);
+    background-color: rgba(231, 231, 231, 0.746094);
     margin-top: 5px;
 }
 
@@ -192,83 +192,6 @@ body {
     margin-right: 0px;
 }
 
-#detailBox {
-    padding: 8px;
-    border-color: rgb(172, 172, 172);
-    border-style: solid;
-    border-width: 1px;
-    background-color: white;
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
-    position: relative;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    margin-bottom: 12px;
-    margin-top: 15px;
-    margin-left: 9px;
-    width: auto;
-    margin-right: 9px;
-    min-height: 84px;
-    height: auto;
-}
-
-#detailTitle {
-    color: black;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    position: relative;
-    font-size: 16pt;
-    font-family: Helvetica;
-    font-weight: bold;
-    margin-left: 0px;
-    text-align: left;
-    margin-top: 7px;
-    margin-right: 0px;
-    width: auto;
-    min-height: 25px;
-    height: auto;
-}
-
-#detailSubtitle {
-    font-family: Helvetica;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    position: relative;
-    margin-left: 0px;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    color: rgb(128, 128, 128);
-    font-size: 14px;
-    margin-right: 0px;
-    margin-top: 2px;
-    width: auto;
-    height: auto;
-    min-height: 17px;
-    white-space: nowrap;
-}
-
-#detailDescription {
-    color: black;
-    font-family: Helvetica;
-    font-size: 16px;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    position: relative;
-    margin-left: 0px;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    margin-right: 0px;
-    margin-top: 7px;
-    width: auto;
-    min-height: 20px;
-    height: auto;
-    margin-bottom: 6px;
-}
-
 .image_template {
     position: absolute;
     right: auto;
@@ -291,7 +214,7 @@ body {
     max-height: 100%;
     width: auto;
     height: auto;
-    -webkit-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgba(255, 255, 255, 0.167969))) 0 0 0 0 stretch stretch;
+    -webkit-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgba(255, 255, 255, 0.160156))) 0 0 0 0 stretch stretch;
 }
 
 #cImageSelectSource {
@@ -475,7 +398,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.539062) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.53125) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     height: 30px;
@@ -530,7 +453,7 @@ body {
     text-align: center;
     font-size: 12pt;
     margin-top: 5px;
-    text-shadow: rgba(0, 0, 0, 0.277344) 0px 1px 2px;
+    text-shadow: rgba(0, 0, 0, 0.269531) 0px 1px 2px;
     color: rgb(255, 255, 255);
 }
 
@@ -575,14 +498,151 @@ body {
     -webkit-margin-bottom-collapse: separate;
     color: rgb(255, 255, 255);
     font-size: 10px;
-    margin-left: 4px;
-    margin-right: 2px;
-    margin-top: 234px;
+    margin-top: 235px;
+    margin-left: 1px;
     width: auto;
+    margin-right: 5px;
     min-height: 15px;
     height: auto;
+    text-shadow: rgb(0, 0, 0) 0px 2px 7px;
 }
 
 .selected #text3 {
     color: white;
+}
+
+#box2 {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+    -webkit-border-top-right-radius: 8px 8px;
+    -webkit-border-top-left-radius: 8px 8px;
+    -webkit-border-bottom-left-radius: 8px 8px;
+    -webkit-border-bottom-right-radius: 8px 8px;
+    position: relative;
+    margin-top: 17px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-left: 10px;
+    background-color: rgb(175, 195, 216);
+    margin-right: 9px;
+    width: auto;
+    min-height: 189px;
+    height: auto;
+    opacity: 1;
+    background-image: url(Images/box2.png);
+    background-repeat: repeat;
+    background-position: 50% 50%;
+}
+
+#text5 {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    min-height: 20px;
+    height: auto;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    text-align: center;
+    font-size: 12pt;
+    margin-top: 5px;
+    text-shadow: rgba(0, 0, 0, 0.265625) 0px 1px 2px;
+    color: rgb(255, 255, 255);
+}
+
+.selected #text5 {
+    color: white;
+}
+
+#box3 {
+    border-width: 1px;
+    background-color: white;
+    -webkit-border-top-right-radius: 8px 8px;
+    -webkit-border-top-left-radius: 8px 8px;
+    -webkit-border-bottom-left-radius: 8px 8px;
+    -webkit-border-bottom-right-radius: 8px 8px;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: rgb(22, 22, 22);
+    max-width: 250px;
+    max-height: 250px;
+    width: 248px;
+    height: 248px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(Images/box3.png);
+    background-position: 50% 50%;
+}
+
+#text4 {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    margin-top: 235px;
+    margin-left: 1px;
+    width: auto;
+    margin-right: 5px;
+    min-height: 15px;
+    height: auto;
+    text-shadow: rgb(0, 0, 0) 0px 2px 7px;
+}
+
+.selected #text4 {
+    color: white;
+}
+
+#button1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.597656) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 30px;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-left: 10px;
+    width: 301px;
+    margin-top: 10px;
+}
+
+#button2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.59375) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 30px;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-left: 10px;
+    width: 301px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

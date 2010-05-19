@@ -21,7 +21,7 @@
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Date</key>
-		<date>2010-05-18T09:21:28Z</date>
+		<date>2010-05-19T02:00:27Z</date>
 		<key>Destination</key>
 		<string>localhost.default</string>
 		<key>Path</key>
@@ -178,6 +178,14 @@
 				<integer>3</integer>
 				<integer>0</integer>
 			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>1</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
 		</array>
 		<key>Objects view last selections</key>
 		<array/>
@@ -189,7 +197,7 @@
 		<key>Visible StackLayout Views</key>
 		<array>
 			<string>view1</string>
-			<string>listLevel</string>
+			<string>cImageSelectSource</string>
 		</array>
 	</dict>
 	<key>NavigatorSplitViewGeometry</key>

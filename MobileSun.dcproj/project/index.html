@@ -25,8 +25,8 @@
         <div apple-part="com.apple.Dashcode.part.StackLayout" apple-part-locked="true" id="stackLayout">
             <div id="listLevel" apple-part-locked="true">
                 <div id="box" apple-part="com.apple.Dashcode.part.roundedbox" class="hidden">
-                    <div id="box1" apple-part="com.apple.Dashcode.part.roundedbox" onclick="testGotoImage(event)">
-                        <div id="text3" apple-part="com.apple.Dashcode.part.webtext" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis"></div>
+                    <div id="box1" apple-part="com.apple.Dashcode.part.roundedbox" onclick="testGotoDetail(event)">
+                        <div id="text3" apple-part="com.apple.Dashcode.part.webtext" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" apple-style="part-height-dependent: true;part-width-dependent: true;"></div>
                     </div>
                     <div id="text2" apple-part="com.apple.Dashcode.part.webtext" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" apple-style="part-height-dependent: true;part-width-dependent: true;"></div>
                 </div>
@@ -42,15 +42,18 @@
                 </ul>
             </div>
             <div id="detailLevel" apple-part-locked="true">
-                <div apple-part="com.apple.Dashcode.part.box" id="detailBox">
-                    <div apple-part="com.apple.Dashcode.part.webtext" class="apple-text apple-no-children" apple-text-overflow="ellipsis" id="detailTitle" apple-style="part-height-dependent: true;part-width-dependent: true;"></div>
-                    <div apple-part="com.apple.Dashcode.part.webtext" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" id="detailSubtitle" apple-style="part-height-dependent: true;part-width-dependent: true;"></div>
-                    <div apple-part="com.apple.Dashcode.part.webtext" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" id="detailDescription" apple-style="part-height-dependent: true;part-width-dependent: true;"></div>
+                <div id="box2" apple-part="com.apple.Dashcode.part.roundedbox" class="hidden" apple-group="box2">
+                    <div id="box3" apple-part="com.apple.Dashcode.part.roundedbox" onclick="testGotoImage(event)" apple-group="box3">
+                        <div id="text4" apple-part="com.apple.Dashcode.part.webtext" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" apple-style="part-height-dependent: true;part-width-dependent: true;"></div>
+                    </div>
+                    <div id="text5" apple-part="com.apple.Dashcode.part.webtext" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" apple-style="part-height-dependent: true;part-width-dependent: true;"></div>
                 </div>
+                <div id="button1" apple-part="com.apple.Dashcode.part.pushbutton" class="apple-no-children" apple-text-overflow="ellipsis" apple-style="image-theme: 0; image-shape: 3; image-button-type: 0; image-opacity: 1.00; image-top-color: 0.290196091,0.423529416,0.607843161,1; image-bottom-color: 1,1,1,1; image-radius: 5,5,5,5; image-border: 1; image-border-color: 0,0,0,0.2; image-border-width: 1; shine-on: 1; shine-strength: 0.17; shine-alpha-level: 0.04; shine-height: 0.50; glass-arc-height: 0.00; embossed-on: 1; embossed-depth: 1; embossed-shadow: 0.68; embossed-highlight: 0.3; shadow-include-shadow: 0;"></div>
+                <div id="button2" apple-part="com.apple.Dashcode.part.pushbutton" class="apple-no-children" apple-text-overflow="ellipsis" apple-style="image-theme: 0; image-shape: 3; image-button-type: 0; image-opacity: 1.00; image-top-color: 0.290196091,0.423529416,0.607843161,1; image-bottom-color: 1,1,1,1; image-radius: 5,5,5,5; image-border: 1; image-border-color: 0,0,0,0.2; image-border-width: 1; shine-on: 1; shine-strength: 0.17; shine-alpha-level: 0.04; shine-height: 0.50; glass-arc-height: 0.00; embossed-on: 1; embossed-depth: 1; embossed-shadow: 0.68; embossed-highlight: 0.3; shadow-include-shadow: 0;"></div>
             </div>
             <div id="cImageSelectSource" apple-part-locked="true">
                 <ul id="list1" apple-part="com.apple.Dashcode.part.roundedRectangleList" class="">
-                    <li id="listRowTemplate1" apple-template="true" class="listRowTemplate1_template first" style="border-top-width: 0px; ">
+                    <li id="listRowTemplate1" apple-template="true" class="listRowTemplate1_template first" style="border-top-width: 0px; " onclick="testGotoDetail(event)">
                         <div id="label" apple-part="com.apple.Dashcode.part.webtext" class="apple-text apple-no-children label_template" apple-text-overflow="ellipsis" apple-style="part-height-dependent: true;"></div>
                         <div id="arrow" apple-part="com.apple.Dashcode.part.box" class="arrow_template">
                         </div>
