@@ -51,7 +51,7 @@ body {
     font-weight: bold;
     font-size: 12px;
     color: rgb(255, 255, 255);
-    text-shadow: rgba(0, 0, 0, 0.382812) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.378906) 0px -1px 0px;
     text-align: center;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -107,8 +107,8 @@ body {
     -webkit-border-bottom-left-radius: 8px 8px;
     -webkit-border-bottom-right-radius: 8px 8px;
     opacity: 1;
-    background-color: rgba(231, 231, 231, 0.746094);
     margin-top: 5px;
+    background-color: rgba(231, 231, 231, 0.746094);
 }
 
 .listRowTemplate_template {
@@ -214,7 +214,7 @@ body {
     max-height: 100%;
     width: auto;
     height: auto;
-    -webkit-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgba(255, 255, 255, 0.160156))) 0 0 0 0 stretch stretch;
+    -webkit-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgba(255, 255, 255, 0.15625))) 0 0 0 0 stretch stretch;
 }
 
 #cImageSelectSource {
@@ -231,7 +231,6 @@ body {
     margin-top: 17px;
     margin-bottom: 17px;
     margin-left: 9px;
-    background-color: white;
     -webkit-margin-bottom-collapse: separate;
     border-width: 1px;
     border-style: solid;
@@ -246,12 +245,12 @@ body {
     position: relative;
     width: auto;
     -webkit-margin-top-collapse: separate;
+    background-color: rgba(255, 255, 255, 0.746094);
 }
 
 .listRowTemplate1_template {
     position: relative;
     list-style-type: none;
-    height: 43px;
     width: auto;
     overflow: hidden;
     margin: 0px;
@@ -259,6 +258,7 @@ body {
     border-width: 0px;
     border-style: solid;
     border-color: rgb(172, 172, 172);
+    height: 75px;
 }
 
 .label_template {
@@ -267,7 +267,6 @@ body {
     color: black;
     font-family: Helvetica;
     font-weight: bold;
-    font-size: 17px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -275,6 +274,7 @@ body {
     width: auto;
     height: auto;
     left: 50px;
+    font-size: 14pt;
 }
 
 .arrow_template {
@@ -310,10 +310,10 @@ body {
     right: auto;
     bottom: auto;
     margin-top: 0px;
-    width: 32px;
-    height: 32px;
-    top: 6px;
-    left: 10px;
+    width: 60px;
+    height: 60px;
+    top: 7px;
+    left: 9px;
 }
 
 .DC_img1_template {
@@ -398,7 +398,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.53125) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.527344) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     height: 30px;
@@ -453,7 +453,7 @@ body {
     text-align: center;
     font-size: 12pt;
     margin-top: 5px;
-    text-shadow: rgba(0, 0, 0, 0.269531) 0px 1px 2px;
+    text-shadow: rgba(0, 0, 0, 0.265625) 0px 1px 2px;
     color: rgb(255, 255, 255);
 }
 
@@ -550,7 +550,7 @@ body {
     text-align: center;
     font-size: 12pt;
     margin-top: 5px;
-    text-shadow: rgba(0, 0, 0, 0.265625) 0px 1px 2px;
+    text-shadow: rgba(0, 0, 0, 0.261719) 0px 1px 2px;
     color: rgb(255, 255, 255);
 }
 
@@ -610,7 +610,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.597656) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.59375) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     height: 30px;
@@ -631,7 +631,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.59375) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.589844) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     height: 30px;
@@ -645,4 +645,44 @@ body {
     width: 301px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.label_template {
+    position: absolute;
+    color: black;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    top: 11px;
+    font-style: normal;
+    font-size: 17px;
+    left: 77px;
+    right: 30px;
+    width: auto;
+    bottom: 44px;
+    height: auto;
+}
+
+.listRowTemplate1_template.selected .label_template {
+    color: white;
+}
+
+.text6_template {
+    color: black;
+    font-family: Helvetica;
+    font-size: 17px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 77px;
+    top: 40px;
+    width: auto;
+    height: auto;
+}
+
+.selected .text6_template {
+    color: white;
 }

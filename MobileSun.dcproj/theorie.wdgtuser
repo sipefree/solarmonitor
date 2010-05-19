@@ -42,7 +42,7 @@
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>5 63 1440 815 0 0 1440 878 </string>
+	<string>-2 63 1440 815 0 0 1440 878 </string>
 	<key>MobileWeb</key>
 	<dict>
 		<key>Objects view expanded items</key>
@@ -188,7 +188,13 @@
 			</array>
 		</array>
 		<key>Objects view last selections</key>
-		<array/>
+		<array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+		</array>
 		<key>Opened Steps</key>
 		<array>
 			<integer>0</integer>

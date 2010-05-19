@@ -5,6 +5,8 @@
  code generator otherwise the changes will be lost.
  */
 var dashcodeDataSources = {
-    "dataSource": { "Class": "DC.AjaxController", "propertyValues": { "dataModel": { "uuid": "C4A008DE-1A99-4486-BCE0-6A8F5BE5C3D6", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "title": "", "items": [{ "name": "", "location": "", "image": "" }] } }, "url": "mainMenu.js", "parameters": {} } }
+    "dataSource": { "Class": "DC.AjaxController", "propertyValues": { "dataModel": { "uuid": "C4A008DE-1A99-4486-BCE0-6A8F5BE5C3D6", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "title": "", "items": [{ "name": "", "location": "", "image": "" }] } }, "url": "mainMenu.js", "parameters": {} } },
+    "imageSources": { "Class": "DC.AjaxController" }
 };
+
 

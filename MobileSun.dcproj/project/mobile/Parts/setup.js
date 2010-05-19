@@ -10,7 +10,7 @@ var dashcodePartSpecs = {
     "button": { "initialHeight": 30, "initialWidth": 300, "leftImageWidth": 5, "rightImageWidth": 5, "text": "Click Here to change Default Display", "view": "DC.PushButton" },
     "button1": { "initialHeight": 30, "initialWidth": 301, "leftImageWidth": 5, "onclick": "testGotoImage", "rightImageWidth": 5, "text": "VIew Hi-Res", "view": "DC.PushButton" },
     "button2": { "initialHeight": 30, "initialWidth": 301, "leftImageWidth": 5, "onclick": "testGotoMovie", "rightImageWidth": 5, "text": "VIew Movie", "view": "DC.PushButton" },
-    "header": { "rootTitle": "Menu", "view": "DC.Header" },
+    "header": { "propertyValues": { "editableBinding": { "keypath": "dataSource.content.title" } }, "rootTitle": "Menu", "view": "DC.Header" },
     "image": { "propertyValues": { "srcBinding": { "keypath": "*.image" } }, "view": "DC.ImageLayout" },
     "image1": { "propertyValues": { "srcBinding": { "keypath": "*.image" } }, "view": "DC.ImageLayout" },
     "image2": { "view": "DC.ImageLayout" },
@@ -24,7 +24,9 @@ var dashcodePartSpecs = {
     "text2": { "text": "EIT 171Å 20100518 01:00", "view": "DC.Text" },
     "text3": { "text": "Click image for hi-res and details", "view": "DC.Text" },
     "text4": { "text": "Click image for hi-res", "view": "DC.Text" },
-    "text5": { "text": "EIT 171Å 20100518 01:00", "view": "DC.Text" }
+    "text5": { "text": "EIT 171Å 20100518 01:00", "view": "DC.Text" },
+    "text6": { "text": "Text", "view": "DC.Text" }
 };
+
 
 

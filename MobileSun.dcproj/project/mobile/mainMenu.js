@@ -1,5 +1,5 @@
 {
-    title: 'Solar Monitor',
+    title: (function() { var d = new Date(); return d.getFullYear() + "/" (d.getMonth()+1) + "/" + (d.getDate()+1) })(),
     mainMenu: [
         { name: "Current Images", image: "Images/satellite.png" },
         { name: "Current Video", image: "Images/filmstrip.png" }, 
