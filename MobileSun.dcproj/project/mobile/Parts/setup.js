@@ -5,28 +5,57 @@
  code generator otherwise the changes will be lost.
  */
 var dashcodePartSpecs = {
+    "activityIndicator": { "propertyValues": { "visibleBinding": { "keypath": "imageDetail.queryInProgress" } }, "view": "DC.ActivityIndicator" },
+    "activityIndicator1": { "propertyValues": { "visibleBinding": { "keypath": "imageSources.queryInProgress" } }, "view": "DC.ActivityIndicator" },
     "back_button": { "initialHeight": 30, "initialWidth": 60, "leftImageWidth": 16, "rightImageWidth": 5, "text": "Back", "view": "DC.PushButton" },
     "browser": { "clearSelectionOnBack": true, "view": "DC.Browser" },
-    "button": { "initialHeight": 30, "initialWidth": 300, "leftImageWidth": 5, "rightImageWidth": 5, "text": "Click Here to change Default Display", "view": "DC.PushButton" },
-    "button1": { "initialHeight": 30, "initialWidth": 301, "leftImageWidth": 5, "onclick": "testGotoImage", "rightImageWidth": 5, "text": "VIew Hi-Res", "view": "DC.PushButton" },
-    "button2": { "initialHeight": 30, "initialWidth": 301, "leftImageWidth": 5, "onclick": "testGotoMovie", "rightImageWidth": 5, "text": "VIew Movie", "view": "DC.PushButton" },
-    "header": { "propertyValues": { "editableBinding": { "keypath": "dataSource.content.title" } }, "rootTitle": "Menu", "view": "DC.Header" },
+    "button": { "initialHeight": 30, "initialWidth": 300, "leftImageWidth": 5, "rightImageWidth": 5, "text": "Home Page Settings", "view": "DC.PushButton" },
+    "button1": { "initialHeight": 50, "initialWidth": 48, "leftImageWidth": 1, "onclick": "imageDetailPrevWeek", "rightImageWidth": 1, "text": "« Week", "view": "DC.PushButton" },
+    "button10": { "initialHeight": 50, "initialWidth": 40, "leftImageWidth": 1, "onclick": "imageDetailNextRot", "rightImageWidth": 1, "text": "Rot ^", "view": "DC.PushButton" },
+    "button11": { "initialHeight": 30, "initialWidth": 316, "leftImageWidth": 15, "onclick": "zoomHighDef", "rightImageWidth": 15, "text": "Zoom", "view": "DC.PushButton" },
+    "button12": { "initialHeight": 50, "initialWidth": 49, "leftImageWidth": 1, "onclick": "imageDetailNow", "rightImageWidth": 1, "text": "Now", "view": "DC.PushButton" },
+    "button13": { "initialHeight": 50, "initialWidth": 48, "leftImageWidth": 1, "onclick": "imageDetailPrevWeek", "rightImageWidth": 1, "text": "« Week", "view": "DC.PushButton" },
+    "button14": { "initialHeight": 50, "initialWidth": 40, "leftImageWidth": 1, "onclick": "imageDetailPrevRot", "rightImageWidth": 1, "text": "^ Rot", "view": "DC.PushButton" },
+    "button15": { "initialHeight": 50, "initialWidth": 40, "leftImageWidth": 1, "onclick": "imageDetailPrevDay", "rightImageWidth": 1, "text": "« Day", "view": "DC.PushButton" },
+    "button16": { "initialHeight": 50, "initialWidth": 48, "leftImageWidth": 1, "onclick": "imageDetailNextWeek", "rightImageWidth": 1, "text": "Week »", "view": "DC.PushButton" },
+    "button17": { "initialHeight": 50, "initialWidth": 40, "leftImageWidth": 1, "onclick": "imageDetailNextDay", "rightImageWidth": 1, "text": "Day »", "view": "DC.PushButton" },
+    "button18": { "initialHeight": 50, "initialWidth": 40, "leftImageWidth": 1, "onclick": "imageDetailNextRot", "rightImageWidth": 1, "text": "Rot ^", "view": "DC.PushButton" },
+    "button19": { "initialHeight": 50, "initialWidth": 68, "leftImageWidth": 1, "onclick": "imageDetailNow", "rightImageWidth": 1, "text": "Now", "view": "DC.PushButton" },
+    "button2": { "initialHeight": 50, "initialWidth": 40, "leftImageWidth": 1, "onclick": "imageDetailPrevRot", "rightImageWidth": 1, "text": "^ Rot", "view": "DC.PushButton" },
+    "button3": { "initialHeight": 44, "initialWidth": 80, "leftImageWidth": 1, "rightImageWidth": 1, "text": "MotD", "view": "DC.PushButton" },
+    "button4": { "initialHeight": 44, "initialWidth": 80, "leftImageWidth": 1, "rightImageWidth": 1, "text": "Button", "view": "DC.PushButton" },
+    "button5": { "initialHeight": 44, "initialWidth": 80, "leftImageWidth": 1, "rightImageWidth": 1, "text": "Button", "view": "DC.PushButton" },
+    "button6": { "initialHeight": 44, "initialWidth": 80, "leftImageWidth": 1, "rightImageWidth": 1, "text": "Button", "view": "DC.PushButton" },
+    "button7": { "initialHeight": 50, "initialWidth": 40, "leftImageWidth": 1, "onclick": "imageDetailPrevDay", "rightImageWidth": 1, "text": "« Day", "view": "DC.PushButton" },
+    "button8": { "initialHeight": 50, "initialWidth": 48, "leftImageWidth": 1, "onclick": "imageDetailNextWeek", "rightImageWidth": 1, "text": "Week »", "view": "DC.PushButton" },
+    "button9": { "initialHeight": 50, "initialWidth": 40, "leftImageWidth": 1, "onclick": "imageDetailNextDay", "rightImageWidth": 1, "text": "Day »", "view": "DC.PushButton" },
+    "cellImage": { "propertyValues": { "heightBinding": { "keypath": "*.width" }, "srcBinding": { "keypath": "*.image" }, "widthBinding": { "keypath": "*.width" } }, "view": "DC.ImageLayout" },
+    "grid": { "allowsEmptySelection": true, "dataArray": ["Item 1", "Item 2", "Item 3"], "labelElementId": "cellLabel", "propertyValues": { "dataArrayBinding": { "keypath": "homepage.content.thumbnails" } }, "sampleRows": 4, "selectionEnabled": true, "useDataSource": true, "view": "DC.List" },
+    "header": { "rootTitle": "Menu", "view": "DC.Header" },
     "image": { "propertyValues": { "srcBinding": { "keypath": "*.image" } }, "view": "DC.ImageLayout" },
     "image1": { "propertyValues": { "srcBinding": { "keypath": "*.image" } }, "view": "DC.ImageLayout" },
     "image2": { "view": "DC.ImageLayout" },
-    "label": { "propertyValues": { "textBinding": { "keypath": "*.name" } }, "text": "Item", "view": "DC.Text" },
-    "list": { "allowsEmptySelection": true, "labelElementId": "rowTitle", "listStyle": "DC.List.EDGE_TO_EDGE", "propertyValues": { "dataArrayBinding": { "keypath": "dataSource.content.mainMenu" } }, "sampleRows": 8, "selectionEnabled": true, "useDataSource": true, "view": "DC.List" },
-    "list1": { "allowsEmptySelection": true, "dataArray": ["Item 1", "Item 2", "Item 3"], "labelElementId": "label", "listStyle": "List.ROUNDED_RECTANGLE", "propertyValues": { "dataArrayBinding": { "keypath": "dataSource.content.imageSources" } }, "sampleRows": 3, "selectionEnabled": true, "useDataSource": true, "view": "DC.List" },
+    "image3": { "propertyValues": { "srcBinding": { "keypath": "imageDetail.content.image" }, "visibleBinding": { "keypath": "imageDetail.queryInProgress", "transformer": "shouldHideDetailImg" } }, "view": "DC.ImageLayout" },
+    "image4": { "propertyValues": { "srcBinding": { "keypath": "imageDetail.content.fullRes" } }, "view": "DC.ImageLayout" },
+    "label": { "propertyValues": { "textBinding": { "keypath": "*.type" } }, "text": "Item", "view": "DC.Text" },
+    "menu": { "allowsEmptySelection": true, "labelElementId": "rowTitle", "listStyle": "DC.List.EDGE_TO_EDGE", "propertyValues": { "dataArrayBinding": { "keypath": "dataSource.content.mainMenu" } }, "sampleRows": 8, "selectionEnabled": true, "useDataSource": true, "view": "DC.List" },
     "rowTitle": { "propertyValues": { "textBinding": { "keypath": "*.name" } }, "text": "Item", "view": "DC.Text" },
-    "stackLayout": { "subviewsTransitions": [{ "direction": "right-left", "duration": "", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "", "timing": "ease-in-out", "type": "push" }], "view": "DC.StackLayout" },
+    "sourceList": { "allowsEmptySelection": true, "dataArray": ["Item 1", "Item 2", "Item 3"], "labelElementId": "label", "listStyle": "List.ROUNDED_RECTANGLE", "propertyValues": { "dataArrayBinding": { "keypath": "imageSources.content.imageSources" } }, "sampleRows": 10, "selectionEnabled": true, "useDataSource": true, "view": "DC.List" },
+    "stackLayout": { "subviewsTransitions": [{ "direction": "right-left", "duration": "", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "", "timing": "ease-in-out", "type": "push" }, { "direction": "right-left", "duration": "", "timing": "ease-in-out", "type": "push" }], "view": "DC.StackLayout" },
     "text": { "text": "Mobile", "view": "DC.Text" },
     "text1": { "text": "Sun", "view": "DC.Text" },
-    "text2": { "text": "EIT 171Å 20100518 01:00", "view": "DC.Text" },
-    "text3": { "text": "Click image for hi-res and details", "view": "DC.Text" },
-    "text4": { "text": "Click image for hi-res", "view": "DC.Text" },
-    "text5": { "text": "EIT 171Å 20100518 01:00", "view": "DC.Text" },
-    "text6": { "text": "Text", "view": "DC.Text" }
+    "text2": { "propertyValues": { "textBinding": { "keypath": "*.time" } }, "text": "Text", "view": "DC.Text" },
+    "text3": { "propertyValues": { "textBinding": { "keypath": "*.type" } }, "text": "Text", "view": "DC.Text" },
+    "text4": { "propertyValues": { "visibleBinding": { "keypath": "imageDetail.content", "transformer": "booleanInvert" } }, "text": "Tap image for hi-res", "view": "DC.Text" },
+    "text5": { "propertyValues": { "textBinding": { "keypath": "imageDetail.content.time" } }, "text": "description", "view": "DC.Text" },
+    "text6": { "propertyValues": { "textBinding": { "keypath": "*.time" } }, "text": "Text", "view": "DC.Text" },
+    "text7": { "propertyValues": { "textBinding": { "keypath": "imageDetail.content.date", "transformer": "prettyDate" } }, "text": "Date: 2010-05-25", "view": "DC.Text" }
 };
+
+
+
+
+
 
 
 

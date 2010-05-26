@@ -1,56 +1,55 @@
 <?php
-
-include("/Users/solmon/Sites/globals.php");
+//set_include_path("/Users/solmon/Sites/");
+include("globals.php");
+include("include.php");
 $eit_bakeout = in_bakeout($date);
 $eit_keyhole = in_keyhole($date);
 
-if ($indexnum == "2")
-{	
-	$index_types = $index2_types;
-	$index_types_strs = $index2_types_strs;
-	if ($eit_keyhole == "1")
-	{
-		$index_types = $keyhole_index2_types;
-		$index_types_strs = $keyhole_index2_types_strs;
-	}
-	if ($eit_bakeout)
-	{
-		$index_types = $bakeout_index2_types;
-		$index_types_strs = $bakeout_index2_types_strs;
-	}
-}
-else
+//header('Cache-Control: no-cache, must-revalidate');
+//header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
+//header('Content-type: application/json');
+
+$index_types = array_merge($index_types, $index2_types);
+$index_types_strs = array_merge($index_types_strs, $index2_types_strs);
+if ($eit_keyhole == "1")
 {
-	if ($eit_keyhole == "1")
-	{
-		$index_types = $keyhole_index_types;
-		$index_types_strs = $keyhole_index_types_strs;
-	}
-	if ($eit_bakeout)
-	{
-		$index_types = $bakeout_index_types;
-		$index_types_strs = $bakeout_index_types_strs;
-	}
+	$keyhole_index_types = array_merge($keyhole_index_types + $keyhole_index2_types);
+	$index_types = $keyhole_index_types;
+	$keyhole_index_types_strs = array_merge($keyhole_index_types_strs, $keyhole_index2_types_strs);
+	$index_types_strs = $keyhole_index_types_strs;
+}
+if ($eit_bakeout)
+{
+	$bakeout_index_types = array_merge($bakeout_index_types, $bakeout_index2_types);
+	$index_types = $bakeout_index_types;
+	$index_types_strs = $bakeout_index_types_strs +  + $bakeout_index2_types_strs;
 }
 
+$arm_data_path = "./";
+
 $links=array();
+$fullRes = array();
 for($i=0;$i<count($index_types);$i++)
 {
+	list($instrument, $filter) = split('[_]', $index_types[$i],2);
+	$file = find_latest_file($date, $instrument, $filter, 'png', 'fd');
+	
 	if($index_types[$i] == 'bake_00195')
 	{
 		$links[] = "http://www.solarmonitor.org/common_files/NoData/thumb/bakeout.thumb.png";
+		$fullRes[] = "http://www.solarmonitor.org/common_files/NoData/thumb/bakeout.thumb.png";
 	}
 	elseif($index_types[$i] == 'keyh_00195')
 	{
 		$links[] = "http://www.solarmonitor.org/common_files/NoData/thumb/keyhole.thumb.png";
+		$fullRes[] = "http://www.solarmonitor.org/common_files/NoData/thumb/bakeout.thumb.png";
 	}
 	else
 	{
 		$links[] = "http://www.solarmonitor.org/${arm_data_path}data/$date/pngs/thmb/$index_types[$i]_thumb.png";
+		$fullRes[] = "http://solarmonitor.org/data/$date/pngs/$instrument/" . $file;
 	}
 
-	list($instrument, $filter) = split('[_]', $index_types[$i],2);
-	$file = find_latest_file($date, $instrument, $filter, 'png', 'fd');
 	if($file == "No File Found")
 	{
 		if($index_types[$i] == 'bake_00195')
@@ -150,15 +149,17 @@ for($i=0;$i<count($index_types);$i++)
 	}
 }
 
-print("{ imageSources: [\n");
+print("{ imageSources: [ ");
 for ($i=0;$i<count($index_types);$i++)
 {
-	print("\t{\n");
-	print("\t\ttime: \"" . $times[$i] . "\",\n");
+	print("{ ");
+	print("time: \"" . html_entity_decode(str_replace("\n", "", $times[$i])) . "\", ");
 
-	print("\t\ttype: \"" . $index_types[$i] . "\",\n");
-	print("\t\timage: \"" . $links[$i] . "\"\n");
-	print("\t},\n");
+	print("type: \"" . $index_types[$i] . "\", ");
+	print("image: \"" . $links[$i] . "\", ");
+	print("fullRes: \"" . $fullRes[$i] . "\" ");
+	print("}");
+	if($i != count($index_types)-1) print(",");
 }
 print("]}")
 

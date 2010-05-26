@@ -5,8 +5,14 @@
  code generator otherwise the changes will be lost.
  */
 var dashcodeDataSources = {
-    "dataSource": { "Class": "DC.AjaxController", "propertyValues": { "dataModel": { "uuid": "C4A008DE-1A99-4486-BCE0-6A8F5BE5C3D6", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "title": "", "items": [{ "name": "", "location": "", "image": "" }] } }, "url": "mainMenu.js", "parameters": {} } },
-    "imageSources": { "Class": "DC.AjaxController" }
+    "dataSource": { "Class": "DC.AjaxController", "propertyValues": { "url": "mainMenu.js", "parameters": {}, "dataModel": { "uuid": "5B892515-28DA-472F-A44E-511B23240C90", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "title": "", "mainMenu": [{ "name": "", "image": "" }] } } } },
+    "imageSources": { "Class": "DC.AjaxController", "propertyValues": { "url": "http://www.solarmonitor.org/webservices/thumbnails.json.php?", "parameters": { "date": "default" }, "dataModel": { "cacheSample": true, "uuid": "2FC53EE9-1BA2-499A-B02D-4273048CD945", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "imageSources": [{ "time": "", "type": "", "image": "", "fullRes": "" }] } } } },
+    "homepage": { "Class": "DC.AjaxController", "propertyValues": { "url": "http://www.solarmonitor.org/webservices/homepage.json.php", "dataModel": { "cacheSample": true, "uuid": "5FB58BE4-F407-4DF5-9540-52743571B970", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "thumbnails": [{ "time": "", "type": "", "image": "", "width": 1, "fullRes": "" }] } }, "parameters": {} } },
+    "imageDetail": { "Class": "DC.AjaxController", "propertyValues": { "url": "http://www.solarmonitor.org/webservices/full_disk.json.php?", "dataModel": { "cacheSample": true, "uuid": "547DA341-2CE8-4079-8FDD-9BDECE67EEDD", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "date": "", "type": "", "time": "", "image": "", "fullRes": "", "prevDay": "", "prevWeek": "", "prevRot": "", "nextDay": "", "nextWeek": "", "nextRot": "" } }, "parameters": { "type": "default", "date": "default" } } }
 };
+
+
+
+
 
 
