@@ -7,9 +7,6 @@ if (isset($_GET['type']))
 else
 	$type = "smdi_maglc";
 
-if($type == "default") {
-	$type = "smdi_maglc";
-}
 $index_types = array_merge($index_types, $index2_types);
 $index_types_strs = array_merge($index_types_strs, $index2_types_strs);
 
@@ -39,19 +36,25 @@ elseif($type == 'keyh_00195')
 	$thumb = "http://www.solarmonitor.org/common_files/NoData/thumb/keyhole.thumb.png";
 	$fullRes = "http://www.solarmonitor.org/common_files/NoData/thumb/bakeout.thumb.png";
 }
+elseif($type == 'default')
+{
+	$thumb = "http://www.solarmonitor.org/common_files/placeholder_220";
+	$fullRes = "http://www.solarmonitor.org/common_files/placeholder_220";
+	$time = "No Time Data Available";
+}
 else
 {
 	$thumb = "http://www.solarmonitor.org/${arm_data_path}data/$date/pngs/thmb/${type}_thumb.png";
 	$fullRes = "http://solarmonitor.org/data/$date/pngs/$instrument/" . $file;
 }
 
-if($file == "No File Found")
+if($file == "No File Found" && $type != "default")
 {
 	$thumb = "http://www.solarmonitor.org/common_files/placeholder_220";
 	$fullRes = "http://www.solarmonitor.org/common_files/placeholder_681";
 	$time = "No Time Data Available";
 }
-else {
+elseif($file != "No File Found" && $type != "default") {
 	list($inst, $filt, $fd, $fdate, $time, $ext) = split('[_.]',$file,6);
 	$str = $index_types_strs[$type];
 	$dt = $fdate . " " . substr($time,0,2) . ":" . substr($time,2,2);
@@ -62,17 +65,17 @@ else {
 
 
 print("{ ");
-print("date: \"" . $date . "\", ");
-print("type: \"" . $type . "\", ");
-print("time: \"" . $time . "\", ");
-print("image: \"" . $thumb . "\", ");
-print("fullRes: \"" . $fullRes . "\", ");
-print("prevDay: \"" . $prev_day . "\", ");
-print("prevWeek: \"" . $prev_week . "\", ");
-print("prevRot: \"" . $prev_rot . "\", ");
-print("nextDay: \"" . $next_day . "\", ");
-print("nextWeek: \"" . $next_week . "\", ");
-print("nextRot: \"" . $next_rot . "\"");
+print("\"date\": \"" . $date . "\", ");
+print("\"type\": \"" . $type . "\", ");
+print("\"time\": \"" . $time . "\", ");
+print("\"image\": \"" . $thumb . "\", ");
+print("\"fullRes\": \"" . $fullRes . "\", ");
+print("\"prevDay\": \"" . $prev_day . "\", ");
+print("\"prevWeek\": \"" . $prev_week . "\", ");
+print("\"prevRot\": \"" . $prev_rot . "\", ");
+print("\"nextDay\": \"" . $next_day . "\", ");
+print("\"nextWeek\": \"" . $next_week . "\", ");
+print("\"nextRot\": \"" . $next_rot . "\"");
 print("}")
 
 ?>

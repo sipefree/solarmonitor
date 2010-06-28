@@ -55,7 +55,7 @@ body {
     font-weight: bold;
     font-size: 12px;
     color: rgb(255, 255, 255);
-    text-shadow: rgba(0, 0, 0, 0.0898438) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0) 0px -1px 0px;
     text-align: center;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -73,7 +73,7 @@ body {
     -webkit-user-select: none;
 }
 
-#listLevel {
+#mainMenu {
     display: none;
     position: relative;
     width: auto;
@@ -113,7 +113,7 @@ body {
     -webkit-border-bottom-right-radius: 8px 8px;
     opacity: 1;
     margin-top: 5px;
-    background-color: rgba(148, 163, 231, 0.441406);
+    background-color: rgba(148, 163, 231, 0.117188);
 }
 
 .listRowTemplate_template {
@@ -167,7 +167,7 @@ body {
     right: 30px;
     width: auto;
     color: rgb(255, 255, 255);
-    text-shadow: rgba(0, 0, 0, 0.496094) 0px 1px 4px;
+    text-shadow: rgba(0, 0, 0, 0.171875) 0px 1px 4px;
 }
 
 .rowArrow_template {
@@ -222,7 +222,7 @@ body {
     -webkit-box-reflect: below 1px -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), color-stop(0.5, transparent), to(rgba(255, 255, 255, 0))) 0 0 0 0 stretch stretch;
 }
 
-#cImageSelectSource {
+#selectDetailWavelength {
     width: 100%;
     min-height: 406px;
     display: none;
@@ -248,7 +248,7 @@ body {
     position: relative;
     width: auto;
     -webkit-margin-top-collapse: separate;
-    background-color: rgba(148, 163, 231, 0.433594);
+    background-color: rgba(148, 163, 231, 0.109375);
     margin-top: 7px;
 }
 
@@ -412,7 +412,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.238281) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     height: 30px;
@@ -449,8 +449,8 @@ body {
     margin-left: 10px;
     border-color: rgb(57, 57, 57);
     opacity: 1;
-    background-color: rgba(28, 28, 28, 0.730469);
-    margin-top: 17px;
+    background-color: rgba(28, 28, 28, 0.40625);
+    margin-top: 10px;
 }
 
 #text5 {
@@ -462,14 +462,14 @@ body {
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
     text-align: center;
-    font-size: 12pt;
     text-shadow: rgba(0, 0, 0, 0) 0px 1px 2px;
     color: rgb(255, 255, 255);
+    font-size: 11pt;
     margin-right: 0px;
+    margin-top: 0px;
     width: auto;
     min-height: 20px;
     height: auto;
-    margin-top: 5px;
 }
 
 .selected #text5 {
@@ -501,7 +501,6 @@ body {
     overflow: hidden;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
-    color: rgb(255, 255, 255);
     font-size: 10px;
     text-shadow: rgb(0, 0, 0) 0px 2px 7px;
     margin-top: 0px;
@@ -512,6 +511,7 @@ body {
     width: auto;
     bottom: 1px;
     height: auto;
+    color: rgb(0, 0, 0);
 }
 
 .selected #text4 {
@@ -624,7 +624,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.363281) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0390625) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -634,11 +634,11 @@ body {
     right: auto;
     bottom: auto;
     margin-top: 0px;
-    left: 0px;
     opacity: 1;
-    height: 44px;
     top: -1px;
-    width: 80px;
+    left: 0px;
+    height: 44px;
+    width: 81px;
 }
 
 #button4 {
@@ -647,7 +647,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.359375) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0351562) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -670,7 +670,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.355469) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.03125) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -693,7 +693,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.359375) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0351562) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -720,17 +720,17 @@ body {
     position: relative;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
-    margin-left: 10px;
-    margin-top: 11px;
-    width: auto;
-    margin-right: 10px;
     -webkit-border-top-left-radius: 10px 10px;
     -webkit-border-top-right-radius: 10px 10px;
     -webkit-border-bottom-left-radius: 10px 10px;
     -webkit-border-bottom-right-radius: 10px 10px;
     border-style: solid;
     border-color: rgb(55, 55, 55);
-    background-color: rgba(17, 17, 17, 0.71875);
+    background-color: rgba(17, 17, 17, 0.394531);
+    width: 298px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
 }
 
 .gridCellTemplate_template {
@@ -843,186 +843,11 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     left: 108px;
 }
 
-#box {
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(172, 172, 172);
-    background-color: white;
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    position: relative;
-    margin-left: 0px;
-    margin-top: 45px;
-    width: 743px;
-    height: 669px;
-    background-image: url(Images/box%202.png);
-    background-repeat: repeat;
-    background-position: 50% 50%;
-}
-
 #highDefLevel {
     width: 100%;
     min-height: 372px;
     display: none;
     position: relative;
-}
-
-#rectangleShape1 {
-    border-left-width: 1px;
-    border-right-width: 1px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    position: relative;
-    opacity: 0.7;
-    margin-left: 0px;
-    width: 298px;
-    height: 50px;
-    -webkit-border-image: url(Parts/Images/rectangleShape1.png) 0 1 0 1 stretch stretch;
-    margin-top: 5px;
-}
-
-#button1 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.355469) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    left: -1px;
-    height: 50px;
-    width: 48px;
-}
-
-#button7 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.351562) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    left: 46px;
-    width: 40px;
-}
-
-#button2 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.351562) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    left: 85px;
-    width: 40px;
-}
-
-#button8 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.347656) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    width: 48px;
-    left: 250px;
-}
-
-#button9 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.351562) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    width: 40px;
-    left: 211px;
-}
-
-#button10 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.347656) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    width: 40px;
-    left: 172px;
 }
 
 #image4 {
@@ -1048,27 +873,6 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     height: auto;
 }
 
-#button11 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-shadow: rgba(0, 0, 0, 0.539062) 0px -1px 0px;
-    text-align: center;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    height: 30px;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: relative;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    margin-left: 1px;
-    width: 316px;
-    margin-top: 5px;
-}
-
 #topRectangleShape {
     position: absolute;
     border-left-width: 12px;
@@ -1079,7 +883,10 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     top: 32px;
     width: 77px;
     -webkit-border-image: url(Parts/Images/topRectangleShape.png) 0 12 0 12 stretch stretch;
+    right: 109px;
+    margin-left: auto;
     left: 110px;
+    margin-right: auto;
 }
 
 #text7 {
@@ -1105,50 +912,29 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     color: white;
 }
 
-#button12 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.347656) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    left: 124px;
-    width: 49px;
-}
-
 #button13 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.351562) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0273438) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
     cursor: default;
     -webkit-user-select: none;
     position: absolute;
-    right: auto;
     bottom: auto;
     margin-top: 0px;
     opacity: 1;
     top: 0px;
     height: 50px;
     width: 48px;
+    right: 259px;
+    margin-left: auto;
     left: -11px;
+    margin-right: auto;
 }
 
 #button15 {
@@ -1157,21 +943,23 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.347656) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0234375) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
     cursor: default;
     -webkit-user-select: none;
     position: absolute;
-    right: auto;
     bottom: auto;
     margin-top: 0px;
     opacity: 1;
     top: 0px;
     height: 50px;
     width: 40px;
+    right: 220px;
+    margin-left: auto;
     left: 36px;
+    margin-right: auto;
 }
 
 #button14 {
@@ -1180,21 +968,23 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.347656) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0234375) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
     cursor: default;
     -webkit-user-select: none;
     position: absolute;
-    right: auto;
     bottom: auto;
     margin-top: 0px;
     opacity: 1;
     top: 0px;
     height: 50px;
     width: 40px;
+    right: 181px;
+    margin-left: auto;
     left: 75px;
+    margin-right: auto;
 }
 
 #button16 {
@@ -1203,21 +993,23 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.34375) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
     cursor: default;
     -webkit-user-select: none;
     position: absolute;
-    right: auto;
     bottom: auto;
     margin-top: 0px;
     opacity: 1;
     top: 0px;
     height: 50px;
     width: 48px;
+    right: -11px;
+    margin-left: auto;
     left: 259px;
+    margin-right: auto;
 }
 
 #button17 {
@@ -1226,21 +1018,23 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.347656) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0234375) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
     cursor: default;
     -webkit-user-select: none;
     position: absolute;
-    right: auto;
     bottom: auto;
     margin-top: 0px;
     opacity: 1;
     top: 0px;
     height: 50px;
     width: 40px;
+    right: 36px;
+    margin-left: auto;
     left: 220px;
+    margin-right: auto;
 }
 
 #button18 {
@@ -1249,21 +1043,23 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.34375) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
     cursor: default;
     -webkit-user-select: none;
     position: absolute;
-    right: auto;
     bottom: auto;
     margin-top: 0px;
     opacity: 1;
     height: 50px;
-    width: 40px;
     top: 0px;
+    width: 40px;
+    right: 75px;
+    margin-left: auto;
     left: 181px;
+    margin-right: auto;
 }
 
 #button19 {
@@ -1272,21 +1068,23 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.34375) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
     cursor: default;
     -webkit-user-select: none;
     position: absolute;
-    right: auto;
     bottom: auto;
     margin-top: 0px;
     opacity: 1;
     top: 0px;
     height: 50px;
     width: 68px;
+    right: 114px;
+    margin-left: auto;
     left: 114px;
+    margin-right: auto;
 }
 
 #bottomRectangleShape {
@@ -1299,9 +1097,10 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     -webkit-margin-bottom-collapse: separate;
     position: relative;
     margin-left: 0px;
-    width: 296px;
     height: 56px;
     -webkit-border-image: url(Parts/Images/bottomRectangleShape.png) 0 12 0 12 stretch stretch;
+    width: auto;
+    margin-right: 0px;
 }
 
 .activityIndicator1_template {
@@ -1314,4 +1113,2474 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     margin-top: 0px;
     left: 23px;
     top: 21px;
+}
+
+#button11 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.277344) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    opacity: 1;
+    height: 37px;
+    margin-top: 6px;
+    margin-left: 7px;
+    width: 100px;
+}
+
+#activeRegions {
+    width: 100%;
+    min-height: 489px;
+    display: none;
+    position: relative;
+}
+
+#detailARList1 {
+    overflow: hidden;
+    display: none;
+    padding: 0px;
+    margin-bottom: 17px;
+    -webkit-margin-bottom-collapse: separate;
+    border-width: 1px;
+    border-color: rgb(172, 172, 172);
+    -webkit-border-top-right-radius: 8px 8px;
+    -webkit-border-top-left-radius: 8px 8px;
+    -webkit-border-bottom-left-radius: 8px 8px;
+    -webkit-border-bottom-right-radius: 8px 8px;
+    cursor: default;
+    -webkit-user-select: none;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    margin-left: 10px;
+    margin-right: 9px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.listRowTemplate3_template {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    margin-left: 0px;
+    padding: 0px;
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-top: 0px;
+    height: 39px;
+    font-size: 16px;
+    border-width: 1px !important;
+    background-color: rgba(148, 163, 231, 0.367188);
+    margin-right: 0px;
+    margin-bottom: 3px;
+    width: auto;
+    -webkit-border-top-left-radius: 5px 5px;
+    -webkit-border-top-right-radius: 5px 5px;
+    -webkit-border-bottom-left-radius: 5px 5px;
+    -webkit-border-bottom-right-radius: 5px 5px;
+}
+
+.listRowTemplate3_template .DC_selectionBG {
+    background-image: url(../Images/selectedRowiPhone.png);
+    background-repeat: initial;
+    background-attachment: initial;
+    -webkit-background-clip: initial;
+    -webkit-background-origin: initial;
+    background-color: rgb(38, 127, 239);
+    -webkit-background-size: 100% 100%;
+}
+
+.text16_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: absolute;
+    margin-top: 0px;
+    left: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 12px;
+    top: 18px;
+    bottom: 8px;
+    height: auto;
+    margin-right: auto;
+    width: 52px;
+}
+
+.selected .text16_template {
+    color: white;
+}
+
+.text23_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: oblique;
+    left: 4px;
+    top: 5px;
+    bottom: 22px;
+    height: auto;
+    margin-right: auto;
+    width: 55px;
+}
+
+.selected .text23_template {
+    color: white;
+}
+
+#bottomRectangleShape1 {
+    margin-top: 0px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: relative;
+    margin-left: 0px;
+    height: 56px;
+    width: auto;
+    margin-right: 0px;
+    border-left-width: 12px;
+    border-right-width: 12px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    -webkit-border-image: url(Parts/Images/bottomRectangleShape1.png) 0 12 0 12 stretch stretch;
+}
+
+#button20 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0234375) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 48px;
+    right: 259px;
+    margin-left: auto;
+    left: -11px;
+    margin-right: auto;
+}
+
+#button21 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 181px;
+    margin-left: auto;
+    left: 75px;
+    margin-right: auto;
+}
+
+#button22 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 220px;
+    margin-left: auto;
+    left: 36px;
+    margin-right: auto;
+}
+
+#button23 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 48px;
+    right: -11px;
+    margin-left: auto;
+    left: 259px;
+    margin-right: auto;
+}
+
+#button24 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 36px;
+    margin-left: auto;
+    left: 220px;
+    margin-right: auto;
+}
+
+#button25 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    height: 50px;
+    top: 0px;
+    width: 40px;
+    right: 75px;
+    margin-left: auto;
+    left: 181px;
+    margin-right: auto;
+}
+
+#button26 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 68px;
+    right: 114px;
+    margin-left: auto;
+    left: 114px;
+    margin-right: auto;
+}
+
+#activityIndicator2 {
+    width: 32px;
+    height: 32px;
+    opacity: 0.6;
+    position: relative;
+    display: block;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-left: 141px;
+    margin-top: 6px;
+}
+
+#detailARList2 {
+    overflow: hidden;
+    display: none;
+    padding: 0px;
+    -webkit-margin-bottom-collapse: separate;
+    border-width: 1px;
+    border-color: rgb(172, 172, 172);
+    -webkit-border-top-right-radius: 8px 8px;
+    -webkit-border-top-left-radius: 8px 8px;
+    -webkit-border-bottom-left-radius: 8px 8px;
+    -webkit-border-bottom-right-radius: 8px 8px;
+    cursor: default;
+    -webkit-user-select: none;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 9px;
+    margin-bottom: 0px;
+    width: auto;
+    background-color: rgba(148, 163, 231, 0);
+}
+
+.listRowTemplate4_template {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-color: rgb(172, 172, 172);
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-top: 0px;
+    height: 39px;
+    margin-right: 0px;
+    width: auto;
+}
+
+.listRowTemplate4_template .DC_selectionBG {
+    background-image: url(../Images/selectedRowiPhone.png);
+    background-repeat: initial;
+    background-attachment: initial;
+    -webkit-background-clip: initial;
+    -webkit-background-origin: initial;
+    background-color: rgb(38, 127, 239);
+    -webkit-background-size: 100% 100%;
+}
+
+.text24_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: absolute;
+    margin-top: 0px;
+    left: 4px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    top: 18px;
+    bottom: 8px;
+    height: auto;
+    margin-right: auto;
+    width: 52px;
+    font-style: oblique;
+    font-size: 9pt;
+}
+
+.selected .text24_template {
+    color: white;
+}
+
+.text31_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-style: oblique;
+    left: 4px;
+    top: 5px;
+    bottom: 22px;
+    height: auto;
+    margin-right: auto;
+    width: 55px;
+}
+
+.selected .text31_template {
+    color: white;
+}
+
+.gridCellTemplate11_template {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(224, 224, 224);
+    display: inline-block;
+    height: 80px;
+    width: 90px;
+    margin-left: -1px;
+    margin-top: -1px;
+    margin-bottom: -4px;
+}
+
+.cellImage11_template {
+    width: 48px;
+    height: 48px;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+}
+
+.icellImage11_template {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.cellLabel1_template {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 17px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 11px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+}
+
+.gridCellTemplate11_template.selected {
+    background-color: highlight;
+}
+
+body.DC_windowInactive .gridCellTemplate11_template.selected {
+    background-color: rgb(212, 212, 212);
+}
+
+.gridCellTemplate1_template {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(224, 224, 224);
+    display: inline-block;
+    margin-bottom: -4px;
+    width: 68px;
+    -webkit-margin-top-collapse: collapse;
+    -webkit-margin-bottom-collapse: collapse;
+    margin-left: -1px;
+    margin-top: -1px;
+    height: 18px;
+}
+
+.cellImage1_template {
+    width: 48px;
+    height: 48px;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    display: block;
+}
+
+.icellImage1_template {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.cellLabel_template {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 17px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+}
+
+.gridCellTemplate1_template.selected {
+    background-color: highlight;
+}
+
+body.DC_windowInactive .gridCellTemplate1_template.selected {
+    background-color: rgb(212, 212, 212);
+}
+
+.text17_template {
+    font-size: 1px;
+}
+
+.text17_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 62px;
+    top: 5px;
+    right: 167px;
+    width: auto;
+    bottom: 22px;
+    height: auto;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.selected .text17_template {
+    color: white;
+}
+
+.text18_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 62px;
+    top: 18px;
+    right: 167px;
+    width: auto;
+    bottom: 8px;
+    height: auto;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.selected .text18_template {
+    color: white;
+}
+
+.text19_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 132px;
+    top: 5px;
+    right: 102px;
+    width: auto;
+    bottom: 22px;
+    height: auto;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.selected .text19_template {
+    color: white;
+}
+
+.text20_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    top: 18px;
+    left: 132px;
+    right: 103px;
+    width: auto;
+    bottom: 8px;
+    height: auto;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.selected .text20_template {
+    color: white;
+}
+
+.text21_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 196px;
+    top: 5px;
+    right: 25px;
+    width: auto;
+    bottom: 22px;
+    height: auto;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.selected .text21_template {
+    color: white;
+}
+
+.text22_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    top: 18px;
+    left: 196px;
+    right: 25px;
+    width: auto;
+    bottom: 8px;
+    height: auto;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.selected .text22_template {
+    color: white;
+}
+
+.text25_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 59px;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-size: 7pt;
+    top: 14px;
+    right: 191px;
+    width: auto;
+    bottom: 8px;
+    height: auto;
+}
+
+.selected .text25_template {
+    color: white;
+}
+
+.text26_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 130px;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-size: 7pt;
+    top: 8px;
+    right: 105px;
+    width: auto;
+    bottom: 18px;
+    height: auto;
+}
+
+.selected .text26_template {
+    color: white;
+}
+
+.text27_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-size: 7pt;
+    left: 130px;
+    top: 21px;
+    right: 105px;
+    width: auto;
+    bottom: 4px;
+    height: auto;
+}
+
+.selected .text27_template {
+    color: white;
+}
+
+.text28_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-size: 7pt;
+    left: 196px;
+    top: 8px;
+    right: 24px;
+    width: auto;
+    bottom: 19px;
+    height: auto;
+}
+
+.selected .text28_template {
+    color: white;
+}
+
+.text29_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-size: 7pt;
+    left: 196px;
+    top: 21px;
+    right: 24px;
+    width: auto;
+    bottom: 4px;
+    height: auto;
+}
+
+.selected .text29_template {
+    color: white;
+}
+
+#selectActiveRegionWavelength {
+    width: 100%;
+    min-height: 489px;
+    display: none;
+    position: relative;
+}
+
+#button27 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0234375) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 48px;
+    right: 259px;
+    margin-left: auto;
+    left: -11px;
+    margin-right: auto;
+}
+
+#button29 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 220px;
+    margin-left: auto;
+    left: 36px;
+    margin-right: auto;
+}
+
+#button28 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 181px;
+    margin-left: auto;
+    left: 75px;
+    margin-right: auto;
+}
+
+#button30 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 48px;
+    right: -11px;
+    margin-left: auto;
+    left: 259px;
+    margin-right: auto;
+}
+
+#button31 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 36px;
+    margin-left: auto;
+    left: 220px;
+    margin-right: auto;
+}
+
+#button32 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    height: 50px;
+    top: 0px;
+    width: 40px;
+    right: 75px;
+    margin-left: auto;
+    left: 181px;
+    margin-right: auto;
+}
+
+#button33 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 68px;
+    right: 114px;
+    margin-left: auto;
+    left: 114px;
+    margin-right: auto;
+}
+
+#bottomRectangleShape2 {
+    border-left-width: 12px;
+    border-right-width: 12px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    margin-top: 0px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: relative;
+    margin-left: 0px;
+    height: 56px;
+    width: auto;
+    margin-right: 0px;
+    -webkit-border-image: url(Parts/Images/bottomRectangleShape2.png) 0 12 0 12 stretch stretch;
+}
+
+#sourceList1 {
+    overflow: hidden;
+    display: none;
+    padding: 0px;
+    margin-bottom: 17px;
+    margin-left: 9px;
+    -webkit-margin-bottom-collapse: separate;
+    border-width: 1px;
+    border-color: rgb(172, 172, 172);
+    -webkit-border-top-right-radius: 8px 8px;
+    -webkit-border-top-left-radius: 8px 8px;
+    -webkit-border-bottom-left-radius: 8px 8px;
+    -webkit-border-bottom-right-radius: 8px 8px;
+    cursor: default;
+    -webkit-user-select: none;
+    margin-right: 9px;
+    position: relative;
+    width: auto;
+    -webkit-margin-top-collapse: separate;
+    background-color: rgba(148, 163, 231, 0.105469);
+    margin-top: 7px;
+}
+
+.listRowTemplate5_template {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-color: rgb(172, 172, 172);
+    height: 75px;
+    margin-right: 0px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    width: auto;
+}
+
+.listRowTemplate5_template .DC_selectionBG {
+    background-image: url(../Images/selectedRowiPhone.png);
+    background-repeat: initial;
+    background-attachment: initial;
+    -webkit-background-clip: initial;
+    -webkit-background-origin: initial;
+    background-color: rgb(38, 127, 239);
+    -webkit-background-size: 100% 100%;
+}
+
+.listRowTemplate5_template.selected .label_template {
+    color: white;
+}
+
+.listRowTemplate5_template.selected .arrow_template {
+    background-image: url(../Images/chevron_white.png);
+}
+
+.listRowTemplate5_template.selected .label_template {
+    color: white;
+}
+
+.label1_template {
+    position: absolute;
+    top: 11px;
+    color: black;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    right: 30px;
+    width: auto;
+    height: auto;
+    left: 50px;
+    font-size: 14pt;
+}
+
+.listRowTemplate1_template.selected .label1_template {
+    color: white;
+}
+
+.label1_template {
+    position: absolute;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-style: normal;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    left: 77px;
+    top: 27px;
+    right: 30px;
+    width: auto;
+    bottom: 28px;
+    height: auto;
+}
+
+.listRowTemplate1_template.selected .label1_template {
+    color: white;
+}
+
+.listRowTemplate5_template.selected .label1_template {
+    color: white;
+}
+
+.listRowTemplate5_template.selected .label1_template {
+    color: white;
+}
+
+.arrow1_template {
+    position: absolute;
+    width: 8px;
+    height: 13px;
+    right: 10px;
+    background-image: url(../Images/chevron.png);
+    background-repeat: no-repeat;
+    top: 31px;
+}
+
+.listRowTemplate1_template.selected .arrow1_template {
+    background-image: url(../Images/chevron_white.png);
+}
+
+.listRowTemplate5_template.selected .arrow1_template {
+    background-image: url(../Images/chevron_white.png);
+}
+
+.image5_template {
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    width: 60px;
+    height: 60px;
+    top: 7px;
+    left: 9px;
+    border-width: 1px;
+    border-color: rgb(76, 76, 76);
+    -webkit-border-top-left-radius: 6px 6px;
+    -webkit-border-top-right-radius: 6px 6px;
+    -webkit-border-bottom-left-radius: 6px 6px;
+    -webkit-border-bottom-right-radius: 6px 6px;
+}
+
+.DC_img4_template {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.activityIndicator3_template {
+    width: 32px;
+    height: 32px;
+    opacity: 0.6;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 23px;
+    top: 21px;
+}
+
+#activityIndicator {
+    width: 32px;
+    height: 32px;
+    opacity: 0.6;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 108px;
+    left: 108px;
+}
+
+#regionDetailLevel {
+    width: 100%;
+    min-height: 372px;
+    display: none;
+    position: relative;
+}
+
+#regionHighDef {
+    width: 100%;
+    min-height: 372px;
+    display: none;
+    position: relative;
+}
+
+#image6 {
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-left: 0px;
+    width: 320px;
+    height: 320px;
+    margin-top: 49px;
+}
+
+#DC_img5 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#aboutLevel {
+    width: 100%;
+    display: none;
+    position: relative;
+    min-height: 372px;
+    height: auto;
+}
+
+#box1 {
+    border-width: 1px;
+    -webkit-border-top-right-radius: 8px 8px;
+    -webkit-border-top-left-radius: 8px 8px;
+    -webkit-border-bottom-left-radius: 8px 8px;
+    -webkit-border-bottom-right-radius: 8px 8px;
+    position: relative;
+    margin-top: 17px;
+    margin-left: 9px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    background-color: rgba(17, 17, 17, 0.402344);
+    border-style: solid;
+    border-color: rgba(148, 163, 231, 0.394531);
+    margin-right: 9px;
+    width: auto;
+    min-height: 150px;
+    height: auto;
+}
+
+#text8 {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 13px;
+    margin-left: 1px;
+    margin-top: 22px;
+    margin-right: 3px;
+    width: auto;
+    min-height: 92px;
+    height: auto;
+}
+
+.selected #text8 {
+    color: white;
+}
+
+#image7 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-left: 133px;
+}
+
+#inner_image1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#list {
+    overflow: hidden;
+    display: none;
+    padding: 0px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-left: 9px;
+    -webkit-margin-bottom-collapse: separate;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-top-right-radius: 8px 8px;
+    -webkit-border-top-left-radius: 8px 8px;
+    -webkit-border-bottom-left-radius: 8px 8px;
+    -webkit-border-bottom-right-radius: 8px 8px;
+    cursor: default;
+    -webkit-user-select: none;
+    margin-right: 9px;
+    position: relative;
+    width: auto;
+    -webkit-margin-top-collapse: separate;
+    background-color: rgba(17, 17, 17, 0.410156);
+    border-color: rgba(148, 163, 231, 0.402344);
+}
+
+.listRowTemplate2_template {
+    position: relative;
+    list-style-type: none;
+    height: 43px;
+    width: auto;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: solid;
+    border-color: rgb(172, 172, 172);
+}
+
+.label2_template {
+    position: absolute;
+    left: 9px;
+    top: 11px;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    right: 111px;
+    width: auto;
+    height: auto;
+    font-size: 15px;
+}
+
+.listRowTemplate2_template .DC_selectionBG {
+    background-image: url(../Images/selectedRowiPhone.png);
+    background-repeat: initial;
+    background-attachment: initial;
+    -webkit-background-clip: initial;
+    -webkit-background-origin: initial;
+    background-color: rgb(38, 127, 239);
+    -webkit-background-size: 100% 100%;
+}
+
+.listRowTemplate2_template.selected .label2_template {
+    color: white;
+}
+
+.text9_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    text-align: right;
+    top: 13px;
+    left: 129px;
+    right: 5px;
+    width: auto;
+    bottom: 14px;
+    height: auto;
+}
+
+.selected .text9_template {
+    color: white;
+}
+
+#settingsLevel {
+    width: 100%;
+    display: none;
+    position: relative;
+    min-height: 1619px;
+    height: auto;
+}
+
+#box4 {
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-top-right-radius: 8px 8px;
+    -webkit-border-top-left-radius: 8px 8px;
+    -webkit-border-bottom-left-radius: 8px 8px;
+    -webkit-border-bottom-right-radius: 8px 8px;
+    position: relative;
+    margin-top: 17px;
+    margin-left: 9px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    background-color: rgba(17, 17, 17, 0.429688);
+    border-color: rgba(148, 163, 231, 0.421875);
+    margin-right: 9px;
+    width: auto;
+    min-height: 73px;
+    height: auto;
+}
+
+#text10 {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 5px;
+    font-size: 12px;
+    margin-left: 2px;
+    margin-right: 0px;
+    width: auto;
+    min-height: 65px;
+    height: auto;
+}
+
+.selected #text10 {
+    color: white;
+}
+
+#settingsList {
+    overflow: hidden;
+    display: none;
+    padding: 0px;
+    margin-left: 9px;
+    -webkit-margin-bottom-collapse: separate;
+    border-width: 1px;
+    border-color: rgb(172, 172, 172);
+    -webkit-border-top-right-radius: 8px 8px;
+    -webkit-border-top-left-radius: 8px 8px;
+    -webkit-border-bottom-left-radius: 8px 8px;
+    -webkit-border-bottom-right-radius: 8px 8px;
+    cursor: default;
+    -webkit-user-select: none;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    background-color: rgba(148, 163, 231, 0.101562);
+    margin-top: 7px;
+    margin-right: 9px;
+    margin-bottom: 0px;
+    width: auto;
+}
+
+.listRowTemplate6_template {
+    position: relative;
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-color: rgb(172, 172, 172);
+    height: 75px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-right: 0px;
+    width: auto;
+}
+
+.listRowTemplate6_template .DC_selectionBG {
+    background-image: url(../Images/selectedRowiPhone.png);
+    background-repeat: initial;
+    background-attachment: initial;
+    -webkit-background-clip: initial;
+    -webkit-background-origin: initial;
+    background-color: rgb(38, 127, 239);
+    -webkit-background-size: 100% 100%;
+}
+
+.listRowTemplate6_template.selected .label_template {
+    color: white;
+}
+
+.listRowTemplate6_template.selected .arrow_template {
+    background-image: url(../Images/chevron_white.png);
+}
+
+.listRowTemplate6_template.selected .label_template {
+    color: white;
+}
+
+.listRowTemplate6_template.selected .label1_template {
+    color: white;
+}
+
+.listRowTemplate6_template.selected .label1_template {
+    color: white;
+}
+
+.listRowTemplate6_template.selected .arrow1_template {
+    background-image: url(../Images/chevron_white.png);
+}
+
+.label3_template {
+    position: absolute;
+    top: 11px;
+    color: black;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    right: 30px;
+    width: auto;
+    height: auto;
+    left: 50px;
+    font-size: 14pt;
+}
+
+.listRowTemplate1_template.selected .label3_template {
+    color: white;
+}
+
+.label3_template {
+    position: absolute;
+    font-family: Helvetica;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-style: normal;
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    top: 26px;
+    left: 75px;
+    right: 90px;
+    width: auto;
+    bottom: 29px;
+    height: auto;
+}
+
+.listRowTemplate1_template.selected .label3_template {
+    color: white;
+}
+
+.listRowTemplate5_template.selected .label3_template {
+    color: white;
+}
+
+.listRowTemplate5_template.selected .label3_template {
+    color: white;
+}
+
+.listRowTemplate6_template.selected .label3_template {
+    color: white;
+}
+
+.listRowTemplate6_template.selected .label3_template {
+    color: white;
+}
+
+.image8_template {
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    width: 60px;
+    height: 60px;
+    top: 7px;
+    left: 9px;
+    border-width: 1px;
+    border-color: rgb(76, 76, 76);
+    -webkit-border-top-left-radius: 6px 6px;
+    -webkit-border-top-right-radius: 6px 6px;
+    -webkit-border-bottom-left-radius: 6px 6px;
+    -webkit-border-bottom-right-radius: 6px 6px;
+}
+
+.DC_img6_template {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.activityIndicator4_template {
+    width: 32px;
+    height: 32px;
+    opacity: 0.6;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 23px;
+    top: 21px;
+}
+
+#button35 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.457031) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 30px;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-left: 9px;
+    margin-top: 7px;
+    width: 302px;
+}
+
+.rectangleShape2_template {
+    position: absolute;
+    height: 30px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    top: 21px;
+    width: 70px;
+    left: 216px;
+    -webkit-border-image: url(Parts/Images/rectangleShape2.png) 0 5 0 5 stretch stretch;
+}
+
+.rectangleShape3_template {
+    position: absolute;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    width: 30px;
+    height: 29px;
+    -webkit-border-image: url(Parts/Images/rectangleShape3.png) 0 5 0 5 stretch stretch;
+    left: -5px;
+    top: 1px;
+}
+
+.text11_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    font-size: 12px;
+    color: rgb(73, 73, 73);
+    font-weight: bold;
+    left: 42px;
+    top: 9px;
+    right: 1px;
+    width: auto;
+    bottom: 4px;
+    height: auto;
+}
+
+.selected .text11_template {
+    color: white;
+}
+
+.text12_template {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    font-size: 12px;
+    left: 6px;
+    text-shadow: none;
+    font-weight: bold;
+    top: 9px;
+    right: 37px;
+    width: auto;
+    bottom: 4px;
+    height: auto;
+    color: rgb(255, 84, 27);
+}
+
+.selected .text12_template {
+    color: white;
+}
+
+#searchLevel {
+    width: 100%;
+    display: none;
+    position: relative;
+    min-height: 1619px;
+    height: auto;
+}
+
+#rectangleShape4 {
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: relative;
+    width: 290px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    -webkit-border-image: url(Parts/Images/rectangleShape4.png) 0 5 0 5 stretch stretch;
+}
+
+#text13 {
+    font-family: Helvetica;
+    font-size: 17px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    margin-left: 0px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-right: 0px;
+    margin-top: 5px;
+    width: auto;
+    min-height: 20px;
+    height: auto;
+}
+
+.selected #text13 {
+    color: white;
+}
+
+#popup {
+    height: 20px;
+    -webkit-appearance: menulist-button;
+    display: block;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 86px;
+    top: 48px;
+    width: 148px;
+}
+
+#popup1 {
+    width: 70px;
+    height: 20px;
+    -webkit-appearance: menulist-button;
+    display: block;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: absolute;
+    left: 10px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 48px;
+}
+
+#popup2 {
+    width: 70px;
+    height: 20px;
+    -webkit-appearance: menulist-button;
+    display: block;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 48px;
+    left: 240px;
+}
+
+#rectangleShape5 {
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: relative;
+    width: 290px;
+    height: 30px;
+    -webkit-border-image: url(Parts/Images/rectangleShape5.png) 0 5 0 5 stretch stretch;
+    margin-left: 10px;
+    margin-top: 19px;
+}
+
+#text14 {
+    font-family: Helvetica;
+    font-size: 17px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-right: 0px;
+    width: auto;
+    min-height: 20px;
+    height: auto;
+}
+
+.selected #text14 {
+    color: white;
+}
+
+#search {
+    position: relative;
+    display: block;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-left: 10px;
+    margin-top: 6px;
+    width: 300px;
+}
+
+#forwardButton {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.5) 0px -1px 0px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 30px;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-top: 32px;
+    margin-left: 10px;
+    width: 300px;
+}
+
+#forwardButton1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.496094) 0px -1px 0px;
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 30px;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+#box5 {
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-top-right-radius: 8px 8px;
+    -webkit-border-top-left-radius: 8px 8px;
+    -webkit-border-bottom-left-radius: 8px 8px;
+    -webkit-border-bottom-right-radius: 8px 8px;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    width: auto;
+    height: auto;
+    margin-right: 9px;
+    min-height: 189px;
+    margin-left: 10px;
+    border-color: rgb(57, 57, 57);
+    opacity: 1;
+    background-color: rgba(28, 28, 28, 0.402344);
+    margin-top: 10px;
+}
+
+#box6 {
+    border-width: 1px;
+    position: relative;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    margin-top: 10px;
+    border-color: rgb(22, 22, 22);
+    max-width: 250px;
+    max-height: 250px;
+    width: 248px;
+    height: 248px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-border-top-left-radius: 0px 0px;
+    -webkit-border-top-right-radius: 0px 0px;
+    -webkit-border-bottom-left-radius: 0px 0px;
+    -webkit-border-bottom-right-radius: 0px 0px;
+}
+
+#image9 {
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    width: 249px;
+    height: 249px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#DC_img7 {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+#activityIndicator5 {
+    width: 32px;
+    height: 32px;
+    opacity: 0.6;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 108px;
+    left: 108px;
+}
+
+#activityIndicator5 {
+    width: 32px;
+    height: 32px;
+    opacity: 0.6;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 108px;
+    left: 108px;
+}
+
+#text15 {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    text-shadow: rgb(0, 0, 0) 0px 2px 7px;
+    margin-top: 0px;
+    position: absolute;
+    top: 234px;
+    left: 3px;
+    right: 129px;
+    width: auto;
+    bottom: 1px;
+    height: auto;
+}
+
+.selected #text15 {
+    color: white;
+}
+
+#text30 {
+    font-family: Helvetica;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    margin-left: 0px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0) 0px 1px 2px;
+    color: rgb(255, 255, 255);
+    font-size: 11pt;
+    margin-right: 0px;
+    margin-top: 0px;
+    width: auto;
+    min-height: 20px;
+    height: auto;
+}
+
+.selected #text30 {
+    color: white;
+}
+
+#bottomRectangleShape3 {
+    -webkit-border-image: url(Parts/Images/bottomRectangleShape.png) 0 12 0 12 stretch stretch;
+}
+
+#bottomRectangleShape3 {
+    margin-top: 0px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: relative;
+    margin-left: 0px;
+    height: 56px;
+    width: auto;
+    margin-right: 0px;
+    border-left-width: 12px;
+    border-right-width: 12px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    -webkit-border-image: url(Parts/Images/bottomRectangleShape3.png) 0 12 0 12 stretch stretch;
+}
+
+#button36 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0234375) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 48px;
+    right: 259px;
+    margin-left: auto;
+    left: -11px;
+    margin-right: auto;
+}
+
+#button37 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 181px;
+    margin-left: auto;
+    left: 75px;
+    margin-right: auto;
+}
+
+#button38 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 220px;
+    margin-left: auto;
+    left: 36px;
+    margin-right: auto;
+}
+
+#button39 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 48px;
+    right: -11px;
+    margin-left: auto;
+    left: 259px;
+    margin-right: auto;
+}
+
+#button40 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 36px;
+    margin-left: auto;
+    left: 220px;
+    margin-right: auto;
+}
+
+#button41 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    height: 50px;
+    top: 0px;
+    width: 40px;
+    right: 75px;
+    margin-left: auto;
+    left: 181px;
+    margin-right: auto;
+}
+
+#button42 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 68px;
+    right: 114px;
+    margin-left: auto;
+    left: 114px;
+    margin-right: auto;
+}
+
+#bottomRectangleShape4 {
+    -webkit-border-image: url(Parts/Images/bottomRectangleShape.png) 0 12 0 12 stretch stretch;
+}
+
+#bottomRectangleShape4 {
+    margin-top: 0px;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: relative;
+    margin-left: 0px;
+    height: 56px;
+    width: auto;
+    margin-right: 0px;
+    border-left-width: 12px;
+    border-right-width: 12px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    -webkit-border-image: url(Parts/Images/bottomRectangleShape4.png) 0 12 0 12 stretch stretch;
+}
+
+#button1 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 48px;
+    right: 259px;
+    margin-left: auto;
+    left: -11px;
+    margin-right: auto;
+}
+
+#button2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 181px;
+    margin-left: auto;
+    left: 75px;
+    margin-right: auto;
+}
+
+#button7 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 220px;
+    margin-left: auto;
+    left: 36px;
+    margin-right: auto;
+}
+
+#button8 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 48px;
+    right: -11px;
+    margin-left: auto;
+    left: 259px;
+    margin-right: auto;
+}
+
+#button9 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 36px;
+    margin-left: auto;
+    left: 220px;
+    margin-right: auto;
+}
+
+#button10 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    height: 50px;
+    top: 0px;
+    width: 40px;
+    right: 75px;
+    margin-left: auto;
+    left: 181px;
+    margin-right: auto;
+}
+
+#button12 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 68px;
+    right: 114px;
+    margin-left: auto;
+    left: 114px;
+    margin-right: auto;
+}
+
+#textarea {
+    font-family: HelveticaNeue;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    background-color: rgba(17, 17, 17, 0.503906);
+    border-style: solid;
+    border-color: rgba(148, 163, 231, 0.496094);
+    color: rgb(255, 255, 255);
+    max-width: 300px;
+    height: 652px;
+    left: 5px;
+    top: 55px;
+    -webkit-user-select: text;
+    width: 291px;
+    font-size: 10pt;
+}
+
+#button43 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.273438) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    opacity: 1;
+    height: 37px;
+    margin-top: 0px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    top: 6px;
+    width: 118px;
+    left: 114px;
+}
+
+#button34 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.269531) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    opacity: 1;
+    height: 37px;
+    margin-top: 0px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    width: 118px;
+    top: 7px;
+    left: 116px;
+}
+
+#button44 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.273438) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    opacity: 1;
+    height: 37px;
+    width: 101px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 7px;
+    left: 8px;
 }

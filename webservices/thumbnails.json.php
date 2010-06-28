@@ -25,7 +25,7 @@ if ($eit_bakeout)
 	$index_types_strs = $bakeout_index_types_strs +  + $bakeout_index2_types_strs;
 }
 
-$arm_data_path = "./";
+$arm_data_path = "";
 
 $links=array();
 $fullRes = array();
@@ -54,26 +54,27 @@ for($i=0;$i<count($index_types);$i++)
 	{
 		if($index_types[$i] == 'bake_00195')
 		{
-			$times[]="EIT CCD BAKEOUT";
+			$times[$i]="EIT CCD BAKEOUT";
 		}
 		elseif($index_types[$i] == 'smdi_maglc')
 		{
 			$gongfile="${arm_data_path}data/$date/pngs/thmb/gong_maglc_thumb.png";
 			if (@fopen($gongfile, "r"))
 			{
-				$links[$i] = link_image($gongfile, 220, false);
+				$links[$i] = "http://www.solarmonitor.org/" . $gongfile;
 				$index_types[$i] = 'gong_maglc';
 				list($instrument, $filter) = split('[_]', $index_types[$i],2);
 				$file = find_latest_file($date, $instrument, $filter, 'png', 'fd');
+				$fullRes[] = "http://solarmonitor.org/data/$date/pngs/$instrument/" . $file;
 				if($file !== "No File Found"){
-					$times[]="GONG Mag ".$date." ".substr($file,23,2) . ":" . substr($file,25,2);
+					$times[$i]="GONG Mag ".$date." ".substr($file,23,2) . ":" . substr($file,25,2);
 				} 
 				else { 
-					$times[]="GONG Mag ".$date." ";
+					$times[$i]="GONG Mag ".$date." ";
 				}
 			}
 			else {
-				$times[]="No Time Data Available";
+				$times[$i]="No Time Data Available";
 			}
 		}	
 		elseif($index_types[$i] == 'smdi_igram')
@@ -81,62 +82,65 @@ for($i=0;$i<count($index_types);$i++)
 			$gongintfile="${arm_data_path}data/$date/pngs/thmb/gong_igram_thumb.png";
 			if (@fopen($gongintfile, "r"))
 			{
-				$links[$i] = link_image($gongintfile, 220, false);
+				$links[$i] = "http://www.solarmonitor.org/" . $gongintfile;
 				$index_types[$i] = 'gong_igram';
 				list($instrument, $filter) = split('[_]', $index_types[$i],2);
 				$file = find_latest_file($date, $instrument, $filter, 'png', 'fd');
+				$fullRes[$i] = "http://solarmonitor.org/data/$date/pngs/$instrument/" . $file;
 				if($file !== "No File Found"){
-					$times[]="GONG Cont ".$date." ".substr($file,23,2) . ":" . substr($file,25,2);
+					$times[$i]="GONG Cont ".$date." ".substr($file,23,2) . ":" . substr($file,25,2);
 				}
 				else { 
-					$times[]="GONG Cont ".$date." ";
+					$times[$i]="GONG Cont ".$date." ";
 				}
 
 			}
 			else {
-				$times[]="No Time Data Available";
+				$times[$i]="No Time Data Available";
 			}
 		}
 		elseif($index_types[$i] == 'swap_00171') {
 			if ($eit_bakeout) {
 				$trace171file="${arm_data_path}data/$date/pngs/thmb/trce_m0171_thumb.png";
 				if (@fopen($trace171file, "r")) {
-					$links[$i] = link_image($trace171file, 220, false);
+					$links[$i] = "http://www.solarmonitor.org/" . $trace171file;
 					$index_types[$i] = 'trce_m0171';
 					list($instrument, $filter) = split('[_]', $index_types[$i],2);
 					$file = find_latest_file($date, $instrument, $filter, 'png', 'fd');
+					$fullRes[$i] = "http://solarmonitor.org/data/$date/pngs/$instrument/" . $file;
 					if($file !== "No File Found") {
-						$times[]="TRACE 171&Aring; ".$date." ".substr($file,23,2) . ":" . substr($file,25,2);
+						$times[$i]="TRACE 171&Aring; ".$date." ".substr($file,23,2) . ":" . substr($file,25,2);
 					}
 					else { 
-						$times[]="TRACE 171&Aring; ".$date." ";
+						$times[$i]="TRACE 171&Aring; ".$date." ";
 					}
 				}
 				else {
-					$times[]="No Time Data Available";
+					$times[$i]="No Time Data Available";
 				}
 			}
 			else {
 				$eit171file="${arm_data_path}data/$date/pngs/thmb/seit_00171_thumb.png";
 				if (@fopen($eit171file, "r")) {
-					$links[$i] = link_image($eit171file, 220, false);
+					$links[$i] = "http://www.solarmonitor.org/" . $eit171file;
 					$index_types[$i] = 'seit_00171';
 					list($instrument, $filter) = split('[_]', $index_types[$i],2);
 					$file = find_latest_file($date, $instrument, $filter, 'png', 'fd');
+					$fullRes[$i] = "http://solarmonitor.org/data/$date/pngs/$instrument/" . $file;
 					if($file !== "No File Found") {
-						$times[]="EIT 171&Aring; ".$date." ".substr($file,23,2) . ":" . substr($file,25,2);
+						$times[$i]="EIT 171&Aring; ".$date." ".substr($file,23,2) . ":" . substr($file,25,2);
 					}
 					else { 
-						$times[]="EIT 171&Aring; ".$date." ";
+						$times[$i]="EIT 171&Aring; ".$date." ";
 					}
 				}
 				else {
-					$times[]="No Time Data Available";
+					$times[$i]="No Time Data Available";
 				}
 			}
 		}
 		else {
-			$times[]="No Time Data Available";
+			$times[$i]="No Time Data Available";
 		}
 	}
 	else {
@@ -145,19 +149,19 @@ for($i=0;$i<count($index_types);$i++)
 		$dt = $fdate . " " . substr($time,0,2) . ":" . substr($time,2,2);
 		//$str = $str . " " . date("d-M-Y H:i", strtotime($dt)) . " UT";
 		$str = $str . " " . $fdate . " " . date("H:i", strtotime($dt));
-		$times[]=$str;
+		$times[$i]=$str;
 	}
 }
 
-print("{ imageSources: [ ");
+print("{ \"imageSources\": [ ");
 for ($i=0;$i<count($index_types);$i++)
 {
 	print("{ ");
-	print("time: \"" . html_entity_decode(str_replace("\n", "", $times[$i])) . "\", ");
+	print("\"time\": \"" . addslashes(html_entity_decode(str_replace("\n", "", $times[$i]))) . "\", ");
 
-	print("type: \"" . $index_types[$i] . "\", ");
-	print("image: \"" . $links[$i] . "\", ");
-	print("fullRes: \"" . $fullRes[$i] . "\" ");
+	print("\"type\": \"" . addslashes($index_types[$i]) . "\", ");
+	print("\"image\": \"" . addslashes($links[$i]) . "\", ");
+	print("\"fullRes\": \"" . addslashes($fullRes[$i]) . "\" ");
 	print("}");
 	if($i != count($index_types)-1) print(",");
 }

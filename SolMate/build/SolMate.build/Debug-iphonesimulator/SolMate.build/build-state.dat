@@ -1,0 +1,1660 @@
+TSolMate
+v7
+r0
+t298221036.352229
+cCheck dependencies
+cProcessInfoPlistFile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/Info.plist SolMate-Info.plist
+cCpResource build/Debug-iphonesimulator/SolMate.app/starsBg.png starsBg.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/seit_00171_thumb-1.png seit_00171_thumb-1.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/icon.png ../icon.png
+cCompileXIB /Users/theorie/Development/solarmonitor/SolMate/FlipsideView.xib
+cCompileXIB /Users/theorie/Development/solarmonitor/SolMate/MainView.xib
+cCompileXIB /Users/theorie/Development/solarmonitor/SolMate/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/SolMate.app/default.png default.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/mask.png mask.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/tabSelect.png tabSelect.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/mask.jpg ../mask.jpg
+cCompileXIB /Users/theorie/Development/solarmonitor/SolMate/SMSmallARListCell.xib
+cCpResource build/Debug-iphonesimulator/SolMate.app/filmstrip_grad.png filmstrip_grad.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/images_grad.png images_grad.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/satellite_grad.png satellite_grad.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/more.png more.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/bar.png bar.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/triangle.png triangle.png
+cCompileXIB /Users/theorie/Development/solarmonitor/SolMate/SMListCell.xib
+cCpResource build/Debug-iphonesimulator/SolMate.app/DarkBackground.png DarkBackground.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/LightBackground.png LightBackground.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/default_new.png default_new.png
+cCpResource build/Debug-iphonesimulator/SolMate.app/default_2.png default_2.png
+cCompileXIB /Users/theorie/Development/solarmonitor/SolMate/SMImageDetailView.xib
+cCompileXIB /Users/theorie/Development/solarmonitor/SolMate/SMDateControlView.xib
+cProcessPCH /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch.gch SolMate_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch.pth SolMate_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/main.o /Users/theorie/Development/solarmonitor/SolMate/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMAppDelegate.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonParser.o /Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJSON.o /Users/theorie/Development/solarmonitor/SolMate/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonWriter.o /Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/NSObject+SBJSON.o /Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/NSString+SBJSON.o /Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonBase.o /Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/JSONDataSource.o /Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMMainViewController.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMFlipsideViewController.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMActiveRegionDataSource.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMSmallARListCell.o /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMTabbedViewController.o /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImagesDataSource.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMListCell.o /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMAnimationDataSource.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImageLoader.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImageDetailViewController.o /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMDateControlViewController.o /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/main.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/SBJSON.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m
+cAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m
+cLd /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SolMate normal i386
+cGenerateDSYMFile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app.dSYM /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SolMate
+cTouch /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004B2B4CC300000000000004FE
+t1261128899
+s1278
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004B2B537F000000000000007D
+t1261130623
+s125
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004B2B540C00000000000E5890
+t1261130764
+s940176
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h
+c000000004B2B616900000000000023C7
+t1261134185
+s9159
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
+c000000004B2B4EE200000000000019F9
+t1261129442
+s6649
+
+N/Users/theorie/Development/solarmonitor/SolMate/../icon.png
+c000000004C07B9D200000000000029AE
+t1275574738
+s10670
+
+N/Users/theorie/Development/solarmonitor/SolMate/../mask.jpg
+c000000004C0E33EB0000000000005F7A
+t1275999211
+s24442
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m
+c000000004C1645CD00000000000000EB
+t1276528077
+s235
+i"SMDateControlViewController.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m
+c000000004C162FD000000000000008D9
+t1276522448
+s2265
+i"SMImageDetailViewController.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m
+c000000004C121B3400000000000003BC
+t1276255028
+s956
+i"SMListCell.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m
+c000000004C10CA7900000000000001F9
+t1276168825
+s505
+i"SMSmallARListCell.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m
+c000000004C1631560000000000001C62
+t1276522838
+s7266
+i<QuartzCore/QuartzCore.h>
+i"SMTabbedViewController.h"
+i"SMMainViewController.h"
+i"SMListCell.h"
+i"SMAppDelegate.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.h
+c000000004C10E51E0000000000000421
+t1276175646
+s1057
+i<UIKit/UIKit.h>
+i"JSON.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m
+c000000004C1604F5000000000000098F
+t1276511477
+s2447
+i"JSONDataSource.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/RootViewController.h
+c000000004BFFC4F800000000000001C4
+t1275053304
+s452
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/RootViewController.m
+c000000004BFFC5460000000000001443
+t1275053382
+s5187
+i"RootViewController.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.h
+c000000004C0E44500000000000000172
+t1276003408
+s370
+i<Foundation/Foundation.h>
+i"JSONDataSource.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m
+c000000004C0E46940000000000000268
+t1276003988
+s616
+i"SMActiveRegionDataSource.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.h
+c000000004C12544900000000000001B2
+t1276269641
+s434
+i<Foundation/Foundation.h>
+i"JSONDataSource.h"
+i"SMImageLoader.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m
+c000000004C124F2A00000000000000E6
+t1276268330
+s230
+i"SMAnimationDataSource.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.h
+c000000004C10FB69000000000000035F
+t1276181353
+s863
+i<UIKit/UIKit.h>
+i"SMMainViewController.h"
+i"SMFlipsideViewController.h"
+i"SMActiveRegionDataSource.h"
+i"SMImagesDataSource.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m
+c000000004C10FB5C0000000000000C87
+t1276181340
+s3207
+i<CoreGraphics/CoreGraphics.h>
+i"SMAppDelegate.h"
+i"SMMainViewController.h"
+i"SMTabbedViewController.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.h
+c000000004C0E1556000000000000023A
+t1275991382
+s570
+i<UIKit/UIKit.h>
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m
+c000000004C0E16470000000000000454
+t1275991623
+s1108
+i"SMFlipsideViewController.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.h
+c000000004C16263A00000000000002B0
+t1276519994
+s688
+i<Foundation/Foundation.h>
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m
+c000000004C1253DF00000000000009A1
+t1276269535
+s2465
+i"SMImageLoader.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.h
+c000000004C1626820000000000000230
+t1276520066
+s560
+i<Foundation/Foundation.h>
+i"JSONDataSource.h"
+i"SMImageLoader.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m
+c000000004C12540D0000000000000623
+t1276269581
+s1571
+i"SMImagesDataSource.h"
+i<UIKit/UIKit.h>
+i"SMTabbedViewController.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.h
+c000000004C1645B300000000000005F0
+t1276528051
+s1520
+i"SMFlipsideViewController.h"
+i"JSONDataSource.h"
+i"SMSmallARListCell.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m
+c000000004C16466A00000000000019BE
+t1276528234
+s6590
+i"SMMainViewController.h"
+i"SMSmallARListCell.h"
+i"SMAppDelegate.h"
+i"SMTabbedViewController.h"
+i"SMImageDetailViewController.h"
+i"SMDateControlViewController.h"
+i<CoreGraphics/CoreGraphics.h>
+i<QuartzCore/QuartzCore.h>
+i<UIKit/UIViewController.h>
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SolMateAppDelegate.h
+c000000004BFFA9CA00000000000001D4
+t1275046346
+s468
+i<UIKit/UIKit.h>
+
+N/Users/theorie/Development/solarmonitor/SolMate/Classes/SolMateAppDelegate.m
+c000000004BFFBD720000000000000369
+t1275051378
+s873
+i"SolMateAppDelegate.h"
+i"RootViewController.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/DarkBackground.png
+c000000004A36DAE4000000000000004E
+t1245108964
+s78
+
+N/Users/theorie/Development/solarmonitor/SolMate/FlipsideView.xib
+c000000004C0E0E7C00000000000051AE
+t1275989628
+s20910
+
+N/Users/theorie/Development/solarmonitor/SolMate/ImagesView.xib
+c000000004C10B74A00000000000048B6
+t1276163914
+s18614
+
+N/Users/theorie/Development/solarmonitor/SolMate/JSON.h
+c000000004B93BE5E00000000000008F9
+t1267973726
+s2297
+i"SBJSON.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/LightBackground.png
+c000000004A36DAE4000000000000004E
+t1245108964
+s78
+
+N/Users/theorie/Development/solarmonitor/SolMate/MainView.xib
+c000000004C16462B0000000000013E01
+t1276528171
+s81409
+
+N/Users/theorie/Development/solarmonitor/SolMate/MainWindow.xib
+c000000004C0E1991000000000000414F
+t1275992465
+s16719
+
+N/Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.h
+c000000004B93BE5E0000000000000A01
+t1267973726
+s2561
+i<Foundation/Foundation.h>
+
+N/Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m
+c000000004B93BE5E000000000000089E
+t1267973726
+s2206
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.h
+c000000004C1604DB0000000000000963
+t1276511451
+s2403
+i<Foundation/Foundation.h>
+
+N/Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m
+c000000004C160F070000000000000D10
+t1276514055
+s3344
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/RootViewController.xib
+c000000004BFFC53400000000000064AA
+t1275053364
+s25770
+
+N/Users/theorie/Development/solarmonitor/SolMate/SBJSON.h
+c000000004B93BE5E0000000000000AED
+t1267973726
+s2797
+i<Foundation/Foundation.h>
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/SBJSON.m
+c000000004B93BE5E0000000000001ABC
+t1267973726
+s6844
+i"SBJSON.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.h
+c000000004B93BE5E0000000000000B82
+t1267973726
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m
+c000000004B93BE5E0000000000000AC1
+t1267973726
+s2753
+i"SBJsonBase.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.h
+c000000004B93BE5E0000000000000C0B
+t1267973726
+s3083
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m
+c000000004C0E5CF100000000000036D0
+t1276009713
+s14032
+i"SBJsonParser.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.h
+c000000004B93BE5E0000000000001140
+t1267973726
+s4416
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m
+c000000004B93BE5E0000000000001F26
+t1267973726
+s7974
+i"SBJsonWriter.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/SMDateControlView.xib
+c000000004C16457400000000000063BD
+t1276527988
+s25533
+
+N/Users/theorie/Development/solarmonitor/SolMate/SMDateControlViewController.h
+c000000004C1646110000000000000225
+t1276528145
+s549
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"SMFlipsideViewController.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/SMDateControlViewController.m
+c000000004C1645CD00000000000000EB
+t1276528077
+s235
+i"SMDateControlViewController.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/SMImageDetailView.xib
+c000000004C162C380000000000006DE1
+t1276521528
+s28129
+
+N/Users/theorie/Development/solarmonitor/SolMate/SMImageDetailViewController.h
+c000000004C162B15000000000000030B
+t1276521237
+s779
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"SMFlipsideViewController.h"
+i"SMImageLoader.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/SMListCell.h
+c000000004C121B2B000000000000027B
+t1276255019
+s635
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/theorie/Development/solarmonitor/SolMate/SMListCell.xib
+c000000004C121B3E0000000000007B72
+t1276255038
+s31602
+
+N/Users/theorie/Development/solarmonitor/SolMate/SMSmallARListCell.h
+c000000004C0E4215000000000000013B
+t1276002837
+s315
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Users/theorie/Development/solarmonitor/SolMate/SMSmallARListCell.xib
+c000000004C1247610000000000006AFF
+t1276266337
+s27391
+
+N/Users/theorie/Development/solarmonitor/SolMate/SMTabbedViewController.h
+c000000004C121A740000000000000478
+t1276254836
+s1144
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"JSONDataSource.h"
+
+N/Users/theorie/Development/solarmonitor/SolMate/SolMate_Prefix.pch
+c000000004BFFA9CA0000000000000140
+t1275046346
+s320
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/theorie/Development/solarmonitor/SolMate/bar.png
+c000000004C10B67B0000000000000B2A
+t1276163707
+s2858
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app
+t1276528236
+s1054
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app.dSYM
+t1276528236
+s102
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/DarkBackground.png
+t1276260257
+s78
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/FlipsideView.nib
+t1276260255
+s1719
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/ImagesView.nib
+t1276260257
+s1732
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/Info.plist
+t1276260246
+s655
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/LightBackground.png
+t1276260257
+s78
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/MainView.nib
+t1276528219
+s11355
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/MainWindow.nib
+t1276260256
+s1387
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/PkgInfo
+t1276260246
+s8
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/RootViewController.nib
+t1275053384
+s3460
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SMDateControlView.nib
+t1276528219
+s2796
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SMImageDetailView.nib
+t1276526349
+s3392
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SMListCell.nib
+t1276260257
+s3407
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SMSmallARListCell.nib
+t1276526348
+s2297
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SolMate
+t1276528236
+s98380
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/bar.png
+t1276260256
+s2858
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/default.png
+t1276260255
+s5516
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/default_2.png
+t1276526348
+s32053
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/default_new.png
+t1276260257
+s59758
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/filmstrip_grad.png
+t1276260256
+s2912
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/icon.png
+t1276260246
+s10670
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/images_grad.png
+t1276260256
+s3291
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/mask.jpg
+t1276260256
+s24442
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/mask.png
+t1276260256
+s17274
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/more.png
+t1276260256
+s2961
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/satellite_grad.png
+t1276260256
+s3779
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/seit_00171_thumb-1.png
+t1275051449
+s280853
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/starsBg.png
+t1275046594
+s282613
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/tabSelect.png
+t1276260256
+s3003
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/triangle.png
+t1276260256
+s3008
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/JSONDataSource.o
+t1276526350
+s19500
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/NSObject+SBJSON.o
+t1275050394
+s7744
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/NSString+SBJSON.o
+t1276526350
+s10076
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/RootViewController.o
+t1275053384
+s39040
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJSON.o
+t1275050394
+s16764
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonBase.o
+t1275050394
+s12108
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonParser.o
+t1276260263
+s29820
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonWriter.o
+t1275050394
+s22560
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMActiveRegionDataSource.o
+t1276526350
+s8824
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMAnimationDataSource.o
+t1276526350
+s5420
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMAppDelegate.o
+t1276528220
+s47652
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMDateControlViewController.o
+t1276528220
+s5288
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMFlipsideViewController.o
+t1276260264
+s32296
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImageDetailViewController.o
+t1276526351
+s40392
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImageLoader.o
+t1276526350
+s16996
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImagesDataSource.o
+t1276526350
+s36696
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMListCell.o
+t1276260264
+s21276
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMMainViewController.o
+t1276528236
+s61472
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMSmallARListCell.o
+t1276260264
+s15316
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMTabbedViewController.o
+t1276528220
+s54136
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SolMate.LinkFileList
+c000000004C16465B0000000000000B30
+t1276528219
+s2864
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SolMateAppDelegate.o
+t1275053384
+s40656
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/main.o
+t1275046595
+s5968
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/JSONDataSource.plist
+t1276526352
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/NSObject+SBJSON.plist
+t1276260266
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/NSString+SBJSON.plist
+t1276526352
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SBJSON.plist
+t1276260265
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SBJsonBase.plist
+t1276260266
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SBJsonParser.plist
+t1276260265
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SBJsonWriter.plist
+t1276260265
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMActiveRegionDataSource.plist
+t1276526352
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMAnimationDataSource.plist
+t1276526352
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMAppDelegate.plist
+t1276528220
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMDateControlViewController.plist
+t1276528220
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMFlipsideViewController.plist
+t1276260266
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMImageDetailViewController.plist
+t1276526352
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMImageLoader.plist
+t1276526352
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMImagesDataSource.plist
+t1276526352
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMListCell.plist
+t1276260267
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMMainViewController.plist
+t1276528236
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMSmallARListCell.plist
+t1276260267
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMTabbedViewController.plist
+t1276528220
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/main.plist
+t1276260264
+s275
+
+N/Users/theorie/Development/solarmonitor/SolMate/default.png
+c000000004C0E16B5000000000000158C
+t1275991733
+s5516
+
+N/Users/theorie/Development/solarmonitor/SolMate/default_2.png
+c000000004C161AAB0000000000007D35
+t1276517035
+s32053
+
+N/Users/theorie/Development/solarmonitor/SolMate/default_new.png
+c000000004C110966000000000000E96E
+t1276184934
+s59758
+
+N/Users/theorie/Development/solarmonitor/SolMate/filmstrip_grad.png
+c000000004C0E58F00000000000000B60
+t1276008688
+s2912
+
+N/Users/theorie/Development/solarmonitor/SolMate/images_grad.png
+c000000004C0E2A100000000000000CDB
+t1275996688
+s3291
+
+N/Users/theorie/Development/solarmonitor/SolMate/main.m
+c000000004BFFA9CA000000000000016A
+t1275046346
+s362
+i<UIKit/UIKit.h>
+
+N/Users/theorie/Development/solarmonitor/SolMate/mask.png
+c000000004C0E33C3000000000000437A
+t1275999171
+s17274
+
+N/Users/theorie/Development/solarmonitor/SolMate/more.png
+c000000004C0E5A280000000000000B91
+t1276009000
+s2961
+
+N/Users/theorie/Development/solarmonitor/SolMate/satellite_grad.png
+c000000004C0E59C10000000000000EC3
+t1276008897
+s3779
+
+N/Users/theorie/Development/solarmonitor/SolMate/seit_00171_thumb-1.png
+c000000004BF280960000000000044915
+t1274183830
+s280853
+
+N/Users/theorie/Development/solarmonitor/SolMate/starsBg.png
+c000000004BF288260000000000044FF5
+t1274185766
+s282613
+
+N/Users/theorie/Development/solarmonitor/SolMate/tabSelect.png
+c000000004C0E29520000000000000BBB
+t1275996498
+s3003
+
+N/Users/theorie/Development/solarmonitor/SolMate/triangle.png
+c000000004C10B6710000000000000BC0
+t1276163697
+s3008
+
+N/var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch.pth
+t1276260260
+s1728308
+
+N/var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch.gch
+t1275046595
+s13026768
+
+NSolMate-Info.plist
+c000000004C0E1B6400000000000003BD
+t1275992932
+s957
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m
+s298221020.323303
+e298221020.361871
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m
+lSLF07#2@96"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m298221020#298221020#0(0"0(0#0#88"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m4300911832#2024"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMDateControlViewController.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m
+s298219152.316023
+e298219152.606197
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m
+o/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m:44:22:{44:24-44:28}: warning: incompatible type assigning 'SMImageDetailViewController *', expected 'id<UIScrollViewDelegate>'
+o         scrollView.delegate = self;
+o                             ^ ~~~~
+o1 diagnostic generated.
+lSLF07#2@96"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m298219152#298219152#0(313"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m:44:22:{44:24-44:28}: warning: incompatible type assigning 'SMImageDetailViewController *', expected 'id<UIScrollViewDelegate>'         scrollView.delegate = self;                             ^ ~~~~1 diagnostic generated.0(0#0#88"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m4300911832#2024"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMImageDetailViewController.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m
+s297953067.195754
+e297953067.275408
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m
+lSLF07#2@79"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m297953067#297953067#0(0"0(0#0#71"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m4300911832#1990"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMListCell.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m
+s297953067.108468
+e297953067.190833
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m
+lSLF07#2@86"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m297953067#297953067#0(0"0(0#0#78"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m4300911832#2004"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMSmallARListCell.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m
+s298221020.264876
+e298221020.322894
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m
+lSLF07#2@91"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m298221020#298221020#0(0"0(0#0#83"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m4300911832#2014"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMTabbedViewController.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m
+s298219152.061004
+e298219152.112400
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m
+lSLF07#2@80"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m298219152#298219152#0(0"0(0#0#72"/Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m4300911832#1995"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/JSONDataSource.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m
+s298219152.158807
+e298219152.189958
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m
+lSLF07#2@90"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m298219152#298219152#0(0"0(0#0#82"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m4300911832#2015"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMActiveRegionDataSource.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m
+s298219152.255189
+e298219152.315935
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m
+o/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:12:1: warning: incomplete implementation
+o @implementation SMAnimationDataSource
+o ^
+o/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:12:1: warning: method definition for 'imageLoaderDidProgress:' not found
+o/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:12:1: warning: method definition for 'imageLoaderDidComplete:' not found
+o3 diagnostics generated.
+lSLF07#2@87"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m298219152#298219152#0(494"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:12:1: warning: incomplete implementation @implementation SMAnimationDataSource ^/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:12:1: warning: method definition for 'imageLoaderDidProgress:' not found/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:12:1: warning: method definition for 'imageLoaderDidComplete:' not found3 diagnostics generated.0(0#0#79"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m4300911832#2009"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMAnimationDataSource.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m
+s298221020.123009
+e298221020.172872
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m
+lSLF07#2@79"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m298221020#298221020#0(0"0(0#0#71"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m4300911832#1993"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMAppDelegate.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m
+s297953066.862081
+e297953066.988760
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m
+lSLF07#2@90"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m297953066#297953066#0(0"0(0#0#82"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m4300911832#2015"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMFlipsideViewController.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m
+s298219152.293230
+e298219152.339807
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m
+lSLF07#2@79"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m298219152#298219152#0(0"0(0#0#71"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m4300911832#1993"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMImageLoader.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m
+s298219152.242235
+e298219152.293139
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m
+lSLF07#2@84"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m298219152#298219152#0(0"0(0#0#76"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m4300911832#2003"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMImagesDataSource.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m
+s298221036.059852
+e298221036.117147
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m
+lSLF07#2@86"Analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m298221036#298221036#0(0"0(0#0#78"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m4300911832#2007"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SMMainViewController.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m
+s297953065.976259
+e297953066.185181
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m
+lSLF07#2@73"Analyze /Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m297953065#297953066#0(0"0(0#0#65"/Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m4300911832#1989"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/NSObject+SBJSON.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m
+s298219151.974365
+e298219152.060833
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m
+lSLF07#2@73"Analyze /Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m298219151#298219152#0(0"0(0#0#65"/Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m4300911832#1989"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/NSString+SBJSON.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/SBJSON.m
+s297953065.397303
+e297953065.642315
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/SBJSON.m
+lSLF07#2@64"Analyze /Users/theorie/Development/solarmonitor/SolMate/SBJSON.m297953065#297953065#0(0"0(0#0#56"/Users/theorie/Development/solarmonitor/SolMate/SBJSON.m4300911832#1971"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/SBJSON.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SBJSON.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m
+s297953066.522373
+e297953066.625856
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m
+lSLF07#2@68"Analyze /Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m297953066#297953066#0(0"0(0#0#60"/Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m4300911832#1979"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SBJsonBase.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m
+s297953065.017408
+e297953065.397075
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m
+lSLF07#2@70"Analyze /Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m297953065#297953065#0(0"0(0#0#62"/Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m4300911832#1983"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SBJsonParser.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m
+s297953065.642430
+e297953065.976156
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m
+lSLF07#2@70"Analyze /Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m297953065#297953065#0(0"0(0#0#62"/Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m4300911832#1983"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/SBJsonWriter.plist0#
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/SMDateControlViewController.m
+r0
+
+CAnalyze /Users/theorie/Development/solarmonitor/SolMate/main.m
+s297953064.658425
+e297953064.949659
+r1
+xAnalyze
+x/Users/theorie/Development/solarmonitor/SolMate/main.m
+lSLF07#2@62"Analyze /Users/theorie/Development/solarmonitor/SolMate/main.m297953064#297953064#0(0"0(0#0#54"/Users/theorie/Development/solarmonitor/SolMate/main.m4300911832#1967"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch --analyze /Users/theorie/Development/solarmonitor/SolMate/main.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/StaticAnalyzer/normal/i386/main.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies298221035#298221035#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/JSONDataSource.o /Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298219150.202670
+e298219150.316628
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/JSONDataSource.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m298219150#298219150#0(0"0(0#0#72"/Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m4300911832#1986"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/JSONDataSource.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/JSONDataSource.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/NSObject+SBJSON.o /Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296743194.353761
+e296743194.422063
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m296743194#296743194#0(0"0(0#0#65"/Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m4300911832#1980"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/NSObject+SBJSON.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/NSString+SBJSON.o /Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298219149.148941
+e298219150.202302
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m298219149#298219150#0(0"0(0#0#65"/Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m4300911832#1980"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/NSString+SBJSON.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/RootViewController.o /Users/theorie/Development/solarmonitor/SolMate/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296746184.552016
+e296746184.722800
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/RootViewController.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/theorie/Development/solarmonitor/SolMate/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':
+o/Users/theorie/Development/solarmonitor/SolMate/Classes/RootViewController.m:87: warning: local declaration of 'tableView' hides instance variable
+lSLF07#2@84"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/RootViewController.m296746184#296746184#0(295"/Users/theorie/Development/solarmonitor/SolMate/Classes/RootViewController.m: In function '-[RootViewController tableView:cellForRowAtIndexPath:]':/Users/theorie/Development/solarmonitor/SolMate/Classes/RootViewController.m:87: warning: local declaration of 'tableView' hides instance variable1(22@56"Local declaration of 'tableView' hides instance variable296746184#148#147#0(6@76"/Users/theorie/Development/solarmonitor/SolMate/Classes/RootViewController.m296746182#87#0#87#0#0"0(0#0#76"/Users/theorie/Development/solarmonitor/SolMate/Classes/RootViewController.m4300911832#1994"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/RootViewController.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJSON.o /Users/theorie/Development/solarmonitor/SolMate/SBJSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296743194.226660
+e296743194.301494
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJSON.o
+x/Users/theorie/Development/solarmonitor/SolMate/SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/theorie/Development/solarmonitor/SolMate/SBJSON.m296743194#296743194#0(0"0(0#0#56"/Users/theorie/Development/solarmonitor/SolMate/SBJSON.m4300911832#1962"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/SBJSON.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJSON.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonBase.o /Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296743194.448715
+e296743194.523738
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonBase.o
+x/Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m296743194#296743194#0(0"0(0#0#60"/Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m4300911832#1970"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/SBJsonBase.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonParser.o /Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297953060.647909
+e297953063.645866
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonParser.o
+x/Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m297953060#297953063#0(0"0(0#0#62"/Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m4300911832#1974"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/SBJsonParser.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonWriter.o /Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296743194.301602
+e296743194.448606
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m296743194#296743194#0(0"0(0#0#62"/Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m4300911832#1974"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/SBJsonWriter.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMActiveRegionDataSource.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298219150.316835
+e298219150.427252
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMActiveRegionDataSource.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m298219150#298219150#0(0"0(0#0#82"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m4300911832#2006"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/SMActiveRegionDataSource.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMActiveRegionDataSource.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMAnimationDataSource.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298219150.639698
+e298219150.939735
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMAnimationDataSource.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:14: warning: incomplete implementation of class 'SMAnimationDataSource'
+o/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:14: warning: method definition for '-imageLoaderDidComplete:' not found
+o/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:14: warning: method definition for '-imageLoaderDidProgress:' not found
+o/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:14: warning: class 'SMAnimationDataSource' does not fully implement the 'SMImageLoaderDelegate' protocol
+lSLF07#2@87"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m298219150#298219150#0(641"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:14: warning: incomplete implementation of class 'SMAnimationDataSource'/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:14: warning: method definition for '-imageLoaderDidComplete:' not found/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:14: warning: method definition for '-imageLoaderDidProgress:' not found/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m:14: warning: class 'SMAnimationDataSource' does not fully implement the 'SMImageLoaderDelegate' protocol4(22@58"Incomplete implementation of class 'SMAnimationDataSource'298219150#0#152#0(6@79"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m297961130#14#0#14#0#38"incomplete implementation of class '*'0(22@58"Method definition for '-imageLoaderDidComplete:' not found298219150#152#152#0(6@79"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m297961130#14#0#14#0#35"method definition for '*' not found0(22@58"Method definition for '-imageLoaderDidProgress:' not found298219150#304#152#0(6@79"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m297961130#14#0#14#0#35"method definition for '*' not found0(22@91"Class 'SMAnimationDataSource' does not fully implement the 'SMImageLoaderDelegate' protocol298219150#456#185#0(6@79"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m297961130#14#0#14#0#51"class '*' does not fully implement the '*' protocol0(0#0#79"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m4300911832#2000"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAnimationDataSource.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMAnimationDataSource.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMAppDelegate.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298221019.901500
+e298221020.021358
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMAppDelegate.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m298221019#298221020#0(0"0(0#0#71"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m4300911832#1984"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/SMAppDelegate.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMAppDelegate.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMDateControlViewController.o /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298221020.067898
+e298221020.122841
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMDateControlViewController.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@96"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m298221020#298221020#0(0"0(0#0#88"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m4300911832#2015"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMDateControlViewController.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMDateControlViewController.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMDateControlViewController.o /Users/theorie/Development/solarmonitor/SolMate/SMDateControlViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMFlipsideViewController.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297953063.867942
+e297953064.078429
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMFlipsideViewController.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m297953063#297953064#0(0"0(0#0#82"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m4300911832#2006"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/SMFlipsideViewController.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMFlipsideViewController.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImageDetailViewController.o /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298219150.939845
+e298219151.035434
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImageDetailViewController.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m: In function '-[SMImageDetailViewController imageLoaderDidProgress:]':
+o/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m:44: warning: class 'SMImageDetailViewController' does not implement the 'UIScrollViewDelegate' protocol
+lSLF07#2@96"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m298219150#298219151#0(353"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m: In function '-[SMImageDetailViewController imageLoaderDidProgress:]':/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m:44: warning: class 'SMImageDetailViewController' does not implement the 'UIScrollViewDelegate' protocol1(22@90"Class 'SMImageDetailViewController' does not implement the 'UIScrollViewDelegate' protocol298219150#160#193#0(6@88"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m298215248#44#0#44#0#45"class '*' does not implement the '*' protocol0(0#0#88"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m4300911832#2015"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMImageDetailViewController.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImageDetailViewController.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImageLoader.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298219150.658814
+e298219150.982744
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImageLoader.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m298219150#298219150#0(0"0(0#0#71"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m4300911832#1984"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImageLoader.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImageLoader.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImagesDataSource.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298219150.562897
+e298219150.658708
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImagesDataSource.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m298219150#298219150#0(0"0(0#0#76"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m4300911832#1994"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/SMImagesDataSource.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMImagesDataSource.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMListCell.o /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297953064.418735
+e297953064.658135
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMListCell.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m297953064#297953064#0(0"0(0#0#71"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m4300911832#1981"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMListCell.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMListCell.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMMainViewController.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298221035.982540
+e298221036.186578
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMMainViewController.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m298221035#298221036#0(0"0(0#0#78"/Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m4300911832#1998"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/SMMainViewController.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMMainViewController.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMSmallARListCell.o /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297953064.078535
+e297953064.262827
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMSmallARListCell.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m297953064#297953064#0(0"0(0#0#78"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m4300911832#1995"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMSmallARListCell.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMSmallARListCell.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMTabbedViewController.o /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s298221020.021708
+e298221020.351631
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMTabbedViewController.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m298221020#298221020#0(0"0(0#0#83"/Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m4300911832#2005"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/../SMTabbedViewController.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SMTabbedViewController.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SolMateAppDelegate.o /Users/theorie/Development/solarmonitor/SolMate/Classes/SolMateAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296746184.550744
+e296746184.672762
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SolMateAppDelegate.o
+x/Users/theorie/Development/solarmonitor/SolMate/Classes/SolMateAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/theorie/Development/solarmonitor/SolMate/Classes/SolMateAppDelegate.m296746184#296746184#0(0"0(0#0#76"/Users/theorie/Development/solarmonitor/SolMate/Classes/SolMateAppDelegate.m4300911832#1994"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/Classes/SolMateAppDelegate.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SolMateAppDelegate.o0#
+
+CCompileC build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/main.o /Users/theorie/Development/solarmonitor/SolMate/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296739395.230004
+e296739395.295720
+r1
+xCompileC
+xbuild/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/main.o
+x/Users/theorie/Development/solarmonitor/SolMate/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/theorie/Development/solarmonitor/SolMate/main.m296739395#296739395#0(0"0(0#0#54"/Users/theorie/Development/solarmonitor/SolMate/main.m4300911832#1958"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch -c /Users/theorie/Development/solarmonitor/SolMate/main.m -o /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/theorie/Development/solarmonitor/SolMate/FlipsideView.xib
+s297953052.724718
+e297953055.505294
+r1
+xCompileXIB
+x/Users/theorie/Development/solarmonitor/SolMate/FlipsideView.xib
+lSLF07#2@27"CompileXIB FlipsideView.xib297953052#297953055#0(0"0(0#0#64"/Users/theorie/Development/solarmonitor/SolMate/FlipsideView.xib4300911832#513"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/FlipsideView.nib /Users/theorie/Development/solarmonitor/SolMate/FlipsideView.xib0#
+
+CCompileXIB /Users/theorie/Development/solarmonitor/SolMate/ImagesView.xib
+s297953056.373859
+e297953057.307673
+r1
+xCompileXIB
+x/Users/theorie/Development/solarmonitor/SolMate/ImagesView.xib
+lSLF07#2@25"CompileXIB ImagesView.xib297953056#297953057#0(0"0(0#0#62"/Users/theorie/Development/solarmonitor/SolMate/ImagesView.xib4300911832#509"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/ImagesView.nib /Users/theorie/Development/solarmonitor/SolMate/ImagesView.xib0#
+
+CCompileXIB /Users/theorie/Development/solarmonitor/SolMate/MainView.xib
+s298221019.249692
+e298221019.901087
+r1
+xCompileXIB
+x/Users/theorie/Development/solarmonitor/SolMate/MainView.xib
+lSLF07#2@23"CompileXIB MainView.xib298221019#298221019#0(0"0(0#0#60"/Users/theorie/Development/solarmonitor/SolMate/MainView.xib4300911832#505"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/MainView.nib /Users/theorie/Development/solarmonitor/SolMate/MainView.xib0#
+
+CCompileXIB /Users/theorie/Development/solarmonitor/SolMate/MainWindow.xib
+s297953055.505520
+e297953056.367491
+r1
+xCompileXIB
+x/Users/theorie/Development/solarmonitor/SolMate/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib297953055#297953056#0(0"0(0#0#62"/Users/theorie/Development/solarmonitor/SolMate/MainWindow.xib4300911832#509"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/MainWindow.nib /Users/theorie/Development/solarmonitor/SolMate/MainWindow.xib0#
+
+CCompileXIB /Users/theorie/Development/solarmonitor/SolMate/RootViewController.xib
+s296746184.012743
+e296746184.550321
+r1
+xCompileXIB
+x/Users/theorie/Development/solarmonitor/SolMate/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib296746184#296746184#0(0"0(0#0#70"/Users/theorie/Development/solarmonitor/SolMate/RootViewController.xib4300911832#525"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/RootViewController.nib /Users/theorie/Development/solarmonitor/SolMate/RootViewController.xib0#
+
+CCompileXIB /Users/theorie/Development/solarmonitor/SolMate/SMDateControlView.xib
+s298221019.252757
+e298221019.642042
+r1
+xCompileXIB
+x/Users/theorie/Development/solarmonitor/SolMate/SMDateControlView.xib
+lSLF07#2@32"CompileXIB SMDateControlView.xib298221019#298221019#0(0"0(0#0#69"/Users/theorie/Development/solarmonitor/SolMate/SMDateControlView.xib4300911832#523"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SMDateControlView.nib /Users/theorie/Development/solarmonitor/SolMate/SMDateControlView.xib0#
+
+CCompileXIB /Users/theorie/Development/solarmonitor/SolMate/SMImageDetailView.xib
+s298219148.700383
+e298219149.146829
+r1
+xCompileXIB
+x/Users/theorie/Development/solarmonitor/SolMate/SMImageDetailView.xib
+lSLF07#2@32"CompileXIB SMImageDetailView.xib298219148#298219149#0(0"0(0#0#69"/Users/theorie/Development/solarmonitor/SolMate/SMImageDetailView.xib4300911832#523"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SMImageDetailView.nib /Users/theorie/Development/solarmonitor/SolMate/SMImageDetailView.xib0#
+
+CCompileXIB /Users/theorie/Development/solarmonitor/SolMate/SMListCell.xib
+s297953056.699152
+e297953057.474447
+r1
+xCompileXIB
+x/Users/theorie/Development/solarmonitor/SolMate/SMListCell.xib
+lSLF07#2@25"CompileXIB SMListCell.xib297953056#297953057#0(0"0(0#0#62"/Users/theorie/Development/solarmonitor/SolMate/SMListCell.xib4300911832#509"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SMListCell.nib /Users/theorie/Development/solarmonitor/SolMate/SMListCell.xib0#
+
+CCompileXIB /Users/theorie/Development/solarmonitor/SolMate/SMSmallARListCell.xib
+s298219148.160887
+e298219148.698100
+r1
+xCompileXIB
+x/Users/theorie/Development/solarmonitor/SolMate/SMSmallARListCell.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/theorie/Development/solarmonitor/SolMate/SMSmallARListCell.xib:-1: warning: The '_tmpCell' outlet of 'File's Owner' is connected to 'SmallAR List Cell (SmallARListCell)' but '_tmpCell' is no longer defined on SMMainViewController.
+lSLF07#2@32"CompileXIB SMSmallARListCell.xib298219148#298219148#0(279"/* com.apple.ibtool.document.warnings *//Users/theorie/Development/solarmonitor/SolMate/SMSmallARListCell.xib:-1: warning: The '_tmpCell' outlet of 'File's Owner' is connected to 'SmallAR List Cell (SmallARListCell)' but '_tmpCell' is no longer defined on SMMainViewController.1(22@154"The '_tmpCell' outlet of 'File's Owner' is connected to 'SmallAR List Cell (SmallARListCell)' but '_tmpCell' is no longer defined on SMMainViewController.298219148#18446744073709551615#0#0(6@69"/Users/theorie/Development/solarmonitor/SolMate/SMSmallARListCell.xib297959137#18446744073709551615#0#18446744073709551615#0#0"0(0#0#69"/Users/theorie/Development/solarmonitor/SolMate/SMSmallARListCell.xib4300911832#523"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SMSmallARListCell.nib /Users/theorie/Development/solarmonitor/SolMate/SMSmallARListCell.xib0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/DarkBackground.png DarkBackground.png
+s297953057.307925
+e297953057.379368
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/DarkBackground.png
+xDarkBackground.png
+lSLF07#2@23"Copy DarkBackground.png297953057#297953057#0(0"0(0#0#66"/Users/theorie/Development/solarmonitor/SolMate/DarkBackground.png4300911832#489"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/DarkBackground.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/LightBackground.png LightBackground.png
+s297953057.309002
+e297953057.446621
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/LightBackground.png
+xLightBackground.png
+lSLF07#2@24"Copy LightBackground.png297953057#297953057#0(0"0(0#0#67"/Users/theorie/Development/solarmonitor/SolMate/LightBackground.png4300911832#490"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/LightBackground.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/bar.png bar.png
+s297953056.697703
+e297953056.777238
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/bar.png
+xbar.png
+lSLF07#2@12"Copy bar.png297953056#297953056#0(0"0(0#0#55"/Users/theorie/Development/solarmonitor/SolMate/bar.png4300911832#478"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/bar.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/default.png default.png
+s297953055.948931
+e297953055.988798
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/default.png
+xdefault.png
+lSLF07#2@16"Copy default.png297953055#297953055#0(0"0(0#0#59"/Users/theorie/Development/solarmonitor/SolMate/default.png4300911832#482"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/default.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/default_2.png default_2.png
+s298219148.699164
+e298219148.748449
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/default_2.png
+xdefault_2.png
+lSLF07#2@18"Copy default_2.png298219148#298219148#0(0"0(0#0#61"/Users/theorie/Development/solarmonitor/SolMate/default_2.png4300911832#484"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/default_2.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/default_new.png default_new.png
+s297953057.310839
+e297953057.446874
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/default_new.png
+xdefault_new.png
+lSLF07#2@20"Copy default_new.png297953057#297953057#0(0"0(0#0#63"/Users/theorie/Development/solarmonitor/SolMate/default_new.png4300911832#486"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/default_new.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/filmstrip_grad.png filmstrip_grad.png
+s297953056.367580
+e297953056.523631
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/filmstrip_grad.png
+xfilmstrip_grad.png
+lSLF07#2@23"Copy filmstrip_grad.png297953056#297953056#0(0"0(0#0#66"/Users/theorie/Development/solarmonitor/SolMate/filmstrip_grad.png4300911832#489"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/filmstrip_grad.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/icon.png ../icon.png
+s297953046.079251
+e297953046.707477
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/icon.png
+x../icon.png
+lSLF07#2@16"Copy ../icon.png297953046#297953046#0(0"0(0#0#59"/Users/theorie/Development/solarmonitor/SolMate/../icon.png4300911832#482"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/../icon.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/images_grad.png images_grad.png
+s297953056.370288
+e297953056.491459
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/images_grad.png
+ximages_grad.png
+lSLF07#2@20"Copy images_grad.png297953056#297953056#0(0"0(0#0#63"/Users/theorie/Development/solarmonitor/SolMate/images_grad.png4300911832#486"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/images_grad.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/mask.jpg ../mask.jpg
+s297953055.957535
+e297953056.105540
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/mask.jpg
+x../mask.jpg
+lSLF07#2@16"Copy ../mask.jpg297953055#297953056#0(0"0(0#0#59"/Users/theorie/Development/solarmonitor/SolMate/../mask.jpg4300911832#482"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/../mask.jpg /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/mask.png mask.png
+s297953055.950282
+e297953056.018190
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/mask.png
+xmask.png
+lSLF07#2@13"Copy mask.png297953055#297953056#0(0"0(0#0#56"/Users/theorie/Development/solarmonitor/SolMate/mask.png4300911832#479"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/mask.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/more.png more.png
+s297953056.372623
+e297953056.491783
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/more.png
+xmore.png
+lSLF07#2@13"Copy more.png297953056#297953056#0(0"0(0#0#56"/Users/theorie/Development/solarmonitor/SolMate/more.png4300911832#479"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/more.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/satellite_grad.png satellite_grad.png
+s297953056.371390
+e297953056.491646
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/satellite_grad.png
+xsatellite_grad.png
+lSLF07#2@23"Copy satellite_grad.png297953056#297953056#0(0"0(0#0#66"/Users/theorie/Development/solarmonitor/SolMate/satellite_grad.png4300911832#489"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/satellite_grad.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/seit_00171_thumb-1.png seit_00171_thumb-1.png
+s296744249.217427
+e296744249.257592
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/seit_00171_thumb-1.png
+xseit_00171_thumb-1.png
+lSLF07#2@27"Copy seit_00171_thumb-1.png296744249#296744249#0(0"0(0#0#70"/Users/theorie/Development/solarmonitor/SolMate/seit_00171_thumb-1.png4300911832#493"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/seit_00171_thumb-1.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/starsBg.png starsBg.png
+s296739394.476550
+e296739394.482960
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/starsBg.png
+xstarsBg.png
+lSLF07#2@16"Copy starsBg.png296739394#296739394#0(0"0(0#0#59"/Users/theorie/Development/solarmonitor/SolMate/starsBg.png4300911832#482"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/starsBg.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/tabSelect.png tabSelect.png
+s297953055.955964
+e297953056.018472
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/tabSelect.png
+xtabSelect.png
+lSLF07#2@18"Copy tabSelect.png297953055#297953056#0(0"0(0#0#61"/Users/theorie/Development/solarmonitor/SolMate/tabSelect.png4300911832#484"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/tabSelect.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CCpResource build/Debug-iphonesimulator/SolMate.app/triangle.png triangle.png
+s297953056.698481
+e297953056.759461
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SolMate.app/triangle.png
+xtriangle.png
+lSLF07#2@17"Copy triangle.png297953056#297953056#0(0"0(0#0#60"/Users/theorie/Development/solarmonitor/SolMate/triangle.png4300911832#483"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/theorie/Development/solarmonitor/SolMate/triangle.png /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+
+CGenerateDSYMFile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app.dSYM /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SolMate
+s298221036.314586
+e298221036.349143
+r1
+xGenerateDSYMFile
+x/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app.dSYM
+x/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SolMate
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/SolMate.app.dSYM build/Debug-iphonesimulator/SolMate.app/SolMate298221036#298221036#0(0"0(0#0#95"/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SolMate4300911832#410"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SolMate -o /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app.dSYM0#
+
+CLd /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SolMate normal i386
+s298221036.186666
+e298221036.314478
+r1
+xLd
+x/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SolMate
+xnormal
+xi386
+lSLF07#2@100"Link /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SolMate298221036#298221036#0(0"0(0#0#0"4300911832#931"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -filelist /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/Objects-normal/i386/SolMate.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -o /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/SolMate0#
+
+CProcessInfoPlistFile /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/Info.plist SolMate-Info.plist
+s297953046.008370
+e297953046.078915
+r1
+xProcessInfoPlistFile
+x/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/Info.plist
+xSolMate-Info.plist
+lSLF07#2@26"Process SolMate-Info.plist297953046#297953046#0(0"0(0#0#66"/Users/theorie/Development/solarmonitor/SolMate/SolMate-Info.plist4300911832#506"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SolMate-Info.plist -genpkginfo /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app/Info.plist0#
+
+CProcessPCH /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch.pth SolMate_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s297953057.474729
+e297953060.589984
+r1
+xProcessPCH
+x/var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch.pth
+xSolMate_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@29"Precompile SolMate_Prefix.pch297953057#297953060#0(0"0(0#0#66"/Users/theorie/Development/solarmonitor/SolMate/SolMate_Prefix.pch4300911832#1832"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -c /Users/theorie/Development/solarmonitor/SolMate/SolMate_Prefix.pch -o /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-fjywpkiyveifiwhhpeljtjldtgld/SolMate_Prefix.pch.pth0#
+
+CProcessPCH /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch.gch SolMate_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s296739394.522505
+e296739395.229897
+r1
+xProcessPCH
+x/var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch.gch
+xSolMate_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile SolMate_Prefix.pch296739394#296739395#0(0"0(0#0#66"/Users/theorie/Development/solarmonitor/SolMate/SolMate_Prefix.pch4300911832#1841"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-generated-files.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/SolMate-project-headers.hmap -F/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/SolMate/build/SolMate.build/Debug-iphonesimulator/SolMate.build/DerivedSources -c /Users/theorie/Development/solarmonitor/SolMate/SolMate_Prefix.pch -o /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SolMate_Prefix-gvancvcwwhhuptgllqddpypmpuzf/SolMate_Prefix.pch.gch0#
+
+CTouch /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app
+s298221036.349234
+e298221036.352181
+r1
+xTouch
+x/Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app
+lSLF07#2@93"Touch /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app298221036#298221036#0(0"0(0#0#0"4300911832#296"    cd /Users/theorie/Development/solarmonitor/SolMate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/theorie/Development/solarmonitor/SolMate/build/Debug-iphonesimulator/SolMate.app0#
+

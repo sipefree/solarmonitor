@@ -1,0 +1,313 @@
+TUtilityTest
+v7
+r0
+t297682440.083211
+cCheck dependencies
+cProcessInfoPlistFile /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/Info.plist UtilityTest-Info.plist
+cCompileXIB /Users/theorie/Development/solarmonitor/UtilityTest/FlipsideView.xib
+cCompileXIB /Users/theorie/Development/solarmonitor/UtilityTest/MainView.xib
+cCompileXIB /Users/theorie/Development/solarmonitor/UtilityTest/MainWindow.xib
+cProcessPCH /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UtilityTest_Prefix-dbpmdgpmsrkhwrdzlrvrorwoiagr/UtilityTest_Prefix.pch.gch UtilityTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/main.o /Users/theorie/Development/solarmonitor/UtilityTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/UtilityTestAppDelegate.o /Users/theorie/Development/solarmonitor/UtilityTest/Classes/UtilityTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/MainViewController.o /Users/theorie/Development/solarmonitor/UtilityTest/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/FlipsideViewController.o /Users/theorie/Development/solarmonitor/UtilityTest/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/UtilityTest normal i386
+cGenerateDSYMFile /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app.dSYM /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/UtilityTest
+cTouch /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk
+c000000004B69B45C00000000000000EE
+t1265218652
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004B2B4CC3000000000026EE30
+t1261128899
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B2B4DC8000000000027E880
+t1261129160
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B2B4DAE0000000000001355
+t1261129134
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004B2B61620000000000000788
+t1261134178
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004B2B62B500000000016721E0
+t1261134517
+s23536096
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk/usr/include/Availability.h
+c000000004B2B4EE200000000000019F9
+t1261129442
+s6649
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/Classes/FlipsideViewController.h
+c000000004C0E0E7C000000000000022C
+t1275989628
+s556
+i<UIKit/UIKit.h>
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/Classes/FlipsideViewController.m
+c000000004C0E0E7C0000000000000450
+t1275989628
+s1104
+i"FlipsideViewController.h"
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/Classes/MainViewController.h
+c000000004C0E0E7C000000000000012E
+t1275989628
+s302
+i"FlipsideViewController.h"
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/Classes/MainViewController.m
+c000000004C0E0E7C00000000000006AB
+t1275989628
+s1707
+i"MainViewController.h"
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/Classes/UtilityTestAppDelegate.h
+c000000004C0E0E7C00000000000001E2
+t1275989628
+s482
+i<UIKit/UIKit.h>
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/Classes/UtilityTestAppDelegate.m
+c000000004C0E0E7C0000000000000375
+t1275989628
+s885
+i"UtilityTestAppDelegate.h"
+i"MainViewController.h"
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/FlipsideView.xib
+c000000004C0E0E7C00000000000051AE
+t1275989628
+s20910
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/MainView.xib
+c000000004C0E0E7C0000000000004B6C
+t1275989628
+s19308
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/MainWindow.xib
+c000000004C0E0E7C0000000000001FD5
+t1275989628
+s8149
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/UtilityTest_Prefix.pch
+c000000004C0E0E7C0000000000000148
+t1275989628
+s328
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app
+t1275989640
+s272
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app.dSYM
+t1275989640
+s102
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/FlipsideView.nib
+t1275989637
+s1719
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/Info.plist
+t1275989636
+s609
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/MainView.nib
+t1275989636
+s1963
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/MainWindow.nib
+t1275989637
+s1398
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/PkgInfo
+t1275989636
+s8
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/UtilityTest
+t1275989640
+s21588
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/FlipsideViewController.o
+t1275989639
+s32256
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/MainViewController.o
+t1275989639
+s32628
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/UtilityTest.LinkFileList
+c000000004C0E0E84000000000000026E
+t1275989636
+s622
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/UtilityTestAppDelegate.o
+t1275989639
+s39412
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/main.o
+t1275989639
+s5976
+
+N/Users/theorie/Development/solarmonitor/UtilityTest/main.m
+c000000004C0E0E7C000000000000016E
+t1275989628
+s366
+i<UIKit/UIKit.h>
+
+N/var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UtilityTest_Prefix-dbpmdgpmsrkhwrdzlrvrorwoiagr/UtilityTest_Prefix.pch.gch
+t1275989639
+s13026768
+
+NUtilityTest-Info.plist
+c000000004C0E0E7C000000000000038D
+t1275989628
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies297682435#297682436#0(0"0(0#1#0"31244212048494624#0"0#
+
+CCompileC build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/FlipsideViewController.o /Users/theorie/Development/solarmonitor/UtilityTest/Classes/FlipsideViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297682439.361569
+e297682439.447039
+r1
+xCompileC
+xbuild/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/FlipsideViewController.o
+x/Users/theorie/Development/solarmonitor/UtilityTest/Classes/FlipsideViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/theorie/Development/solarmonitor/UtilityTest/Classes/FlipsideViewController.m297682439#297682439#0(0"0(0#0#84"/Users/theorie/Development/solarmonitor/UtilityTest/Classes/FlipsideViewController.m4300911832#2126"    cd /Users/theorie/Development/solarmonitor/UtilityTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-generated-files.hmap -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-project-headers.hmap -F/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UtilityTest_Prefix-dbpmdgpmsrkhwrdzlrvrorwoiagr/UtilityTest_Prefix.pch -c /Users/theorie/Development/solarmonitor/UtilityTest/Classes/FlipsideViewController.m -o /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/FlipsideViewController.o0#
+
+CCompileC build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/MainViewController.o /Users/theorie/Development/solarmonitor/UtilityTest/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297682439.337206
+e297682439.435007
+r1
+xCompileC
+xbuild/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/MainViewController.o
+x/Users/theorie/Development/solarmonitor/UtilityTest/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/theorie/Development/solarmonitor/UtilityTest/Classes/MainViewController.m297682439#297682439#0(0"0(0#0#80"/Users/theorie/Development/solarmonitor/UtilityTest/Classes/MainViewController.m4300911832#2118"    cd /Users/theorie/Development/solarmonitor/UtilityTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-generated-files.hmap -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-project-headers.hmap -F/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UtilityTest_Prefix-dbpmdgpmsrkhwrdzlrvrorwoiagr/UtilityTest_Prefix.pch -c /Users/theorie/Development/solarmonitor/UtilityTest/Classes/MainViewController.m -o /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/MainViewController.o0#
+
+CCompileC build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/UtilityTestAppDelegate.o /Users/theorie/Development/solarmonitor/UtilityTest/Classes/UtilityTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297682439.173936
+e297682439.361465
+r1
+xCompileC
+xbuild/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/UtilityTestAppDelegate.o
+x/Users/theorie/Development/solarmonitor/UtilityTest/Classes/UtilityTestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@92"Compile /Users/theorie/Development/solarmonitor/UtilityTest/Classes/UtilityTestAppDelegate.m297682439#297682439#0(0"0(0#0#84"/Users/theorie/Development/solarmonitor/UtilityTest/Classes/UtilityTestAppDelegate.m4300911832#2126"    cd /Users/theorie/Development/solarmonitor/UtilityTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-generated-files.hmap -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-project-headers.hmap -F/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UtilityTest_Prefix-dbpmdgpmsrkhwrdzlrvrorwoiagr/UtilityTest_Prefix.pch -c /Users/theorie/Development/solarmonitor/UtilityTest/Classes/UtilityTestAppDelegate.m -o /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/UtilityTestAppDelegate.o0#
+
+CCompileC build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/main.o /Users/theorie/Development/solarmonitor/UtilityTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s297682439.172563
+e297682439.337101
+r1
+xCompileC
+xbuild/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/main.o
+x/Users/theorie/Development/solarmonitor/UtilityTest/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/theorie/Development/solarmonitor/UtilityTest/main.m297682439#297682439#0(0"0(0#0#58"/Users/theorie/Development/solarmonitor/UtilityTest/main.m4300911832#2082"    cd /Users/theorie/Development/solarmonitor/UtilityTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-generated-files.hmap -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-project-headers.hmap -F/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/DerivedSources -include /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UtilityTest_Prefix-dbpmdgpmsrkhwrdzlrvrorwoiagr/UtilityTest_Prefix.pch -c /Users/theorie/Development/solarmonitor/UtilityTest/main.m -o /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/theorie/Development/solarmonitor/UtilityTest/FlipsideView.xib
+s297682436.396330
+e297682437.068988
+r1
+xCompileXIB
+x/Users/theorie/Development/solarmonitor/UtilityTest/FlipsideView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@27"CompileXIB FlipsideView.xib297682436#297682437#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#68"/Users/theorie/Development/solarmonitor/UtilityTest/FlipsideView.xib4300911832#529"    cd /Users/theorie/Development/solarmonitor/UtilityTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/FlipsideView.nib /Users/theorie/Development/solarmonitor/UtilityTest/FlipsideView.xib0#
+
+CCompileXIB /Users/theorie/Development/solarmonitor/UtilityTest/MainView.xib
+s297682436.399794
+e297682436.998882
+r1
+xCompileXIB
+x/Users/theorie/Development/solarmonitor/UtilityTest/MainView.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@23"CompileXIB MainView.xib297682436#297682436#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#64"/Users/theorie/Development/solarmonitor/UtilityTest/MainView.xib4300911832#521"    cd /Users/theorie/Development/solarmonitor/UtilityTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/MainView.nib /Users/theorie/Development/solarmonitor/UtilityTest/MainView.xib0#
+
+CCompileXIB /Users/theorie/Development/solarmonitor/UtilityTest/MainWindow.xib
+s297682436.998969
+e297682437.302272
+r1
+xCompileXIB
+x/Users/theorie/Development/solarmonitor/UtilityTest/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib297682436#297682437#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#66"/Users/theorie/Development/solarmonitor/UtilityTest/MainWindow.xib4300911832#525"    cd /Users/theorie/Development/solarmonitor/UtilityTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/MainWindow.nib /Users/theorie/Development/solarmonitor/UtilityTest/MainWindow.xib0#
+
+CGenerateDSYMFile /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app.dSYM /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/UtilityTest
+s297682440.017428
+e297682440.080084
+r1
+xGenerateDSYMFile
+x/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app.dSYM
+x/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/UtilityTest
+lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/UtilityTest.app.dSYM build/Debug-iphonesimulator/UtilityTest.app/UtilityTest297682440#297682440#0(0"0(0#0#107"/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/UtilityTest4300911832#434"    cd /Users/theorie/Development/solarmonitor/UtilityTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/UtilityTest -o /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app.dSYM0#
+
+CLd /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/UtilityTest normal i386
+s297682439.447134
+e297682440.017334
+r1
+xLd
+x/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/UtilityTest
+xnormal
+xi386
+lSLF07#2@112"Link /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/UtilityTest297682439#297682440#0(0"0(0#0#0"4300911832#949"    cd /Users/theorie/Development/solarmonitor/UtilityTest    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -L/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator -F/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator -filelist /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/Objects-normal/i386/UtilityTest.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/UtilityTest0#
+
+CProcessInfoPlistFile /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/Info.plist UtilityTest-Info.plist
+s297682436.351745
+e297682436.396235
+r1
+xProcessInfoPlistFile
+x/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/Info.plist
+xUtilityTest-Info.plist
+lSLF07#2@30"Process UtilityTest-Info.plist297682436#297682436#0(0"0(0#0#74"/Users/theorie/Development/solarmonitor/UtilityTest/UtilityTest-Info.plist29555370776395824#530"    cd /Users/theorie/Development/solarmonitor/UtilityTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility UtilityTest-Info.plist -genpkginfo /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app/Info.plist0#
+
+CProcessPCH /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UtilityTest_Prefix-dbpmdgpmsrkhwrdzlrvrorwoiagr/UtilityTest_Prefix.pch.gch UtilityTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s297682437.302498
+e297682439.172387
+r1
+xProcessPCH
+x/var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UtilityTest_Prefix-dbpmdgpmsrkhwrdzlrvrorwoiagr/UtilityTest_Prefix.pch.gch
+xUtilityTest_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile UtilityTest_Prefix.pch297682437#297682439#0(0"0(0#0#74"/Users/theorie/Development/solarmonitor/UtilityTest/UtilityTest_Prefix.pch4300911832#1957"    cd /Users/theorie/Development/solarmonitor/UtilityTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.3.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-generated-files.hmap -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-own-target-headers.hmap -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-all-target-headers.hmap -iquote /Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/UtilityTest-project-headers.hmap -F/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator -I/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/include -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/DerivedSources/i386 -I/Users/theorie/Development/solarmonitor/UtilityTest/build/UtilityTest.build/Debug-iphonesimulator/UtilityTest.build/DerivedSources -c /Users/theorie/Development/solarmonitor/UtilityTest/UtilityTest_Prefix.pch -o /var/folders/o2/o2YxBAgTFSGOS1NYbI-NsE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/UtilityTest_Prefix-dbpmdgpmsrkhwrdzlrvrorwoiagr/UtilityTest_Prefix.pch.gch0#
+
+CTouch /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app
+s297682440.080175
+e297682440.083153
+r1
+xTouch
+x/Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app
+lSLF07#2@101"Touch /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app297682440#297682440#0(0"0(0#0#0"4300911832#308"    cd /Users/theorie/Development/solarmonitor/UtilityTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/theorie/Development/solarmonitor/UtilityTest/build/Debug-iphonesimulator/UtilityTest.app0#
+

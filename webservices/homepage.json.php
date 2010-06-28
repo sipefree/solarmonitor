@@ -149,17 +149,17 @@ for($i=0;$i<count($index_types);$i++)
 	}
 }
 
-$index_types = array_slice($index_types, 0, 1);
+//$index_types = array_slice($index_types, 0, 1);
 
-print("{ thumbnails: [ ");
-for ($i=0;$i<count($index_types);$i++)
+print("{ \"thumbnails\": [ ");
+for ($i=1;$i<2;$i++)
 {
 	print("{ ");
-	print("time: \"" . html_entity_decode(str_replace("\n", "", $times[$i])) . "\", ");
+	print("\"time\": \"" . addslashes(html_entity_decode(str_replace("\n", "", $times[$i]))) . "\", ");
 
-	print("type: \"" . $index_types[$i] . "\", ");
-	print("image: \"" . $links[$i] . "\", ");
-	print("fullRes: \"" . $fullRes[$i] . "\" ");
+	print("\"type\": \"" . addslashes($index_types[$i]) . "\", ");
+	print("\"image\": \"" . addslashes($links[$i]) . "\", ");
+	print("\"fullRes\": \"" . addslashes($fullRes[$i]) . "\" ");
 	print("}");
 	if($i != count($index_types)-1) print(",");
 }
