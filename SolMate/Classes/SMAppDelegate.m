@@ -3,7 +3,7 @@
 //  SolMate
 //
 //  Created by Simon Free on 28/05/2010.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//  Copyright SolarMonitor.org 2010. All rights reserved.
 //
 
 #import <CoreGraphics/CoreGraphics.h>
@@ -21,29 +21,40 @@
 @synthesize imagesDataSource;
 @synthesize animationDataSource;
 @synthesize workingDate;
+@synthesize forecastDataSource;
 
 #pragma mark -
 #pragma mark Application lifecycle
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	// set the working date for the app to be the current date
 	self.workingDate = [[NSDate alloc] initWithTimeIntervalSinceNow:0.0];
 	
+	// create the controller for the main view of the app and let it set up
     SMMainViewController *aController = [[SMMainViewController alloc] initWithNibName:@"MainView" bundle:nil];
 	self.mainViewController = aController;
 	[aController release];
 	
+	// create the data source for the active region list (pulls json from the web)
 	activeRegionDataSource = [[SMActiveRegionDataSource alloc] initWithDelegate:self.mainViewController];
 	[self.activeRegionDataSource setValue:[NSString stringWithFormat:@"%i",[self.workingDate dateAsYYYYMMDD]] forParameterKey:@"date"];
 	[self.activeRegionDataSource update];
 	
+	// create the data source for the list of image wavelengths available for the working date
 	imagesDataSource = [[SMImagesDataSource alloc] initWithDelegate:nil];
 	[self.imagesDataSource setValue:[NSString stringWithFormat:@"%i",[self.workingDate dateAsYYYYMMDD]] forParameterKey:@"date"];
 	
+	// create the data source used for the animation on the main page and for the movie creator
 	animationDataSource = [[SMAnimationDataSource alloc] initWithDelegate:self.mainViewController];
 	[self.animationDataSource setValue:[NSString stringWithFormat:@"%i",[self.workingDate dateAsYYYYMMDD]] forParameterKey:@"date"];
 	[animationDataSource update];
 	
+	// create the data source for forecasts and news
+	forecastDataSource = [[SMForecastDataSource alloc] initWithDelegate:self.mainViewController];
+	[self.forecastDataSource setValue:[NSString stringWithFormat:@"%i",[self.workingDate dateAsYYYYMMDD]] forParameterKey:@"date"];
+	[self.forecastDataSource update];
 	
+	// remove the status bar from the display
 	window.frame = [UIScreen mainScreen].bounds;
     mainViewController.view.frame = [UIScreen mainScreen].bounds;
 	[window addSubview:[mainViewController view]];
@@ -54,11 +65,13 @@
 }
 
 - (void)setWorkingDate:(NSDate *)newDate {
+	// set the new working date and update all the data sources with the new date
 	workingDate = newDate;
 	[self.activeRegionDataSource setValue:[NSString stringWithFormat:@"%i",[workingDate dateAsYYYYMMDD]] forParameterKey:@"date"];
 	[self.activeRegionDataSource update];
 	[self.imagesDataSource setValue:[NSString stringWithFormat:@"%i",[workingDate dateAsYYYYMMDD]] forParameterKey:@"date"];
 	[self.imagesDataSource update];
+	[self.forecastDataSource setValue:[NSString stringWithFormat:@"%i",[workingDate dateAsYYYYMMDD]] forParameterKey:@"date"];
 }
 
 
@@ -66,6 +79,8 @@
 	// Save data if appropriate
 }
 
+// a helper function needed globally, so it resides in the app delegate singleton
+// TODO: should probably move to a Helper class, but it's the only method needed there currently
 CGImageRef CopyImageAndAddAlphaChannel(CGImageRef sourceImage) {
 	CGImageRef retVal = NULL;
 	
@@ -89,6 +104,7 @@ CGImageRef CopyImageAndAddAlphaChannel(CGImageRef sourceImage) {
 	return retVal;
 }
 
+// objc wrapper for the helper function
 - (UIImage*)maskImage:(UIImage *)image withMask:(UIImage *)maskImage {
 	CGImageRef maskRef = maskImage.CGImage;
 	CGImageRef mask = CGImageMaskCreate(CGImageGetWidth(maskRef),
@@ -129,6 +145,7 @@ CGImageRef CopyImageAndAddAlphaChannel(CGImageRef sourceImage) {
 	[self.activeRegionDataSource release];
 	[self.animationDataSource release];
 	[self.imagesDataSource release];
+	[self.forecastDataSource release];
 	[self.workingDate release];
 	[window release];
 	[super dealloc];

@@ -2,7 +2,7 @@
 //  SMTabbedViewController.h
 //
 //  Created by Simon Free on 10/06/2010.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 SolarMonitor.org. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -12,7 +12,11 @@
 @class SMListCell;
 
 @interface SMTabbedViewController : UIViewController <JSONDataSourceDelegate> {
+	// a link to the controller for the main view
+	// useful since this is only a sub view of the main view
     IBOutlet SMMainViewController *controller;
+	
+	// ui elements
     IBOutlet UIButton *forecastButton;
     IBOutlet UIView *forecastView;
     IBOutlet UIButton *imagesButton;

@@ -3,7 +3,7 @@
 //  SolMate
 //
 //  Created by Simon Free on 17/06/2010.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 SolarMonitor.org. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

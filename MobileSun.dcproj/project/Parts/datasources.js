@@ -13,8 +13,9 @@ var dashcodeDataSources = {
     "regionSources": { "Class": "DC.AjaxController", "propertyValues": { "url": "http://solarmonitor.org/webservices/region.json.php?", "dataModel": { "cacheSample": true, "uuid": "B06DDC96-A2E7-498B-93CE-796E83B58FBB", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "list": [{ "type": "", "region": "", "thumbnail": "" }] } }, "parameters": { "date": "default", "region": "default" } } },
     "regionDetail": { "Class": "DC.AjaxController", "propertyValues": { "url": "http://solarmonitor.org/webservices/region_detail.json.php?", "dataModel": { "cacheSample": true, "uuid": "7027D2FF-EDCB-4F0C-8D1A-493E4A6135F6", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "region": "", "type": "", "image": "" } }, "parameters": { "region": "00000", "date": "default", "type": "smdi_igram" } } },
     "credits": { "Class": "DC.AjaxController", "propertyValues": { "url": "credits.js", "dataModel": { "uuid": "FEA204DA-0200-4512-A484-DDFB3B79A105", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "credits": [{ "name": "", "description": "" }] } }, "parameters": {} } },
-    "forecast": { "Class": "DC.AjaxController", "propertyValues": { "url": "http://solarmonitor.org/webservices/forecast.json.php", "dataModel": { "cacheSample": true, "uuid": "2AB20F39-8941-491E-84EF-C7002E70B369", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "mmmotd": "" } }, "parameters": {} } }
+    "forecast": { "Class": "DC.AjaxController", "propertyValues": { "url": "http://solarmonitor.org/webservices/forecast.json.php", "dataModel": { "cacheSample": true, "uuid": "8D6422FD-0C76-4F46-8C3F-C268F5E08038", "url": null, "dataType": "json", "version": 1, "root": "", "model": { "mmmotd": { "name": "", "date": "", "text": "" } } }, "parameters": {} } }
 };
+
 
 
 

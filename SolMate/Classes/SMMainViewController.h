@@ -3,7 +3,7 @@
 //  Sol Mate
 //
 //  Created by Simon Free on 08/06/2010.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//  Copyright SolarMonitor.org 2010. All rights reserved.
 //
 
 #import "SMFlipsideViewController.h"
@@ -28,6 +28,7 @@
 	IBOutlet SMTabbedViewController* _tabbedViewController;
 	IBOutlet SMSmallARListCell* _tmpCell;
 	BOOL animationLoaded;
+	NSArray* maskedImagesCache;
 }
 
 - (IBAction)showInfo;
@@ -41,6 +42,7 @@
 - (IBAction)toggleAnimation;
 - (void)showImageDetailViewWithData:(NSDictionary* )dict;
 - (void)showMovieCreatorForType:(NSString *)type;
+- (void)showForecastViewWithData:(NSDictionary *)dict;
 - (void)dataSourceDidStartLoading:(JSONDataSource*)ds;
 - (void)dataSourceDidFinishLoading:(JSONDataSource*)ds;
 - (void)animationDidFinishLoading:(SMAnimationDataSource*)sender;

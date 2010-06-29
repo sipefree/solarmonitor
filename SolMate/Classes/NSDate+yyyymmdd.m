@@ -3,7 +3,7 @@
 //  SolMate
 //
 //  Created by Simon Free on 17/06/2010.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 SolarMonitor.org. All rights reserved.
 //
 
 #import "NSDate+yyyymmdd.h"
@@ -11,6 +11,7 @@
 
 @implementation NSDate (NSDate_yyyymmdd)
 - (int)dateAsYYYYMMDD {
+	// returns the date in the format used by solarmonitor
 	NSString* desc = [self description];
 	NSString* year = [desc substringWithRange:NSMakeRange(0, 4)];
 	NSString* month = [desc substringWithRange:NSMakeRange(5, 2)];

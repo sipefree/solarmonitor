@@ -18,7 +18,7 @@
 		</data>
 		<key>MainView.nib</key>
 		<data>
-		WSpum5w7L8nzAgAcNHC4oQ3lEHc=
+		J08OPvnEbW0tNnmybQ43XPyK9Zs=
 		</data>
 		<key>MainWindow.nib</key>
 		<data>
@@ -28,9 +28,17 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>SMActiveRegionView.nib</key>
+		<data>
+		WlwQYDuo9+pWqXwVa8iIcVvX8hU=
+		</data>
 		<key>SMDateControlView.nib</key>
 		<data>
 		Qxq7geO2/TnUhLKyqYJUtNeMWcs=
+		</data>
+		<key>SMForecastView.nib</key>
+		<data>
+		7wMcMiekoh5PNYrgGNkYSq/Chdg=
 		</data>
 		<key>SMImageDetailView.nib</key>
 		<data>
@@ -99,6 +107,10 @@
 		<key>mask.png</key>
 		<data>
 		pw/95e8P9L76ARWLgf+TQ/AV2Tk=
+		</data>
+		<key>mmmotd.png</key>
+		<data>
+		H2BD+KusMOxEWMZe35JfNTwLAao=
 		</data>
 		<key>more.png</key>
 		<data>

@@ -2,7 +2,7 @@
 //  SMTabbedViewController.m
 //
 //  Created by Simon Free on 10/06/2010.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 SolarMonitor.org. All rights reserved.
 //
 #import <QuartzCore/QuartzCore.h>
 #import "SMTabbedViewController.h"
@@ -17,39 +17,80 @@
 @synthesize tmpCell;
 
 - (void)awakeFromNib {
+	// this class implements a tab view of its own
+	// by storing the three views that it switches between
+	// and the current active one
+	
+	// set the default active view
 	activeView = imagesView;
+	
+	// and the default active button
 	activeButton = imagesButton;
+	
+	// show the button as selected
 	[activeButton setSelected:YES];
+	
+	// add all the tabs to be subviews of the entire view
 	for(UIView* v in [NSArray arrayWithObjects:imagesView,moviesView,forecastView,nil]) {
+		// add the subviews
 		[controller.tabContentView addSubview:v];
+		
+		// set them hidden
 		v.hidden = YES;
 	}
+	
+	// but don't hide the active view
 	activeView.hidden = NO;
 	
-	UITableView* tableView;
-	NSArray* tables = [NSArray arrayWithObjects:imagesTable,moviesTable,forecastTable,nil];
-	for (tableView in tables) {
+	// configure all the table views
+	for (UITableView* tableView in [NSArray arrayWithObjects:imagesTable,moviesTable,forecastTable,nil]) {
+		// set the standard row height
 		tableView.rowHeight = 73.0;
+		
+		// set the default background color
 		tableView.backgroundColor = CELL_DARK_BACKGROUND;
+		
+		// set the style of line between each table cell
 		tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
 	}
 }
 - (IBAction)showForecastView:(UIButton *)sender {
+	// switch to the forecast view
+	
+	// only if the active view is not already the forecast view
+	// this is so a redundant animation does not occur
 	if(activeView != forecastView) {
+		// create a transition animation
 		CATransition *transition = [CATransition animation];
+		
+		// set the duration
 		transition.duration = 0.4;
+		
+		// ease the transition with a sine wave or something
 		transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
+		
+		// use a push transition
 		transition.type = kCATransitionPush;
+		
+		// set the direction of the push
 		transition.subtype = kCATransitionFromRight;
+		
+		// set the delegate of the transition
 		transition.delegate = self;
 		
 		// Next add it to the containerView's layer. This will perform the transition based on how we change its contents.
 		[controller.tabContentView.layer addAnimation:transition forKey:nil];
 		
+		// the current active view will be hidden in this transition
 		activeView.hidden = YES;
+		
+		// the active view will change to the forecast view
 		activeView = forecastView;
+		
+		// unhide the forecast view
 		activeView.hidden = NO;
 		
+		// change the button also
 		activeButton.selected = NO;
 		activeButton = sender;
 		activeButton.selected = YES;
@@ -133,6 +174,10 @@
 		SMAppDelegate* appDelegate = (SMAppDelegate *)([UIApplication sharedApplication].delegate);
 		return [[appDelegate.imagesDataSource thumbnails] count];
 	}
+	else if(tableView == forecastTable) {
+		SMAppDelegate* appDelegate = (SMAppDelegate *)([UIApplication sharedApplication].delegate);
+		return [[(NSDictionary*)[appDelegate.imagesDataSource jsonObject] allKeys] count];
+	}
 	else {
 		return 0;
 	}
@@ -174,7 +219,17 @@
 		}
 		cell.type.text = [dataItem objectForKey:@"type"];
 		cell.time.text = [dataItem objectForKey:@"time"];
-		
+	}
+	else if(tableView == forecastTable) {
+		NSDictionary* data = (NSDictionary*)[appDelegate.forecastDataSource jsonObject];
+		NSArray* keys = [data allKeys];
+		NSDictionary* dataItem = [data objectForKey:[keys objectAtIndex:indexPath.row]];
+		UIImage* img = [UIImage imageNamed:[dataItem objectForKey:@"image"]];
+		cell.image.image = img;
+		cell.image.hidden = NO;
+		cell.activity.hidden = YES;
+		cell.type.text = [dataItem objectForKey:@"name"];
+		cell.time.text = [dataItem objectForKey:@"date"];
 	}
     return cell;
 }
@@ -186,17 +241,21 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+	SMAppDelegate* appDelegate = (SMAppDelegate*)[[UIApplication sharedApplication] delegate];
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
 	if(tableView == imagesTable) {
-		SMAppDelegate* appDelegate = (SMAppDelegate*)[[UIApplication sharedApplication] delegate];
 		NSArray* data = [appDelegate.imagesDataSource thumbnails];
 		NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
 		[controller showImageDetailViewWithData:dataItem];
 	} else if(tableView == moviesTable) {
-		SMAppDelegate* appDelegate = (SMAppDelegate*)[[UIApplication sharedApplication] delegate];
 		NSArray* data = [appDelegate.imagesDataSource thumbnails];
 		NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
 		[controller showMovieCreatorForType:[dataItem valueForKey:@"type"]];
+	} else if(tableView == forecastTable) {
+		NSDictionary* data = (NSDictionary*)[appDelegate.forecastDataSource jsonObject];
+		NSArray* keys = [data allKeys];
+		NSDictionary* dataItem = [data objectForKey:[keys objectAtIndex:indexPath.row]];
+		[controller showForecastViewWithData:dataItem];
 	}
 }
 - (void)tablesNeedUpdate {

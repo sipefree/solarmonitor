@@ -1,20 +1,27 @@
 <?php
 include ("./include.php");
+$date_str = date("D F d, Y",strtotime($date));
 
-print("{");
-
+$json = array();
 $file = "${arm_data_path}data/$date/meta/arm_mmmotd_${date}.txt";
+$json["mmmotd"] = array();
+$json["mmmotd"]["name"] = "Max Millenium MotD";
+$json["mmmotd"]["date"] = $date_str;
+$json["mmmotd"]["image"] = "mmmotd.png"; // located in the app's resources
 if(file_exists($file))
 {
-	//print("<pre>\n");
-	print("\n");
 	$lines = file_get_contents($file);
-	print("\"mmmotd\": \"" . str_replace("\n", "\\n", addslashes(strip_tags(html_entity_decode($lines)))) . "\"");										
+	$lines = strip_tags($lines);
+	$lines = str_replace("\n", " ", $lines);
+	$pos = strpos($lines, "Dear");
+	if($pos != -1) {
+		$lines = substr($lines, $pos);
+	}
+	$json["mmmotd"]["text"] = $lines;
 }
 else
 {
-	$date_str = date("D F d, Y",strtotime($date));
-	print("\"mmmotd\": \"No Message of the Day for $date_str\"");
+	$json["mmmotd"]["text"] = "Sorry, there is no forecast for today.";
 }
-print("}");
+print(json_encode($json));
 ?>

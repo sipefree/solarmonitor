@@ -122,8 +122,9 @@ var dashcodePartSpecs = {
     "text7": { "propertyValues": { "textBinding": { "keypath": "imageDetail.content.date", "transformer": "prettyDate" } }, "text": "Date: 2010-05-25", "view": "DC.Text" },
     "text8": { "text": "MobileSun\nwww.solarmonitor.org\n\nData provided by and maintained by the Solar Physics Group, Trinity College Dublin.", "view": "DC.Text" },
     "text9": { "propertyValues": { "textBinding": { "keypath": "*.description" } }, "text": "Text", "view": "DC.Text" },
-    "textarea": { "propertyValues": { "valueBinding": { "keypath": "forecast.content.mmmotd" } }, "view": "DC.TextField" }
+    "textarea": { "propertyValues": { "valueBinding": { "keypath": "forecast.content.mmmotd.text" } }, "view": "DC.TextField" }
 };
+
 
 
 

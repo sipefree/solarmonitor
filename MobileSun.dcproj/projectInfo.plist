@@ -105,18 +105,6 @@
 	<integer>40</integer>
 	<key>FeedModels</key>
 	<dict>
-		<key>2AB20F39-8941-491E-84EF-C7002E70B369</key>
-		<dict>
-			<key>sample</key>
-			<dict>
-				<key>date</key>
-				<date>2010-06-01T13:59:22Z</date>
-				<key>encoding</key>
-				<integer>30</integer>
-				<key>fileName</key>
-				<string>2AB20F39-8941-491E-84EF-C7002E70B369</string>
-			</dict>
-		</dict>
 		<key>3E4309B4-CC06-4096-99D4-89BBF1EDE47C</key>
 		<dict>
 			<key>sample</key>
@@ -180,6 +168,18 @@
 				<integer>30</integer>
 				<key>fileName</key>
 				<string>8B4BAA08-16DF-4F7A-A260-B3FB2DBDB4C0</string>
+			</dict>
+		</dict>
+		<key>8D6422FD-0C76-4F46-8C3F-C268F5E08038</key>
+		<dict>
+			<key>sample</key>
+			<dict>
+				<key>date</key>
+				<date>2010-06-28T14:15:11Z</date>
+				<key>encoding</key>
+				<integer>30</integer>
+				<key>fileName</key>
+				<string>8D6422FD-0C76-4F46-8C3F-C268F5E08038</string>
 			</dict>
 		</dict>
 		<key>B06DDC96-A2E7-498B-93CE-796E83B58FBB</key>

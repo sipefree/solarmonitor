@@ -3,7 +3,7 @@
 //  UtilityTest
 //
 //  Created by Simon Free on 08/06/2010.
-//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//  Copyright SolarMonitor.org 2010. All rights reserved.
 //
 
 #import "SMFlipsideViewController.h"
@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //self.view.backgroundColor = [UIColor viewFlipsideBackgroundColor];      
 }
 
 
