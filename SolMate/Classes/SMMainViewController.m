@@ -69,13 +69,21 @@
 	self.datePicker.maximumDate = [NSDate dateWithTimeIntervalSinceNow:0.0];
 	self.datePicker.date = self.datePicker.maximumDate;
 	
+	// get the app delegate
+	SMAppDelegate* appDel = (SMAppDelegate*)[[UIApplication sharedApplication] delegate];
+	
 	// set the delegate of the image data source to the tabbed view controller and update it
-	((SMAppDelegate*)[UIApplication sharedApplication].delegate).imagesDataSource.delegate = self.tabbedViewController;
-	[((SMAppDelegate*)[UIApplication sharedApplication].delegate).imagesDataSource update];
+	appDel.imagesDataSource.delegate = self.tabbedViewController;
+	[appDel.imagesDataSource update];
 	
 	// the same for the forecast data source
-	((SMAppDelegate*)[UIApplication sharedApplication].delegate).forecastDataSource.delegate = self.tabbedViewController;
-	[((SMAppDelegate*)[UIApplication sharedApplication].delegate).forecastDataSource update];
+	appDel.forecastDataSource.delegate = self.tabbedViewController;
+	[appDel.forecastDataSource update];
+	
+	[appDel.activeRegionDataSource update];
+	[appDel.animationDataSource update];
+	
+	
 	
 	// default value for the default view animation
 	animationLoaded = NO;

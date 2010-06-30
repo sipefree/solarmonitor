@@ -98,8 +98,12 @@
 }
 
 - (IBAction)showImagesView:(UIButton *)sender {
+	// only change the view if it is not the active one
     if(activeView != imagesView) {
+		// create the transition
 		CATransition *transition = [CATransition animation];
+		
+		// set properties
 		transition.duration = 0.4;
 		transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
 		transition.type = kCATransitionPush;
@@ -109,10 +113,16 @@
 		// Next add it to the containerView's layer. This will perform the transition based on how we change its contents.
 		[controller.tabContentView.layer addAnimation:transition forKey:nil];
 		
+		// the current active view becomes hidden
 		activeView.hidden = YES;
+		
+		// the active view changes
 		activeView = imagesView;
+		
+		// the new active view is shown
 		activeView.hidden = NO;
 		
+		// the button changes too
 		activeButton.selected = NO;
 		activeButton = sender;
 		activeButton.selected = YES;
@@ -120,11 +130,18 @@
 }
 
 - (IBAction)showMoviesView:(UIButton *)sender {
+	// only change the view if it is not the active one
     if(activeView != moviesView) {
+		// create the transition
 		CATransition *transition = [CATransition animation];
+		
+		// set properties
 		transition.duration = 0.4;
 		transition.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut];
 		transition.type = kCATransitionPush;
+		
+		// this animation must be different depending on where
+		// the previous active view was located
 		if(activeView == imagesView)
 			transition.subtype = kCATransitionFromRight;
 		else
@@ -149,15 +166,11 @@
 	
 }
 - (void)dataSourceDidFinishLoading:(JSONDataSource*)ds {
+	// start loading images once the data source for them is loaded
 	if(ds == ((SMAppDelegate*)[UIApplication sharedApplication].delegate).imagesDataSource) {
 		[(SMImagesDataSource*)ds preloadImages];
 	}
 	[self tablesNeedUpdate];
-	/*srand([[NSDate date] timeIntervalSince1970]);
-	NSArray* data = [appDelegate.imagesDataSource thumbnails];
-	int r = rand() % [data count];
-	NSDictionary* dataItem = [data objectAtIndex:r];
-	controller.defaultImage*/
 }
 
 
@@ -201,30 +214,61 @@
 	cell.useDarkBackground = (indexPath.row % 2 == 0);	
 	// Configure the data for the cell.
 	
+	// get the app delegate
 	SMAppDelegate* appDelegate = (SMAppDelegate *)([UIApplication sharedApplication].delegate);
+	
+	// the images table and movies table show the same data
 	if(tableView == imagesTable || tableView == moviesTable) {
+		// pull the array from the data source
 		NSArray* data = [appDelegate.imagesDataSource thumbnails];
+		
+		// take the specific item for this row index
 		NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
+		
+		// an image for this item will attempt to be loaded from the image loader
 		UIImage* img = [[appDelegate.imagesDataSource preloadedImages] objectForKey:[dataItem objectForKey:@"type"]];
+		
+		// if this image is not loaded yet, it will be nil
 		if(img == nil) {
+			// show an activity indicator instead
 			cell.activity.hidden = NO;
+			
+			// animate it
 			[cell.activity startAnimating];
+			
+			// hide the image view just in case
 			cell.image.hidden = YES;
 		}
 		else {
+			// show the image
 			cell.image.hidden = NO;
+			
+			// hide the activity indicator
 			cell.activity.hidden = YES;
+			
+			// show the image well
 			cell.image.image = img;
-			//cell.image.image = [[[UIApplication sharedApplication] delegate] maskImage:img withMask:[UIImage imageNamed:@"mask.png"]];
 		}
+		// set the labels
 		cell.type.text = [dataItem objectForKey:@"type"];
 		cell.time.text = [dataItem objectForKey:@"time"];
 	}
+	// the forecast table takes data from another data source
 	else if(tableView == forecastTable) {
+		// get the dict for this data source
 		NSDictionary* data = (NSDictionary*)[appDelegate.forecastDataSource jsonObject];
+		
+		// take keys in order
 		NSArray* keys = [data allKeys];
+		
+		// take the object located at the dictionary key at this index
 		NSDictionary* dataItem = [data objectForKey:[keys objectAtIndex:indexPath.row]];
+		
+		// images for this data source are stored locally but the resource name is defined
+		// remotely
 		UIImage* img = [UIImage imageNamed:[dataItem objectForKey:@"image"]];
+		
+		// set the properties of this cell
 		cell.image.image = img;
 		cell.image.hidden = NO;
 		cell.activity.hidden = YES;
@@ -236,34 +280,51 @@
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
+	// a simple switch for dark and light backgrounds
     cell.backgroundColor = ((SMListCell *)cell).useDarkBackground ? CELL_DARK_BACKGROUND : CELL_LIGHT_BACKGROUND;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+	// get the app delegate
 	SMAppDelegate* appDelegate = (SMAppDelegate*)[[UIApplication sharedApplication] delegate];
+	
+	// there's no need to keep the cell selected
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+	
+	// handle the images table
 	if(tableView == imagesTable) {
+		// get the data item associated with the cell clicked
 		NSArray* data = [appDelegate.imagesDataSource thumbnails];
 		NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
+		
+		// tell the main view controller to start a modal view with this item
 		[controller showImageDetailViewWithData:dataItem];
-	} else if(tableView == moviesTable) {
+	}
+	// handle the movies table
+	else if(tableView == moviesTable) {
+		// get the data item
 		NSArray* data = [appDelegate.imagesDataSource thumbnails];
 		NSDictionary *dataItem = [data objectAtIndex:indexPath.row];
+		
+		// show the movie creator modal view for this item
 		[controller showMovieCreatorForType:[dataItem valueForKey:@"type"]];
-	} else if(tableView == forecastTable) {
+	}
+	// handle the forecast table
+	else if(tableView == forecastTable) {
+		// get the data item
 		NSDictionary* data = (NSDictionary*)[appDelegate.forecastDataSource jsonObject];
 		NSArray* keys = [data allKeys];
 		NSDictionary* dataItem = [data objectForKey:[keys objectAtIndex:indexPath.row]];
+		
+		// show the forecast modal view
 		[controller showForecastViewWithData:dataItem];
 	}
 }
 - (void)tablesNeedUpdate {
-	UITableView* tableView;
-	NSArray* tables = [NSArray arrayWithObjects:imagesTable,moviesTable,forecastTable,nil];
-	for (tableView in tables) {
+	// tell each table to reload its data
+	for (UITableView* tableView in [NSArray arrayWithObjects:imagesTable,moviesTable,forecastTable,nil])
 		[tableView reloadData];
-	}
 }
 
 @end

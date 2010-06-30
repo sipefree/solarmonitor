@@ -11,10 +11,15 @@
 
 @implementation SMForecastViewController
 @synthesize forecastName, forecastDate, forecastText;
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	self.forecastDate.text = [data objectForKey:@"date"];
+	self.forecastName.text = [data objectForKey:@"name"];
+	self.forecastText.text = [data objectForKey:@"text"];
+	
+}
 - (void)showForecastWithData:(NSDictionary *)dict {
-	self.forecastDate = [dict objectForKey:@"date"];
-	self.forecastName = [dict objectForKey:@"name"];
-	self.forecastText = [dict objectForKey:@"text"];
+	data = dict;
 }
 - (IBAction)back {
 	[self.delegate flipsideViewControllerDidFinish:self];

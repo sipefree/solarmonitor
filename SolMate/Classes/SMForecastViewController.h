@@ -11,7 +11,7 @@
 
 
 @interface SMForecastViewController : SMFlipsideViewController {
-
+	NSDictionary* data;
 }
 - (void)showForecastWithData:(NSDictionary *)dict;
 - (IBAction)back;

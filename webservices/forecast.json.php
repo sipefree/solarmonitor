@@ -5,7 +5,7 @@ $date_str = date("D F d, Y",strtotime($date));
 $json = array();
 $file = "${arm_data_path}data/$date/meta/arm_mmmotd_${date}.txt";
 $json["mmmotd"] = array();
-$json["mmmotd"]["name"] = "Max Millenium MotD";
+$json["mmmotd"]["name"] = "Max Millennium MotD";
 $json["mmmotd"]["date"] = $date_str;
 $json["mmmotd"]["image"] = "mmmotd.png"; // located in the app's resources
 if(file_exists($file))

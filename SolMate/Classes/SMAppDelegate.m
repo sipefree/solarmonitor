@@ -38,7 +38,6 @@
 	// create the data source for the active region list (pulls json from the web)
 	activeRegionDataSource = [[SMActiveRegionDataSource alloc] initWithDelegate:self.mainViewController];
 	[self.activeRegionDataSource setValue:[NSString stringWithFormat:@"%i",[self.workingDate dateAsYYYYMMDD]] forParameterKey:@"date"];
-	[self.activeRegionDataSource update];
 	
 	// create the data source for the list of image wavelengths available for the working date
 	imagesDataSource = [[SMImagesDataSource alloc] initWithDelegate:nil];
@@ -47,12 +46,10 @@
 	// create the data source used for the animation on the main page and for the movie creator
 	animationDataSource = [[SMAnimationDataSource alloc] initWithDelegate:self.mainViewController];
 	[self.animationDataSource setValue:[NSString stringWithFormat:@"%i",[self.workingDate dateAsYYYYMMDD]] forParameterKey:@"date"];
-	[animationDataSource update];
 	
 	// create the data source for forecasts and news
 	forecastDataSource = [[SMForecastDataSource alloc] initWithDelegate:self.mainViewController];
 	[self.forecastDataSource setValue:[NSString stringWithFormat:@"%i",[self.workingDate dateAsYYYYMMDD]] forParameterKey:@"date"];
-	[self.forecastDataSource update];
 	
 	// remove the status bar from the display
 	window.frame = [UIScreen mainScreen].bounds;

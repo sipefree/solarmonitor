@@ -38,7 +38,7 @@
 - (NSString*)_queryString;
 
 @property(readonly) NSString* url;
-@property(retain, readwrite) id <JSONDataSourceDelegate> delegate;
+@property(assign, readwrite) id <JSONDataSourceDelegate> delegate;
 @property(readonly) NSObject* jsonObject;
 @property(readonly) BOOL hasData;
 
