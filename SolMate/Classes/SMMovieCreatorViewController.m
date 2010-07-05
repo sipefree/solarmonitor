@@ -298,7 +298,6 @@ hideDateControlButton;
 	[self.goButton setTitle:@"Go" forState:UIControlStateSelected];
 	animationNeedsUpdate = NO;
 	isLoading = NO;
-	[animationDataSource flush];
 }
 - (void)animation:(SMAnimationDataSource*)sender didProgressWithCount:(int)count ofTotal:(int)total {
 	self.progressView.progress = (float)count / (float)total;

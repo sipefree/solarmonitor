@@ -173,7 +173,7 @@ class SMImage
 	*	An array of image types that can be used
 	*/
 	public static function getAvailableImageTypes($date) {
-		$types = array("smdi_maglc", "smdi_igram", "swap_00174", "seit_00195", "hxrt_flter", "smdi_maglc", "slis_chrom", "gong_farsd", "strb_00195", "seit_00195", "stra_00195");
+		$types = array("smdi_maglc", "smdi_igram", "bbso_halph", "swap_00174", "seit_00195", "hxrt_flter", "smdi_maglc", "slis_chrom", "gong_farsd", "strb_00195", "seit_00195", "stra_00195");
 		if(SMImage::inBakeout($date)) {
 			$types = array("smdi_maglc", "smdi_igram", "bbso_halph", "swap_00174", "bake_00195", "hxrt_flter", "gong_maglc", "slis_chrom", "gong_farsd", "strb_00195", "trce_m0171", "stra_00195");
 		}
@@ -295,25 +295,5 @@ class SMImage
 	}
 }
 
-$date = "20100705";
-$types = SMImage::getAvailableImageTypes($date);
-$imgs = array();
-foreach($types as $type) {
-	$obj = new SMImage($type, $date);
-	if($obj->requiresSubstitute()) {
-		$obj = $obj->getSubstitute();
-		if($obj == false)
-			continue;
-	}
-	$file = $obj->getLatestFilename();
-	$imgs[] = array(
-		"type" => $obj->type,
-		"name" => $obj->getName(),
-		"timestamp" => $obj->getTimestampForFilename($file),
-		"thumbnail" => $obj->getThumbnail(),
-		"fullRes" => $file,
-	);
-}
-print json_encode(array("imageSources" => $imgs));
 
 ?>
