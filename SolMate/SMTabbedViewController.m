@@ -250,7 +250,7 @@
 			cell.image.image = img;
 		}
 		// set the labels
-		cell.type.text = [dataItem objectForKey:@"type"];
+		cell.type.text = [dataItem objectForKey:@"name"];
 		cell.time.text = [dataItem objectForKey:@"time"];
 	}
 	// the forecast table takes data from another data source

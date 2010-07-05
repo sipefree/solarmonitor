@@ -10,6 +10,7 @@
 #import "SMAppDelegate.h"
 #import <UIKit/UIKit.h>
 #import "SMTabbedViewController.h"
+#import "SMPreferences.h"
 
 @implementation SMImagesDataSource
 @synthesize preloadedImages;
@@ -61,7 +62,8 @@
 	SMMainViewController* controller = appDelegate.mainViewController;
 	
 	// get the default image for the top half of the main view
-	NSString* key = @"bbso_halph";
+	SMPreferences* prefs = [SMPreferences sharedPreferences];
+	NSString* key = [prefs defaultViewType];
 	
 	// if this doesn't exist, take the first key in the list
 	if([preloadedImages objectForKey:key] == nil) {

@@ -63,14 +63,14 @@ for($i=0;$i<count($index_types);$i++)
 			{
 				$links[$i] = "http://www.solarmonitor.org/" . $gongfile;
 				$index_types[$i] = 'gong_maglc';
-				list($instrument, $filter) = split('[_]', $index_types[$i],2);
+				list($instrument, $filter) = split('[_]', "gong_maglc",2);
 				$file = find_latest_file($date, $instrument, $filter, 'png', 'fd');
 				$fullRes[] = "http://solarmonitor.org/data/$date/pngs/$instrument/" . $file;
 				if($file !== "No File Found"){
-					$times[$i]="GONG Mag ".$date." ".substr($file,23,2) . ":" . substr($file,25,2);
+					$times[$i]=$date." ".substr($file,23,2) . ":" . substr($file,25,2);
 				} 
 				else { 
-					$times[$i]="GONG Mag ".$date." ";
+					$times[$i]=$date." ";
 				}
 			}
 			else {
@@ -88,10 +88,10 @@ for($i=0;$i<count($index_types);$i++)
 				$file = find_latest_file($date, $instrument, $filter, 'png', 'fd');
 				$fullRes[$i] = "http://solarmonitor.org/data/$date/pngs/$instrument/" . $file;
 				if($file !== "No File Found"){
-					$times[$i]="GONG Cont ".$date." ".substr($file,23,2) . ":" . substr($file,25,2);
+					$times[$i]=$date." ".substr($file,23,2) . ":" . substr($file,25,2);
 				}
 				else { 
-					$times[$i]="GONG Cont ".$date." ";
+					$times[$i]=$date." ";
 				}
 
 			}
@@ -109,10 +109,10 @@ for($i=0;$i<count($index_types);$i++)
 					$file = find_latest_file($date, $instrument, $filter, 'png', 'fd');
 					$fullRes[$i] = "http://solarmonitor.org/data/$date/pngs/$instrument/" . $file;
 					if($file !== "No File Found") {
-						$times[$i]="TRACE 171&Aring; ".$date." ".substr($file,23,2) . ":" . substr($file,25,2);
+						$times[$i]=$date." ".substr($file,23,2) . ":" . substr($file,25,2);
 					}
 					else { 
-						$times[$i]="TRACE 171&Aring; ".$date." ";
+						$times[$i]=$date." ";
 					}
 				}
 				else {
@@ -128,10 +128,10 @@ for($i=0;$i<count($index_types);$i++)
 					$file = find_latest_file($date, $instrument, $filter, 'png', 'fd');
 					$fullRes[$i] = "http://solarmonitor.org/data/$date/pngs/$instrument/" . $file;
 					if($file !== "No File Found") {
-						$times[$i]="EIT 171&Aring; ".$date." ".substr($file,23,2) . ":" . substr($file,25,2);
+						$times[$i]=$date." ".substr($file,23,2) . ":" . substr($file,25,2);
 					}
 					else { 
-						$times[$i]="EIT 171&Aring; ".$date." ";
+						$times[$i]=$date." ";
 					}
 				}
 				else {
@@ -148,14 +148,32 @@ for($i=0;$i<count($index_types);$i++)
 		$str = $index_types_strs[$index_types[$i]];
 		$dt = $fdate . " " . substr($time,0,2) . ":" . substr($time,2,2);
 		//$str = $str . " " . date("d-M-Y H:i", strtotime($dt)) . " UT";
-		$str = $str . " " . $fdate . " " . date("H:i", strtotime($dt));
+		$str = $fdate . " " . date("H:i", strtotime($dt));
 		$times[$i]=$str;
 	}
 }
 
-print("{ \"imageSources\": [ ");
+
+$json = array("imageSources" => array());
+
 for ($i=0;$i<count($index_types);$i++)
 {
+	$json["imageSources"][$i]["time"] = html_entity_decode(str_replace("\n", "", $times[$i]));
+	$json["imageSources"][$i]["type"] = $index_types[$i];
+	$json["imageSources"][$i]["name"] = $index_types_strs[$index_types[$i]];
+	$json["imageSources"][$i]["image"] = $links[$i];
+	$json["imageSources"][$i]["fullRes"] = $fullRes[$i];
+}
+print json_encode($json)
+
+/*$json = array("imageSources" => array());
+
+for ($i=0;$i<count($index_types);$i++)
+{
+	$json["imageSources"][$i]["time"] = html_entity_decode(str_replace("\n", "", $times[$i]));
+	$json["imageSources"][$i]["type"] = $index_types[$i];
+	$json["imageSources"][$i]["name"] = $index_types_strs[$index_types[$i]];
+	$json["imageSources"][$i]["image"] = $lines[]
 	print("{ ");
 	print("\"time\": \"" . addslashes(html_entity_decode(str_replace("\n", "", $times[$i]))) . "\", ");
 
@@ -165,6 +183,6 @@ for ($i=0;$i<count($index_types);$i++)
 	print("}");
 	if($i != count($index_types)-1) print(",");
 }
-print("]}")
+print("]}")*/
 
 ?>

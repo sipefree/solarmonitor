@@ -69,6 +69,7 @@
 		E4BF060D11D8E7D500E9AF67 /* mmmotd.png in Resources */ = {isa = PBXBuildFile; fileRef = E4BF060C11D8E7D500E9AF67 /* mmmotd.png */; };
 		E4D29C5511B7CD1F00AEF77B /* JSONDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D29C5411B7CD1F00AEF77B /* JSONDataSource.m */; };
 		E4D29CB411B7F21400AEF77B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E4D29CB311B7F21400AEF77B /* icon.png */; };
+		E4DDF6CC11E1F0E400B9AF8A /* SMPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DDF6CB11E1F0E400B9AF8A /* SMPreferences.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -162,6 +163,8 @@
 		E4D29C5311B7CD1F00AEF77B /* JSONDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONDataSource.h; sourceTree = "<group>"; };
 		E4D29C5411B7CD1F00AEF77B /* JSONDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONDataSource.m; sourceTree = "<group>"; };
 		E4D29CB311B7F21400AEF77B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = SOURCE_ROOT; };
+		E4DDF6CA11E1F0E400B9AF8A /* SMPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMPreferences.h; sourceTree = "<group>"; };
+		E4DDF6CB11E1F0E400B9AF8A /* SMPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMPreferences.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,12 +186,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E498AA1C11D3661400C6C0D2 /* Reachability.m */,
-				E498AA1D11D3661400C6C0D2 /* Reachability.h */,
 				1D3623240D0F684500981E51 /* SMAppDelegate.h */,
 				1D3623250D0F684500981E51 /* SMAppDelegate.m */,
 				E4344A7411CA58200075DCA8 /* NSDate+yyyymmdd.h */,
 				E4344A7511CA58200075DCA8 /* NSDate+yyyymmdd.m */,
+				E4DDF6CA11E1F0E400B9AF8A /* SMPreferences.h */,
+				E4DDF6CB11E1F0E400B9AF8A /* SMPreferences.m */,
+				E498AA1C11D3661400C6C0D2 /* Reachability.m */,
+				E498AA1D11D3661400C6C0D2 /* Reachability.h */,
 				E45559C511C0FF24009A6A7A /* Models */,
 				E45559C411C0FF12009A6A7A /* Controllers */,
 				E45559C611C0FF36009A6A7A /* Views */,
@@ -465,6 +470,7 @@
 				E498AA7411D3719100C6C0D2 /* SMMovieCreatorViewController.m in Sources */,
 				E4BF05F411D8DD6400E9AF67 /* SMForecastViewController.m in Sources */,
 				E4BF060A11D8E61900E9AF67 /* SMForecastDataSource.m in Sources */,
+				E4DDF6CC11E1F0E400B9AF8A /* SMPreferences.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

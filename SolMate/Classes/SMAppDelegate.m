@@ -11,6 +11,7 @@
 #import "SMMainViewController.h"
 #import "SMTabbedViewController.h"
 #import "NSDate+yyyymmdd.h"
+#import "SMPreferences.h"
 
 
 @implementation SMAppDelegate
@@ -29,6 +30,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	// set the working date for the app to be the current date
 	self.workingDate = [[NSDate alloc] initWithTimeIntervalSinceNow:0.0];
+	
+	// setup the preferences
+	SMPreferences* prefs = [SMPreferences sharedPreferences];
+	if([prefs defaultViewType] == nil) {
+		[prefs setDefaultViewType:@"bbso_halph"];
+	}
 	
 	// create the controller for the main view of the app and let it set up
     SMMainViewController *aController = [[SMMainViewController alloc] initWithNibName:@"MainView" bundle:nil];

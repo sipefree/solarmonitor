@@ -12,7 +12,7 @@ if(file_exists($file))
 {
 	$lines = file_get_contents($file);
 	$lines = strip_tags($lines);
-	$lines = str_replace("\n", " ", $lines);
+	//$lines = str_replace("\n", " ", $lines);
 	$pos = strpos($lines, "Dear");
 	if($pos != -1) {
 		$lines = substr($lines, $pos);

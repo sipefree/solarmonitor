@@ -40,29 +40,29 @@
 		$fd_types2num = array_flip($fd_types);
 
 
-		$index_types = array("smdi_maglc", "smdi_igram", "bbso_halph", "swap_00174", "seit_00195", "hxrt_flter");  //"gsxi_flter");
+		$index_types = array("smdi_maglc", "smdi_igram", "swap_00174", "seit_00195", "hxrt_flter");  //"gsxi_flter");
 	//	$index_types = array("gong_maglc", "smdi_igram", "bbso_halph", "seit_00171", "seit_00195", "hxrt_flter");  //"gsxi_flter");
-		$index_types_strs = array("smdi_maglc" => "MDI Mag", "smdi_igram" => "MDI Cont", "bbso_halph" => "GHN H&alpha;", "seit_00171" => "EIT 171&Aring", "seit_00195" => "EIT 195&Aring", "hxrt_flter" => "XRT", "swap_00174" => "SWAP 174&Aring"); //"gsxi_flter" => "SXI X-rays");
+		$index_types_strs = array("gong_maglc" => "GONG Magnetogram", "gong_igram" => "GONG Continuum", "smdi_maglc" => "SOHO MDI Magnetogram", "smdi_igram" => "SOHO MDI Continuum", "bbso_halph" => "BBSO GHN Hydrogen-Alpha", "seit_00171" => "SOHO Ultraviolet (17.1nm)", "seit_00195" => "SOHO Ultraviolet (19.5nm)", "hxrt_flter" => "X-ray Telescope", "swap_00174" => "Sun Watcher APS (17.4nm)"); //"gsxi_flter" => "SXI X-rays");
 	//	$index_types_strs = array("gong_maglc" => "GONG Mag", "smdi_igram" => "MDI Cont", "bbso_halph" => "GHN H&alpha;", "seit_00171" => "EIT 171&Aring", "seit_00195" => "EIT 195&Aring", "hxrt_flter" => "XRT"); //"gsxi_flter" => "SXI X-rays");
 	//  SWAPPED BACK TO MDI AS GONG MAGS WERE NOT BEING FOUND
 		$index2_types = array("smdi_maglc", "slis_chrom", "gong_farsd", "strb_00195", "seit_00195", "stra_00195");
 	//	$index2_types = array("gong_maglc", "slis_chrom", "gong_farsd", "strb_00195", "seit_00195", "stra_00195");
-		$index2_types_strs = array("smdi_maglc" => "MDI Mag", "slis_chrom" => "SOLIS Mag", "gong_farsd" => "GONG Farside", "strb_00195" => "STEREO B", "seit_00195" => "EIT 195&Aring", "stra_00195" => "STEREO A");
+		$index2_types_strs = array("smdi_maglc" => "SOHO MDI Magnetogram", "slis_chrom" => "SOLIS Magnetogram", "gong_farsd" => "GONG Farside", "strb_00195" => "STEREO B (19.5nm)", "seit_00195" => "SOHO Ultraviolet (19.5nm)", "stra_00195" => "STEREO A (19.5nm)");
 	//	$index2_types_strs = array("gong_maglc" => "GONG Mag", "slis_chrom" => "SOLIS Mag", "gong_farsd" => "GONG Farside", "strb_00195" => "STEREO B", "seit_00195" => "EIT 195&Aring", "stra_00195" => "STEREO A");
 		$bakeout_index_types = array("smdi_maglc", "smdi_igram", "bbso_halph", "swap_00174", "bake_00195", "hxrt_flter"); //"gsxi_flter");
 	//	$bakeout_index_types = array("gong_maglc", "smdi_igram", "bbso_halph", "trce_m0171", "bake_00195", "hxrt_flter"); //"gsxi_flter");
-	    $bakeout_index_types_strs = array("smdi_maglc" => "MDI Mag", "smdi_igram" => "MDI Cont", "bbso_halph" => "GHN H&alpha;", "trce_m0171" => "TRC 171&Aring", "bake_00195" => "CCD BAKEOUT", "hxrt_flter" => "XRT", "swap_00174" => "SWAP 174&Aring"); //"gsxi_flter" => "SXI X-rays");
+	    $bakeout_index_types_strs = array("smdi_maglc" => "SOHO MDI Magnetogram", "smdi_igram" => "SOHO MDI Continuum", "bbso_halph" => "BBSO GHN Hydrogen-Alpha", "trce_m0171" => "TRC 17.1nm", "bake_00195" => "CCD BAKEOUT", "hxrt_flter" => "X-ray Telescope", "swap_00174" => "Sun Watcher APS (17.4nm)"); //"gsxi_flter" => "SXI X-rays");
 	//  $bakeout_index_types_strs = array("gong_maglc" => "GONG Mag", "smdi_igram" => "MDI Cont", "bbso_halph" => "GHN H&alpha;", "trce_m0171" => "TRC 171&Aring", "bake_00195" => "CCD BAKEOUT", "hxrt_flter" => "XRT"); //"gsxi_flter" => "SXI X-rays");
 	//	$bakeout_index2_types = array("smdi_maglc", "slis_chrom", "gong_farsd", "strb_00195", "trce_m0171", "stra_00195"); //"gsxi_flter");
 		$bakeout_index2_types = array("gong_maglc", "slis_chrom", "gong_farsd", "strb_00195", "trce_m0171", "stra_00195"); //"gsxi_flter");
 	//  $bakeout_index2_types_strs = array("smdi_maglc" => "MDI Mag", "slis_chrom" => "SOLIS Mag", "gong_farsd" => "GONG Farside", "strb_00195" => "STEREO B", "trce_m0171" => "TRC 171&Aring", "stra_00195" => "STEREO A"); //"gsxi_flter" => "SXI X-rays");	
-	    $bakeout_index2_types_strs = array("gong_maglc" => "GONG Mag", "slis_chrom" => "SOLIS Mag", "gong_farsd" => "GONG Farside", "strb_00195" => "STEREO B", "trce_m0171" => "TRC 171&Aring", "stra_00195" => "STEREO A"); //"gsxi_flter" => "SXI X-rays");	
+	    $bakeout_index2_types_strs = array("gong_maglc" => "GONG Magnetogram", "slis_chrom" => "SOLIS Magnetogram", "gong_farsd" => "GONG Farside", "strb_00195" => "STEREO B (19.5nm)", "trce_m0171" => "TRC (17.1nm)", "stra_00195" => "STEREO A (19.5nm)"); //"gsxi_flter" => "SXI X-rays");	
 
 		$keyhole_index_types = array("smdi_maglc", "smdi_igram", "bbso_halph", "swap_00174", "keyh_00195", "hxrt_flter");
 	//	$keyhole_index_types = array("smdi_maglc", "smdi_igram", "bbso_halph", "trce_m0171", "keyh_00195", "hxrt_flter"); //"gsxi_flter");
-	    $keyhole_index_types_strs = array("smdi_maglc" => "MDI Mag", "smdi_igram" => "MDI Cont", "bbso_halph" => "GHN H&alpha;", "trce_m0171" => "TRC 171&Aring", "keyh_00195" => "SOHO KEYHOLE", "hxrt_flter" => "XRT", "swap_00174" => "SWAP 174&Aring"); //"gsxi_flter" => "SXI X-rays");
+	    $keyhole_index_types_strs = array("smdi_maglc" => "SOHO MDI Magnetogram", "smdi_igram" => "SOHO MDI Continuum", "bbso_halph" => "BBSO GHN Hydrogen-Alpha", "trce_m0171" => "TRC (17.1nm)", "keyh_00195" => "SOHO KEYHOLE", "hxrt_flter" => "X-ray Telescope", "swap_00174" => "Sun Watcher APS (17.4nm)"); //"gsxi_flter" => "SXI X-rays");
 		$keyhole_index2_types = array("gong_maglc", "slis_chrom", "gong_farsd", "strb_00195", "trce_m0171", "stra_00195"); //"gsxi_flter");
-	    $keyhole_index2_types_strs = array("gong_maglc" => "GONG Mag", "slis_chrom" => "SOLIS Mag", "gong_farsd" => "GONG Farside", "strb_00195" => "STEREO B", "trce_m0171" => "TRC 171&Aring", "stra_00195" => "STEREO A"); //"gsxi_flter" => "SXI X-rays");	
+	    $keyhole_index2_types_strs = array("gong_maglc" => "GONG Magnetogram", "slis_chrom" => "SOLIS Magnetogram", "gong_farsd" => "GONG Farside", "strb_00195" => "STEREO B (19.5nm)", "trce_m0171" => "TRC (17.1nm)", "stra_00195" => "STEREO A (19.5nm)"); //"gsxi_flter" => "SXI X-rays");	
 
 
 		$region_types = array("smdi_igram", "smdi_maglc", "bbso_halph", "seit_00304", "seit_00171", "seit_00195", "seit_00284", "hxrt_flter", "gong_maglc", "gong_bgrad");

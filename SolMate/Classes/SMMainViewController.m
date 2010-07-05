@@ -15,6 +15,7 @@
 #import "SMDateControlViewController.h"
 #import "Reachability.h"
 #import "SMForecastViewController.h"
+#import "SMPreferences.h"
 #import <CoreGraphics/CoreGraphics.h>
 #import <QuartzCore/QuartzCore.h>
 #import <UIKit/UIViewController.h>
@@ -507,7 +508,8 @@
 	SMAppDelegate* appDelegate = (SMAppDelegate *)[[UIApplication sharedApplication] delegate];
 	
 	// get the default type for the animation
-	NSString* key = @"bbso_halph";
+	SMPreferences* prefs = [SMPreferences sharedPreferences];
+	NSString* key = [prefs defaultViewType];
 	
 	// pull the metadata for this type from the images data source
 	NSDictionary* dict;
