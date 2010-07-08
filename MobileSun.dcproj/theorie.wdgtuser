@@ -17,8 +17,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {1000, 475}}</string>
-			<string>{{0, 485}, {1000, 288}}</string>
+			<string>{{0, 0}, {1000, 456}}</string>
+			<string>{{0, 466}, {1000, 307}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
@@ -26,7 +26,7 @@
 	<key>DeploymentOptions</key>
 	<dict>
 		<key>Date</key>
-		<date>2010-06-03T10:10:58Z</date>
+		<date>2010-07-07T12:24:45Z</date>
 		<key>Destination</key>
 		<string>localhost.default</string>
 		<key>Path</key>
@@ -512,6 +512,29 @@
 				<integer>1</integer>
 				<integer>0</integer>
 			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>1</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>7</integer>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
 		</array>
 		<key>Objects view last selections</key>
 		<array/>
@@ -523,15 +546,15 @@
 		<key>Visible StackLayout Views</key>
 		<array>
 			<string>listLevel</string>
-			<string>forecastLevel</string>
 			<string>view1</string>
 			<string>newsLevel</string>
+			<string>mainMenu</string>
 		</array>
 	</dict>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
-		<integer>1</integer>
+		<integer>5</integer>
 		<key>SplitViewConfig</key>
 		<integer>3</integer>
 		<key>_indexOfCollapsedView</key>

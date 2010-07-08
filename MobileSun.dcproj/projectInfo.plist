@@ -105,6 +105,18 @@
 	<integer>40</integer>
 	<key>FeedModels</key>
 	<dict>
+		<key>1BFD3B5E-0483-405B-A7FB-BA1EA3828826</key>
+		<dict>
+			<key>sample</key>
+			<dict>
+				<key>date</key>
+				<date>2010-07-06T13:54:54Z</date>
+				<key>encoding</key>
+				<integer>30</integer>
+				<key>fileName</key>
+				<string>1BFD3B5E-0483-405B-A7FB-BA1EA3828826</string>
+			</dict>
+		</dict>
 		<key>3E4309B4-CC06-4096-99D4-89BBF1EDE47C</key>
 		<dict>
 			<key>sample</key>
@@ -121,18 +133,6 @@
 		<dict>
 			<key>sample</key>
 			<dict/>
-		</dict>
-		<key>691B40EA-3CD7-42DD-B5A6-6709D6536646</key>
-		<dict>
-			<key>sample</key>
-			<dict>
-				<key>date</key>
-				<date>2010-05-26T12:23:19Z</date>
-				<key>encoding</key>
-				<integer>30</integer>
-				<key>fileName</key>
-				<string>691B40EA-3CD7-42DD-B5A6-6709D6536646</string>
-			</dict>
 		</dict>
 		<key>7027D2FF-EDCB-4F0C-8D1A-493E4A6135F6</key>
 		<dict>

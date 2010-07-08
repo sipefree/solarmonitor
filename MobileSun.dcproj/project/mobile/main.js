@@ -34,7 +34,7 @@ function mainMenuSelect(event)
         // The Browser's goForward method is used to make the browser push down to a new level.
         // Going back to previous levels is handled automatically.
         var name = selectedObjects[0].valueForKey("name");
-        if(name == "Current Images") {
+        if(name == "Full-Disk Images") {
             browser.goForward(document.getElementById('selectDetailWavelength'), selectedObjects[0].valueForKey("name"));
         }
         else if(name == "Active Regions") {
@@ -216,7 +216,7 @@ prettyDate = Class.create(DC.ValueTransformer,{
         var year = strDate.substr(0, 4);
         var month = strDate.substr(4, 2);
         var day = strDate.substr(6, 2);
-        return "Date: " + year + "-" + month + "-" + day;
+        return year + "-" + month + "-" + day;
     }
     // Uncomment to support a reverse transformation
     /*

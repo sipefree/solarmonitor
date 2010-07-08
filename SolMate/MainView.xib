@@ -12,12 +12,12 @@
 		</object>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="127"/>
-			<integer value="97"/>
-			<integer value="90"/>
-			<integer value="34"/>
-			<integer value="106"/>
 			<integer value="86"/>
+			<integer value="97"/>
+			<integer value="34"/>
+			<integer value="127"/>
+			<integer value="90"/>
+			<integer value="106"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -439,7 +439,7 @@
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
 						<reference key="IBUIFont" ref="187192192"/>
-						<string key="IBUINormalTitle">^ Show Date Controls ^</string>
+						<string key="IBUINormalTitle">Show Date Controls</string>
 						<reference key="IBUIHighlightedTitleColor" ref="1057465880"/>
 						<reference key="IBUINormalTitleColor" ref="1057465880"/>
 						<reference key="IBUINormalTitleShadowColor" ref="574540397"/>

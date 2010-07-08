@@ -10,8 +10,8 @@ body {
     min-height: 416px;
     font-family: Helvetica;
     background-image: url(Images/Picture%204.png);
-    background-repeat: no-repeat;
     background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
 }
 
 #browser {
@@ -32,7 +32,6 @@ body {
     font-weight: bold;
     border-top-width: 0px;
     border-bottom-width: 0px;
-    background-repeat: repeat-x;
     border-left-width: 0px;
     border-right-width: 0px;
     cursor: default;
@@ -48,6 +47,7 @@ body {
     padding: 0px;
     line-height: normal;
     font-size: 15pt;
+    background-repeat: repeat no-repeat;
 }
 
 .back_button_template {
@@ -107,10 +107,10 @@ body {
     margin-right: 10px;
     margin-bottom: 10px;
     width: auto;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
+    border-top-left-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
     opacity: 1;
     margin-top: 5px;
     background-color: rgba(148, 163, 231, 0.117188);
@@ -167,7 +167,7 @@ body {
     right: 30px;
     width: auto;
     color: rgb(255, 255, 255);
-    text-shadow: rgba(0, 0, 0, 0.171875) 0px 1px 4px;
+    text-shadow: rgba(0, 0, 0, 0.167969) 0px 1px 4px;
 }
 
 .rowArrow_template {
@@ -175,10 +175,10 @@ body {
     width: 8px;
     height: 13px;
     background-image: url(../Images/chevron.png);
-    background-repeat: no-repeat;
     top: 17px;
     right: 11px;
     margin-left: auto;
+    background-repeat: no-repeat no-repeat;
 }
 
 .listRowTemplate_template.selected .rowArrow_template {
@@ -238,17 +238,17 @@ body {
     -webkit-margin-bottom-collapse: separate;
     border-width: 1px;
     border-color: rgb(172, 172, 172);
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
     cursor: default;
     -webkit-user-select: none;
     margin-right: 9px;
     position: relative;
     width: auto;
     -webkit-margin-top-collapse: separate;
-    background-color: rgba(148, 163, 231, 0.109375);
+    background-color: rgba(148, 163, 231, 0.105469);
     margin-top: 7px;
 }
 
@@ -292,7 +292,7 @@ body {
     right: 10px;
     top: 15px;
     background-image: url(../Images/chevron.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat no-repeat;
 }
 
 .listRowTemplate1_template .DC_selectionBG {
@@ -324,10 +324,10 @@ body {
     left: 9px;
     border-width: 1px;
     border-color: rgb(76, 76, 76);
-    -webkit-border-top-left-radius: 6px 6px;
-    -webkit-border-top-right-radius: 6px 6px;
-    -webkit-border-bottom-left-radius: 6px 6px;
-    -webkit-border-bottom-right-radius: 6px 6px;
+    border-top-left-radius: 6px 6px;
+    border-top-right-radius: 6px 6px;
+    border-bottom-left-radius: 6px 6px;
+    border-bottom-right-radius: 6px 6px;
 }
 
 .DC_img1_template {
@@ -435,10 +435,10 @@ body {
 #box2 {
     border-width: 1px;
     border-style: solid;
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
     position: relative;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
@@ -449,7 +449,7 @@ body {
     margin-left: 10px;
     border-color: rgb(57, 57, 57);
     opacity: 1;
-    background-color: rgba(28, 28, 28, 0.40625);
+    background-color: rgba(28, 28, 28, 0.402344);
     margin-top: 10px;
 }
 
@@ -489,10 +489,10 @@ body {
     height: 248px;
     margin-right: auto;
     margin-left: auto;
-    -webkit-border-top-left-radius: 0px 0px;
-    -webkit-border-top-right-radius: 0px 0px;
-    -webkit-border-bottom-left-radius: 0px 0px;
-    -webkit-border-bottom-right-radius: 0px 0px;
+    border-top-left-radius: 0px 0px;
+    border-top-right-radius: 0px 0px;
+    border-bottom-left-radius: 0px 0px;
+    border-bottom-right-radius: 0px 0px;
 }
 
 #text4 {
@@ -525,15 +525,15 @@ body {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    top: 11px;
     font-style: normal;
-    font-size: 17px;
-    left: 77px;
-    right: 30px;
-    width: auto;
-    bottom: 44px;
-    height: auto;
     color: rgb(255, 255, 255);
+    font-size: 16px;
+    top: 15px;
+    left: 74px;
+    right: 24px;
+    width: auto;
+    bottom: 40px;
+    height: auto;
 }
 
 .listRowTemplate1_template.selected .label_template {
@@ -546,14 +546,14 @@ body {
     overflow: hidden;
     position: absolute;
     margin-top: 0px;
-    left: 77px;
     font-size: 10pt;
-    top: 43px;
-    right: 11px;
-    width: auto;
-    bottom: 17px;
-    height: auto;
     color: rgb(255, 255, 255);
+    top: 38px;
+    left: 74px;
+    right: 14px;
+    width: auto;
+    bottom: 22px;
+    height: auto;
 }
 
 .selected .text6_template {
@@ -624,7 +624,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0390625) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0273438) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -647,7 +647,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0351562) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0273438) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -670,7 +670,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.03125) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0273438) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -693,7 +693,7 @@ body {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0351562) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0273438) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -720,13 +720,13 @@ body {
     position: relative;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
-    -webkit-border-top-left-radius: 10px 10px;
-    -webkit-border-top-right-radius: 10px 10px;
-    -webkit-border-bottom-left-radius: 10px 10px;
-    -webkit-border-bottom-right-radius: 10px 10px;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
     border-style: solid;
     border-color: rgb(55, 55, 55);
-    background-color: rgba(17, 17, 17, 0.394531);
+    background-color: rgba(17, 17, 17, 0.386719);
     width: 298px;
     margin-left: auto;
     margin-right: auto;
@@ -821,10 +821,10 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     margin-left: 0px;
     margin-right: 0px;
-    width: auto;
-    min-height: 16px;
-    height: auto;
     margin-top: 5px;
+    width: auto;
+    min-height: 20px;
+    height: auto;
 }
 
 .selected .text2_template {
@@ -899,12 +899,12 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     color: rgb(255, 255, 255);
     cursor: default;
     -webkit-user-select: none;
-    font-size: 9px;
-    top: 3px;
-    left: -2px;
-    right: -1px;
+    font-size: 10px;
+    top: 0px;
+    left: -1px;
+    right: -2px;
     width: auto;
-    bottom: -2px;
+    bottom: 1px;
     height: auto;
 }
 
@@ -928,9 +928,9 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     bottom: auto;
     margin-top: 0px;
     opacity: 1;
-    top: 0px;
     height: 50px;
     width: 48px;
+    top: 0px;
     right: 259px;
     margin-left: auto;
     left: -11px;
@@ -943,7 +943,7 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0234375) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -968,7 +968,7 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0234375) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -993,7 +993,7 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -1006,9 +1006,9 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     top: 0px;
     height: 50px;
     width: 48px;
-    right: -11px;
+    right: -12px;
     margin-left: auto;
-    left: 259px;
+    left: 260px;
     margin-right: auto;
 }
 
@@ -1018,7 +1018,7 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0234375) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -1030,8 +1030,8 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     opacity: 1;
     top: 0px;
     height: 50px;
-    width: 40px;
-    right: 36px;
+    width: 41px;
+    right: 35px;
     margin-left: auto;
     left: 220px;
     margin-right: auto;
@@ -1043,7 +1043,7 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -1068,7 +1068,7 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -1152,10 +1152,10 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     -webkit-margin-bottom-collapse: separate;
     border-width: 1px;
     border-color: rgb(172, 172, 172);
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
     cursor: default;
     -webkit-user-select: none;
     position: relative;
@@ -1184,10 +1184,10 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     margin-right: 0px;
     margin-bottom: 3px;
     width: auto;
-    -webkit-border-top-left-radius: 5px 5px;
-    -webkit-border-top-right-radius: 5px 5px;
-    -webkit-border-bottom-left-radius: 5px 5px;
-    -webkit-border-bottom-right-radius: 5px 5px;
+    border-top-left-radius: 5px 5px;
+    border-top-right-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
 }
 
 .listRowTemplate3_template .DC_selectionBG {
@@ -1245,197 +1245,6 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     color: white;
 }
 
-#bottomRectangleShape1 {
-    margin-top: 0px;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    position: relative;
-    margin-left: 0px;
-    height: 56px;
-    width: auto;
-    margin-right: 0px;
-    border-left-width: 12px;
-    border-right-width: 12px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    -webkit-border-image: url(Parts/Images/bottomRectangleShape1.png) 0 12 0 12 stretch stretch;
-}
-
-#button20 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0234375) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    width: 48px;
-    right: 259px;
-    margin-left: auto;
-    left: -11px;
-    margin-right: auto;
-}
-
-#button21 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    width: 40px;
-    right: 181px;
-    margin-left: auto;
-    left: 75px;
-    margin-right: auto;
-}
-
-#button22 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    width: 40px;
-    right: 220px;
-    margin-left: auto;
-    left: 36px;
-    margin-right: auto;
-}
-
-#button23 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    width: 48px;
-    right: -11px;
-    margin-left: auto;
-    left: 259px;
-    margin-right: auto;
-}
-
-#button24 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    width: 40px;
-    right: 36px;
-    margin-left: auto;
-    left: 220px;
-    margin-right: auto;
-}
-
-#button25 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    height: 50px;
-    top: 0px;
-    width: 40px;
-    right: 75px;
-    margin-left: auto;
-    left: 181px;
-    margin-right: auto;
-}
-
-#button26 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    width: 68px;
-    right: 114px;
-    margin-left: auto;
-    left: 114px;
-    margin-right: auto;
-}
-
 #activityIndicator2 {
     width: 32px;
     height: 32px;
@@ -1455,10 +1264,10 @@ body.DC_windowInactive .gridCellTemplate_template.selected {
     -webkit-margin-bottom-collapse: separate;
     border-width: 1px;
     border-color: rgb(172, 172, 172);
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
     cursor: default;
     -webkit-user-select: none;
     position: relative;
@@ -1907,7 +1716,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0234375) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -1932,7 +1741,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -1957,7 +1766,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -1982,7 +1791,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -2007,7 +1816,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -2032,7 +1841,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -2057,7 +1866,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -2101,10 +1910,10 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     -webkit-margin-bottom-collapse: separate;
     border-width: 1px;
     border-color: rgb(172, 172, 172);
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
     cursor: default;
     -webkit-user-select: none;
     margin-right: 9px;
@@ -2210,8 +2019,8 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     height: 13px;
     right: 10px;
     background-image: url(../Images/chevron.png);
-    background-repeat: no-repeat;
     top: 31px;
+    background-repeat: no-repeat no-repeat;
 }
 
 .listRowTemplate1_template.selected .arrow1_template {
@@ -2233,10 +2042,10 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     left: 9px;
     border-width: 1px;
     border-color: rgb(76, 76, 76);
-    -webkit-border-top-left-radius: 6px 6px;
-    -webkit-border-top-right-radius: 6px 6px;
-    -webkit-border-bottom-left-radius: 6px 6px;
-    -webkit-border-bottom-right-radius: 6px 6px;
+    border-top-left-radius: 6px 6px;
+    border-top-right-radius: 6px 6px;
+    border-bottom-left-radius: 6px 6px;
+    border-bottom-right-radius: 6px 6px;
 }
 
 .DC_img4_template {
@@ -2323,10 +2132,10 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
 
 #box1 {
     border-width: 1px;
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
     position: relative;
     margin-top: 17px;
     margin-left: 9px;
@@ -2334,7 +2143,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     -webkit-margin-bottom-collapse: separate;
     background-color: rgba(17, 17, 17, 0.402344);
     border-style: solid;
-    border-color: rgba(148, 163, 231, 0.394531);
+    border-color: rgba(148, 163, 231, 0.386719);
     margin-right: 9px;
     width: auto;
     min-height: 150px;
@@ -2395,17 +2204,17 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     -webkit-margin-bottom-collapse: separate;
     border-width: 1px;
     border-style: solid;
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
     cursor: default;
     -webkit-user-select: none;
     margin-right: 9px;
     position: relative;
     width: auto;
     -webkit-margin-top-collapse: separate;
-    background-color: rgba(17, 17, 17, 0.410156);
+    background-color: rgba(17, 17, 17, 0.402344);
     border-color: rgba(148, 163, 231, 0.402344);
 }
 
@@ -2484,17 +2293,17 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
 #box4 {
     border-width: 1px;
     border-style: solid;
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
     position: relative;
     margin-top: 17px;
     margin-left: 9px;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
     background-color: rgba(17, 17, 17, 0.429688);
-    border-color: rgba(148, 163, 231, 0.421875);
+    border-color: rgba(148, 163, 231, 0.417969);
     margin-right: 9px;
     width: auto;
     min-height: 73px;
@@ -2531,15 +2340,15 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     -webkit-margin-bottom-collapse: separate;
     border-width: 1px;
     border-color: rgb(172, 172, 172);
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
     cursor: default;
     -webkit-user-select: none;
     position: relative;
     -webkit-margin-top-collapse: separate;
-    background-color: rgba(148, 163, 231, 0.101562);
+    background-color: rgba(148, 163, 231, 0.0898438);
     margin-top: 7px;
     margin-right: 9px;
     margin-bottom: 0px;
@@ -2666,10 +2475,10 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     left: 9px;
     border-width: 1px;
     border-color: rgb(76, 76, 76);
-    -webkit-border-top-left-radius: 6px 6px;
-    -webkit-border-top-right-radius: 6px 6px;
-    -webkit-border-bottom-left-radius: 6px 6px;
-    -webkit-border-bottom-right-radius: 6px 6px;
+    border-top-left-radius: 6px 6px;
+    border-top-right-radius: 6px 6px;
+    border-bottom-left-radius: 6px 6px;
+    border-bottom-right-radius: 6px 6px;
 }
 
 .DC_img6_template {
@@ -2703,7 +2512,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.457031) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.449219) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     height: 30px;
@@ -2929,7 +2738,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     font-weight: bold;
     font-size: 12px;
     color: rgb(255, 255, 255);
-    text-shadow: rgba(0, 0, 0, 0.5) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.496094) 0px -1px 0px;
     text-align: center;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -2969,10 +2778,10 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
 #box5 {
     border-width: 1px;
     border-style: solid;
-    -webkit-border-top-right-radius: 8px 8px;
-    -webkit-border-top-left-radius: 8px 8px;
-    -webkit-border-bottom-left-radius: 8px 8px;
-    -webkit-border-bottom-right-radius: 8px 8px;
+    border-top-right-radius: 8px 8px;
+    border-top-left-radius: 8px 8px;
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
     position: relative;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
@@ -3000,10 +2809,10 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     height: 248px;
     margin-right: auto;
     margin-left: auto;
-    -webkit-border-top-left-radius: 0px 0px;
-    -webkit-border-top-right-radius: 0px 0px;
-    -webkit-border-bottom-left-radius: 0px 0px;
-    -webkit-border-bottom-right-radius: 0px 0px;
+    border-top-left-radius: 0px 0px;
+    border-top-right-radius: 0px 0px;
+    border-bottom-left-radius: 0px 0px;
+    border-bottom-right-radius: 0px 0px;
 }
 
 #image9 {
@@ -3102,33 +2911,106 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     color: white;
 }
 
-#bottomRectangleShape3 {
-    -webkit-border-image: url(Parts/Images/bottomRectangleShape.png) 0 12 0 12 stretch stretch;
-}
-
-#bottomRectangleShape3 {
+#textarea {
+    font-family: HelveticaNeue;
+    position: absolute;
+    bottom: auto;
     margin-top: 0px;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    position: relative;
-    margin-left: 0px;
-    height: 56px;
-    width: auto;
-    margin-right: 0px;
-    border-left-width: 12px;
-    border-right-width: 12px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    -webkit-border-image: url(Parts/Images/bottomRectangleShape3.png) 0 12 0 12 stretch stretch;
+    background-color: rgba(17, 17, 17, 0.496094);
+    border-style: solid;
+    border-color: rgba(148, 163, 231, 0.496094);
+    color: rgb(255, 255, 255);
+    max-width: 300px;
+    height: 652px;
+    left: 5px;
+    top: 55px;
+    -webkit-user-select: text;
+    width: 291px;
+    font-size: 10pt;
 }
 
-#button36 {
+#button43 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0234375) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.273438) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    opacity: 1;
+    height: 37px;
+    margin-top: 0px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    top: 6px;
+    width: 118px;
+    left: 114px;
+}
+
+#button34 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.261719) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    opacity: 1;
+    height: 37px;
+    margin-top: 0px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    width: 118px;
+    top: 7px;
+    left: 116px;
+}
+
+#button44 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.273438) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    opacity: 1;
+    height: 37px;
+    width: 101px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 7px;
+    left: 8px;
+}
+
+#button20 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0273438) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -3138,47 +3020,22 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     bottom: auto;
     margin-top: 0px;
     opacity: 1;
-    top: 0px;
     height: 50px;
     width: 48px;
+    top: 0px;
     right: 259px;
     margin-left: auto;
     left: -11px;
     margin-right: auto;
 }
 
-#button37 {
+#button22 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    width: 40px;
-    right: 181px;
-    margin-left: auto;
-    left: 75px;
-    margin-right: auto;
-}
-
-#button38 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -3197,38 +3054,13 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     margin-right: auto;
 }
 
-#button39 {
+#button21 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    width: 48px;
-    right: -11px;
-    margin-left: auto;
-    left: 259px;
-    margin-right: auto;
-}
-
-#button40 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -3241,19 +3073,69 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     top: 0px;
     height: 50px;
     width: 40px;
-    right: 36px;
+    right: 181px;
     margin-left: auto;
-    left: 220px;
+    left: 75px;
     margin-right: auto;
 }
 
-#button41 {
+#button23 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 48px;
+    right: -12px;
+    margin-left: auto;
+    left: 260px;
+    margin-right: auto;
+}
+
+#button24 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 41px;
+    right: 35px;
+    margin-left: auto;
+    left: 220px;
+    margin-right: auto;
+}
+
+#button25 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -3272,13 +3154,13 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     margin-right: auto;
 }
 
-#button42 {
+#button26 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -3297,11 +3179,11 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     margin-right: auto;
 }
 
-#bottomRectangleShape4 {
-    -webkit-border-image: url(Parts/Images/bottomRectangleShape.png) 0 12 0 12 stretch stretch;
-}
-
-#bottomRectangleShape4 {
+#bottomRectangleShape1 {
+    border-left-width: 12px;
+    border-right-width: 12px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
     margin-top: 0px;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
@@ -3310,11 +3192,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     height: 56px;
     width: auto;
     margin-right: 0px;
-    border-left-width: 12px;
-    border-right-width: 12px;
-    border-top-width: 0px;
-    border-bottom-width: 0px;
-    -webkit-border-image: url(Parts/Images/bottomRectangleShape4.png) 0 12 0 12 stretch stretch;
+    -webkit-border-image: url(Parts/Images/bottomRectangleShape1.png) 0 12 0 12 stretch stretch;
 }
 
 #button1 {
@@ -3323,7 +3201,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.0195312) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0273438) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -3333,37 +3211,12 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     bottom: auto;
     margin-top: 0px;
     opacity: 1;
-    top: 0px;
     height: 50px;
     width: 48px;
+    top: 0px;
     right: 259px;
     margin-left: auto;
     left: -11px;
-    margin-right: auto;
-}
-
-#button2 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    position: absolute;
-    bottom: auto;
-    margin-top: 0px;
-    opacity: 1;
-    top: 0px;
-    height: 50px;
-    width: 40px;
-    right: 181px;
-    margin-left: auto;
-    left: 75px;
     margin-right: auto;
 }
 
@@ -3373,7 +3226,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -3389,6 +3242,31 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     right: 220px;
     margin-left: auto;
     left: 36px;
+    margin-right: auto;
+}
+
+#button2 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 181px;
+    margin-left: auto;
+    left: 75px;
     margin-right: auto;
 }
 
@@ -3411,9 +3289,9 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     top: 0px;
     height: 50px;
     width: 48px;
-    right: -11px;
+    right: -12px;
     margin-left: auto;
-    left: 259px;
+    left: 260px;
     margin-right: auto;
 }
 
@@ -3423,7 +3301,7 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.015625) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
@@ -3435,8 +3313,8 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     opacity: 1;
     top: 0px;
     height: 50px;
-    width: 40px;
-    right: 36px;
+    width: 41px;
+    right: 35px;
     margin-left: auto;
     left: 220px;
     margin-right: auto;
@@ -3492,95 +3370,209 @@ body.DC_windowInactive .gridCellTemplate1_template.selected {
     margin-right: auto;
 }
 
-#textarea {
-    font-family: HelveticaNeue;
-    position: absolute;
-    bottom: auto;
+#bottomRectangleShape4 {
+    border-left-width: 12px;
+    border-right-width: 12px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
     margin-top: 0px;
-    background-color: rgba(17, 17, 17, 0.503906);
-    border-style: solid;
-    border-color: rgba(148, 163, 231, 0.496094);
-    color: rgb(255, 255, 255);
-    max-width: 300px;
-    height: 652px;
-    left: 5px;
-    top: 55px;
-    -webkit-user-select: text;
-    width: 291px;
-    font-size: 10pt;
+    -webkit-margin-top-collapse: separate;
+    -webkit-margin-bottom-collapse: separate;
+    position: relative;
+    margin-left: 0px;
+    height: 56px;
+    width: auto;
+    margin-right: 0px;
+    -webkit-border-image: url(Parts/Images/bottomRectangleShape4.png) 0 12 0 12 stretch stretch;
 }
 
-#button43 {
+#button36 {
     font-family: Helvetica;
     font-weight: bold;
     font-size: 12px;
     color: rgb(255, 255, 255);
     text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.273438) 0px -1px 0px;
+    text-shadow: rgba(0, 0, 0, 0.0273438) 0px -1px 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     -webkit-dashboard-region: dashboard-region(control rectangle);
     cursor: default;
     -webkit-user-select: none;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    opacity: 1;
-    height: 37px;
-    margin-top: 0px;
     position: absolute;
-    right: auto;
     bottom: auto;
-    top: 6px;
-    width: 118px;
+    margin-top: 0px;
+    opacity: 1;
+    height: 50px;
+    width: 48px;
+    top: 0px;
+    right: 259px;
+    margin-left: auto;
+    left: -11px;
+    margin-right: auto;
+}
+
+#button38 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 220px;
+    margin-left: auto;
+    left: 36px;
+    margin-right: auto;
+}
+
+#button37 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 40px;
+    right: 181px;
+    margin-left: auto;
+    left: 75px;
+    margin-right: auto;
+}
+
+#button39 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 48px;
+    right: -12px;
+    margin-left: auto;
+    left: 260px;
+    margin-right: auto;
+}
+
+#button40 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 41px;
+    right: 35px;
+    margin-left: auto;
+    left: 220px;
+    margin-right: auto;
+}
+
+#button41 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    height: 50px;
+    top: 0px;
+    width: 40px;
+    right: 75px;
+    margin-left: auto;
+    left: 181px;
+    margin-right: auto;
+}
+
+#button42 {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.0117188) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    position: absolute;
+    bottom: auto;
+    margin-top: 0px;
+    opacity: 1;
+    top: 0px;
+    height: 50px;
+    width: 68px;
+    right: 114px;
+    margin-left: auto;
     left: 114px;
+    margin-right: auto;
 }
 
-#button34 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.269531) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
+#bottomRectangleShape3 {
+    border-left-width: 12px;
+    border-right-width: 12px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    margin-top: 0px;
     -webkit-margin-top-collapse: separate;
     -webkit-margin-bottom-collapse: separate;
-    opacity: 1;
-    height: 37px;
-    margin-top: 0px;
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    width: 118px;
-    top: 7px;
-    left: 116px;
-}
-
-#button44 {
-    font-family: Helvetica;
-    font-weight: bold;
-    font-size: 12px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-shadow: rgba(0, 0, 0, 0.273438) 0px -1px 0px;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    -webkit-dashboard-region: dashboard-region(control rectangle);
-    cursor: default;
-    -webkit-user-select: none;
-    -webkit-margin-top-collapse: separate;
-    -webkit-margin-bottom-collapse: separate;
-    opacity: 1;
-    height: 37px;
-    width: 101px;
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    top: 7px;
-    left: 8px;
+    position: relative;
+    margin-left: 0px;
+    height: 56px;
+    width: auto;
+    margin-right: 0px;
+    -webkit-border-image: url(Parts/Images/bottomRectangleShape3.png) 0 12 0 12 stretch stretch;
 }

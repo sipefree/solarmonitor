@@ -302,6 +302,30 @@ hideDateControlButton;
 - (void)animation:(SMAnimationDataSource*)sender didProgressWithCount:(int)count ofTotal:(int)total {
 	self.progressView.progress = (float)count / (float)total;
 }
+- (void)didReceiveMemoryWarning {
+	if(isLoading) {
+		[animationDataSource cancel];
+		[animationDataSource flush];
+		self.progressView.progress = 0.0;
+		self.progressView.progressViewStyle = UIProgressViewStyleBar;
+		self.imageView.image = nil;
+		self.imageView.animationImages = nil;
+		self.imageView.animationRepeatCount = 0;
+		[self.goButton setTitle:@"Go" forState:UIControlStateNormal];
+		[self.goButton setTitle:@"Go" forState:UIControlStateHighlighted];
+		[self.goButton setTitle:@"Go" forState:UIControlStateSelected];
+		animationNeedsUpdate = YES;
+		isLoading = NO;
+		UIAlertView *alert =
+		[[UIAlertView alloc] initWithTitle: @"Memory Warning"
+								   message: @"Your device does not have enough memory to download so many frames. Try sticking to ranges of 2-3 months or less."
+								  delegate: self
+						 cancelButtonTitle: @"OK"
+						 otherButtonTitles: nil];
+		[alert show];
+		[alert release];
+	}
+}
 - (void)dealloc {
 	[animationDataSource cancel];
 	[animationDataSource flush];

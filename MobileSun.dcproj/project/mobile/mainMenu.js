@@ -1,7 +1,7 @@
 {
     title: "Menu",
     mainMenu: [
-        { name: "Current Images", image: "Images/Images.png" },
+        { name: "Full-Disk Images", image: "Images/Images.png" },
         { name: "Active Regions", image: "Images/activeRegions.png" },
         { name: "Search", image: "Images/search.png" },
         { name: "Events", image: "Images/events.png" },

@@ -10,9 +10,9 @@
 	};
 	1D3623250D0F684500981E51 /* SMAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1100, 2067}}";
-			sepNavSelRange = "{1035, 0}";
-			sepNavVisRange = "{332, 1440}";
+			sepNavIntBoundsRect = "{{0, 0}, {1100, 2106}}";
+			sepNavSelRange = "{3380, 0}";
+			sepNavVisRange = "{43, 1246}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* SolMate */ = {
@@ -45,7 +45,7 @@
 		sourceTree = "<absolute>";
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
-		activeBuildConfigurationName = Debug;
+		activeBuildConfigurationName = Release;
 		activeExecutable = E47D549011AFE14A00D51923 /* SolMate */;
 		activeSDKPreference = iphoneos4.0;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* SolMate */;
@@ -228,6 +228,27 @@
 			E4DDF73611E22D0B00B9AF8A /* PBXTextBookmark */ = E4DDF73611E22D0B00B9AF8A /* PBXTextBookmark */;
 			E4DDF73711E22D0F00B9AF8A /* PBXTextBookmark */ = E4DDF73711E22D0F00B9AF8A /* PBXTextBookmark */;
 			E4DDF73811E22D0F00B9AF8A /* PBXTextBookmark */ = E4DDF73811E22D0F00B9AF8A /* PBXTextBookmark */;
+			E4DDF73911E36E2200B9AF8A /* PBXTextBookmark */ = E4DDF73911E36E2200B9AF8A /* PBXTextBookmark */;
+			E4DDF73A11E36E2200B9AF8A /* PBXTextBookmark */ = E4DDF73A11E36E2200B9AF8A /* PBXTextBookmark */;
+			E4DDF73B11E36E3100B9AF8A /* PBXTextBookmark */ = E4DDF73B11E36E3100B9AF8A /* PBXTextBookmark */;
+			E4DDF73C11E36E3100B9AF8A /* PBXTextBookmark */ = E4DDF73C11E36E3100B9AF8A /* PBXTextBookmark */;
+			E4DDF73D11E36E3100B9AF8A /* PBXTextBookmark */ = E4DDF73D11E36E3100B9AF8A /* PBXTextBookmark */;
+			E4DDF73E11E36E3100B9AF8A /* PBXTextBookmark */ = E4DDF73E11E36E3100B9AF8A /* PBXTextBookmark */;
+			E4DDF73F11E36E3100B9AF8A /* PBXTextBookmark */ = E4DDF73F11E36E3100B9AF8A /* PBXTextBookmark */;
+			E4DDF74211E4AC5D00B9AF8A /* PBXTextBookmark */ = E4DDF74211E4AC5D00B9AF8A /* PBXTextBookmark */;
+			E4DDF74311E4AC5D00B9AF8A /* PBXTextBookmark */ = E4DDF74311E4AC5D00B9AF8A /* PBXTextBookmark */;
+			E4DDF74411E4AC5D00B9AF8A /* PBXTextBookmark */ = E4DDF74411E4AC5D00B9AF8A /* PBXTextBookmark */;
+			E4DDF74511E4AC5D00B9AF8A /* PBXTextBookmark */ = E4DDF74511E4AC5D00B9AF8A /* PBXTextBookmark */;
+			E4DDF74611E4AC5D00B9AF8A /* PBXTextBookmark */ = E4DDF74611E4AC5D00B9AF8A /* PBXTextBookmark */;
+			E4DDF74B11E4AD2600B9AF8A /* PBXTextBookmark */ = E4DDF74B11E4AD2600B9AF8A /* PBXTextBookmark */;
+			E4DDF74C11E4AD2600B9AF8A /* PBXTextBookmark */ = E4DDF74C11E4AD2600B9AF8A /* PBXTextBookmark */;
+			E4DDF74F11E4AE2100B9AF8A /* PBXTextBookmark */ = E4DDF74F11E4AE2100B9AF8A /* PBXTextBookmark */;
+			E4DDF75011E4AE2100B9AF8A /* PBXTextBookmark */ = E4DDF75011E4AE2100B9AF8A /* PBXTextBookmark */;
+			E4DDF75311E4AEBF00B9AF8A /* PBXTextBookmark */ = E4DDF75311E4AEBF00B9AF8A /* PBXTextBookmark */;
+			E4DDF75411E4AEBF00B9AF8A /* PBXTextBookmark */ = E4DDF75411E4AEBF00B9AF8A /* PBXTextBookmark */;
+			E4DDF78911E4B0E300B9AF8A /* PBXTextBookmark */ = E4DDF78911E4B0E300B9AF8A /* PBXTextBookmark */;
+			E4DDF78A11E4B0E300B9AF8A /* PBXTextBookmark */ = E4DDF78A11E4B0E300B9AF8A /* PBXTextBookmark */;
+			E4DDF78B11E4B0E300B9AF8A /* PBXTextBookmark */ = E4DDF78B11E4B0E300B9AF8A /* PBXTextBookmark */;
 		};
 		sourceControlManager = E47D54A311AFE15300D51923 /* Source Control */;
 		userBookmarkGroup = E498AA0711D35EC300C6C0D2 /* PBXBookmarkGroup */;
@@ -361,9 +382,9 @@
 	};
 	E4331D0811BE4B6700A1507B /* SMMainViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1100, 858}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1372, 858}}";
 			sepNavSelRange = "{1273, 0}";
-			sepNavVisRange = "{985, 1614}";
+			sepNavVisRange = "{1047, 661}";
 			sepNavWindowFrame = "{{15, 36}, {1018, 837}}";
 		};
 	};
@@ -531,7 +552,7 @@
 	};
 	E4555D2E11C286AA009A6A7A /* SMAnimationDataSource.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {908, 793}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1100, 793}}";
 			sepNavSelRange = "{2004, 0}";
 			sepNavVisRange = "{713, 1315}";
 			sepNavWindowFrame = "{{15, 40}, {829, 833}}";
@@ -752,9 +773,9 @@
 	};
 	E498AA7311D3719100C6C0D2 /* SMMovieCreatorViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1372, 4121}}";
-			sepNavSelRange = "{4890, 0}";
-			sepNavVisRange = "{1191, 888}";
+			sepNavIntBoundsRect = "{{0, 0}, {1132, 4212}}";
+			sepNavSelRange = "{10727, 0}";
+			sepNavVisRange = "{10044, 1552}";
 		};
 	};
 	E498AB4711D3A41000C6C0D2 /* PBXTextBookmark */ = {
@@ -779,7 +800,7 @@
 	};
 	E4BF05F211D8DD6400E9AF67 /* SMForecastViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1107, 474}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1100, 491}}";
 			sepNavSelRange = "{310, 0}";
 			sepNavVisRange = "{0, 576}";
 		};
@@ -1827,6 +1848,216 @@
 		vrLoc = 985;
 	};
 	E4DDF73811E22D0F00B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4555D3111C286EE009A6A7A /* SMImageLoader.m */;
+		name = "SMImageLoader.m: 90";
+		rLen = 0;
+		rLoc = 3679;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 2749;
+	};
+	E4DDF73911E36E2200B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E498AA7311D3719100C6C0D2 /* SMMovieCreatorViewController.m */;
+		name = "SMMovieCreatorViewController.m: 153";
+		rLen = 0;
+		rLoc = 4890;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 1191;
+	};
+	E4DDF73A11E36E2200B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4331D0811BE4B6700A1507B /* SMMainViewController.h */;
+		name = "SMMainViewController.h: 40";
+		rLen = 0;
+		rLoc = 1273;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 1047;
+	};
+	E4DDF73B11E36E3100B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4331D0811BE4B6700A1507B /* SMMainViewController.h */;
+		name = "SMMainViewController.h: 40";
+		rLen = 0;
+		rLoc = 1273;
+		rType = 0;
+		vrLen = 1614;
+		vrLoc = 985;
+	};
+	E4DDF73C11E36E3100B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4BF05F211D8DD6400E9AF67 /* SMForecastViewController.h */;
+		name = "SMForecastViewController.h: 14";
+		rLen = 0;
+		rLoc = 310;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	E4DDF73D11E36E3100B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4555D2E11C286AA009A6A7A /* SMAnimationDataSource.m */;
+		name = "SMAnimationDataSource.m: 58";
+		rLen = 0;
+		rLoc = 2004;
+		rType = 0;
+		vrLen = 1317;
+		vrLoc = 711;
+	};
+	E4DDF73E11E36E3100B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4555D2E11C286AA009A6A7A /* SMAnimationDataSource.m */;
+		name = "SMAnimationDataSource.m: 58";
+		rLen = 0;
+		rLoc = 2004;
+		rType = 0;
+		vrLen = 1315;
+		vrLoc = 713;
+	};
+	E4DDF73F11E36E3100B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4555D3111C286EE009A6A7A /* SMImageLoader.m */;
+		name = "SMImageLoader.m: 90";
+		rLen = 0;
+		rLoc = 3679;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 2749;
+	};
+	E4DDF74211E4AC5D00B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4555D2E11C286AA009A6A7A /* SMAnimationDataSource.m */;
+		name = "SMAnimationDataSource.m: 58";
+		rLen = 0;
+		rLoc = 2004;
+		rType = 0;
+		vrLen = 1315;
+		vrLoc = 713;
+	};
+	E4DDF74311E4AC5D00B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SMAppDelegate.m */;
+		name = "SMAppDelegate.m: 79";
+		rLen = 0;
+		rLoc = 3380;
+		rType = 0;
+		vrLen = 1246;
+		vrLoc = 43;
+	};
+	E4DDF74411E4AC5D00B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E498AA7311D3719100C6C0D2 /* SMMovieCreatorViewController.m */;
+		name = "SMMovieCreatorViewController.m: 153";
+		rLen = 0;
+		rLoc = 4890;
+		rType = 0;
+		vrLen = 1499;
+		vrLoc = 883;
+	};
+	E4DDF74511E4AC5D00B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E498AA7311D3719100C6C0D2 /* SMMovieCreatorViewController.m */;
+		name = "SMMovieCreatorViewController.m: 309";
+		rLen = 0;
+		rLoc = 11593;
+		rType = 0;
+		vrLen = 1471;
+		vrLoc = 9376;
+	};
+	E4DDF74611E4AC5D00B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4555D3111C286EE009A6A7A /* SMImageLoader.m */;
+		name = "SMImageLoader.m: 90";
+		rLen = 0;
+		rLoc = 3679;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 2749;
+	};
+	E4DDF74B11E4AD2600B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E498AA7311D3719100C6C0D2 /* SMMovieCreatorViewController.m */;
+		name = "SMMovieCreatorViewController.m: 311";
+		rLen = 0;
+		rLoc = 11593;
+		rType = 0;
+		vrLen = 1569;
+		vrLoc = 9614;
+	};
+	E4DDF74C11E4AD2600B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4555D3111C286EE009A6A7A /* SMImageLoader.m */;
+		name = "SMImageLoader.m: 90";
+		rLen = 0;
+		rLoc = 3679;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 2749;
+	};
+	E4DDF74F11E4AE2100B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E498AA7311D3719100C6C0D2 /* SMMovieCreatorViewController.m */;
+		name = "SMMovieCreatorViewController.m: 315";
+		rLen = 0;
+		rLoc = 11590;
+		rType = 0;
+		vrLen = 1343;
+		vrLoc = 9847;
+	};
+	E4DDF75011E4AE2100B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4555D3111C286EE009A6A7A /* SMImageLoader.m */;
+		name = "SMImageLoader.m: 90";
+		rLen = 0;
+		rLoc = 3679;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 2749;
+	};
+	E4DDF75311E4AEBF00B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E498AA7311D3719100C6C0D2 /* SMMovieCreatorViewController.m */;
+		name = "SMMovieCreatorViewController.m: 318";
+		rLen = 0;
+		rLoc = 11250;
+		rType = 0;
+		vrLen = 1658;
+		vrLoc = 9933;
+	};
+	E4DDF75411E4AEBF00B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4555D3111C286EE009A6A7A /* SMImageLoader.m */;
+		name = "SMImageLoader.m: 90";
+		rLen = 0;
+		rLoc = 3679;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 2749;
+	};
+	E4DDF78911E4B0E300B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E498AA7311D3719100C6C0D2 /* SMMovieCreatorViewController.m */;
+		name = "SMMovieCreatorViewController.m: 306";
+		rLen = 0;
+		rLoc = 10727;
+		rType = 0;
+		vrLen = 1547;
+		vrLoc = 10044;
+	};
+	E4DDF78A11E4B0E300B9AF8A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E498AA7311D3719100C6C0D2 /* SMMovieCreatorViewController.m */;
+		name = "SMMovieCreatorViewController.m: 306";
+		rLen = 0;
+		rLoc = 10727;
+		rType = 0;
+		vrLen = 1552;
+		vrLoc = 10044;
+	};
+	E4DDF78B11E4B0E300B9AF8A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = E4555D3111C286EE009A6A7A /* SMImageLoader.m */;
 		name = "SMImageLoader.m: 90";

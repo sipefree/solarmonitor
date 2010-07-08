@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>ActivePerspectiveName</key>
-	<string>Debug</string>
+	<string>Project</string>
 	<key>AllowedModules</key>
 	<array>
 		<dict>
@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>E4DDF73811E22D0F00B9AF8A</string>
+						<string>E4DDF78B11E4B0E300B9AF8A</string>
 						<key>history</key>
 						<array>
 							<string>E4BF094211DCC95700E9AF67</string>
@@ -272,6 +272,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -322,14 +324,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>40</integer>
+									<integer>49</integer>
 									<integer>37</integer>
 									<integer>15</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 289}, {250, 760}}</string>
+							<string>{{0, 0}, {250, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -345,6 +347,8 @@
 							<string>MainColumn</string>
 							<real>250</real>
 						</array>
+						<key>RubberWindowFrame</key>
+						<string>0 59 1433 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -360,7 +364,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>E47D549D11AFE15300D51923</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SMMainViewController.h</string>
+								<string>SMMovieCreatorViewController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -368,11 +372,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>E47D549E11AFE15300D51923</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SMMainViewController.h</string>
+										<string>SMMovieCreatorViewController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>E4DDF73711E22D0F00B9AF8A</string>
+										<string>E4DDF78A11E4B0E300B9AF8A</string>
 										<key>history</key>
 										<array>
 											<string>E47D54FC11AFF17900D51923</string>
@@ -413,25 +417,25 @@
 											<string>E4BF066211DA123100E9AF67</string>
 											<string>E4BF066611DA12C200E9AF67</string>
 											<string>E4BF06C211DA1B3A00E9AF67</string>
-											<string>E4BF06DC11DA1C9300E9AF67</string>
 											<string>E4BF06F211DA1E8900E9AF67</string>
 											<string>E4BF07E811DA36D900E9AF67</string>
 											<string>E4BF090811DA419800E9AF67</string>
-											<string>E4BF090911DA419800E9AF67</string>
 											<string>E4BF091711DA429500E9AF67</string>
 											<string>E4BF093711DB6F2800E9AF67</string>
 											<string>E4BF093811DB6F2800E9AF67</string>
 											<string>E4BF093911DB6F2800E9AF67</string>
 											<string>E4DDF6D111E1F4B600B9AF8A</string>
 											<string>E4DDF6D211E1F4B600B9AF8A</string>
-											<string>E4DDF6D511E1F4B600B9AF8A</string>
 											<string>E4DDF6E211E1F4F200B9AF8A</string>
 											<string>E4DDF6F211E1F55A00B9AF8A</string>
 											<string>E4DDF70D11E2002F00B9AF8A</string>
 											<string>E4DDF72211E22C2D00B9AF8A</string>
-											<string>E4DDF73311E22D0B00B9AF8A</string>
 											<string>E4DDF73411E22D0B00B9AF8A</string>
-											<string>E4DDF73511E22D0B00B9AF8A</string>
+											<string>E4DDF73B11E36E3100B9AF8A</string>
+											<string>E4DDF73C11E36E3100B9AF8A</string>
+											<string>E4DDF74211E4AC5D00B9AF8A</string>
+											<string>E4DDF74311E4AC5D00B9AF8A</string>
+											<string>E4DDF78911E4B0E300B9AF8A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -446,6 +450,8 @@
 							<dict>
 								<key>Frame</key>
 								<string>{{0, 0}, {1161, 548}}</string>
+								<key>RubberWindowFrame</key>
+								<string>0 59 1433 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -523,6 +529,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1161, 198}}</string>
+										<key>RubberWindowFrame</key>
+										<string>0 59 1433 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -606,8 +614,6 @@
 					<dict>
 						<key>Frame</key>
 						<string>{{0, 0}, {1433, 318}}</string>
-						<key>RubberWindowFrame</key>
-						<string>0 59 1433 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugCLIModule</string>
@@ -684,11 +690,7 @@
 							</array>
 							<key>Frame</key>
 							<string>{{581, 0}, {852, 193}}</string>
-							<key>RubberWindowFrame</key>
-							<string>0 59 1433 819 0 0 1440 878 </string>
 						</dict>
-						<key>RubberWindowFrame</key>
-						<string>0 59 1433 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXDebugSessionModule</string>

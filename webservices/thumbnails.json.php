@@ -24,6 +24,6 @@ for ($i=0;$i<count($types);$i++)
 		
 	);
 }
-print json_encode($json)
+print json_encode($json);
 
 ?>

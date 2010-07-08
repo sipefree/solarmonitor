@@ -76,6 +76,7 @@
 	[self.imagesDataSource setValue:[NSString stringWithFormat:@"%i",[workingDate dateAsYYYYMMDD]] forParameterKey:@"date"];
 	[self.imagesDataSource update];
 	[self.forecastDataSource setValue:[NSString stringWithFormat:@"%i",[workingDate dateAsYYYYMMDD]] forParameterKey:@"date"];
+	[self.forecastDataSource update];
 }
 
 
